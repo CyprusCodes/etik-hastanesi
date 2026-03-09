@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import { Phone, Mail, MapPin, Clock, Facebook, Instagram } from "lucide-react"
-import { hospitalInfo, contactInfo, departments, navLinks } from "@/data/hospital"
+import { hospitalInfo, contactInfo, navLinks } from "@/data/hospital"
 
 export function Footer() {
   const currentYear = new Date().getFullYear()
@@ -63,22 +63,43 @@ export function Footer() {
           </div>
 
           {/* Departments */}
-          <div>
-            <h4 className="font-semibold text-lg mb-4">Bölümlerimiz</h4>
-            <ul className="space-y-2">
-              {departments.slice(0, 5).map((dept) => (
-                <li key={dept.id}>
-                  <Link
-                    to={`/hizmetler#${dept.id}`}
-                    className="text-gray-400 hover:text-white transition-colors text-sm"
-                  >
-                    {dept.title}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </div>
-
+       <div>
+  <h4 className="font-semibold text-lg mb-4">Tıbbi Birimlerimiz</h4>
+  <ul className="space-y-2">
+    <li>
+      <Link
+        to="/tibbi-birimler/cerrahi"
+        className="text-gray-400 hover:text-white transition-colors text-sm"
+      >
+        Cerrahi Birimler
+      </Link>
+    </li>
+    <li>
+      <Link
+        to="/tibbi-birimler/dahili"
+        className="text-gray-400 hover:text-white transition-colors text-sm"
+      >
+        Dahili Birimler
+      </Link>
+    </li>
+    <li>
+      <Link
+        to="/tibbi-birimler/diger"
+        className="text-gray-400 hover:text-white transition-colors text-sm"
+      >
+        Diğer Birimler
+      </Link>
+    </li>
+    <li>
+      <Link
+        to="/tibbi-birimler/paramedikal"
+        className="text-gray-400 hover:text-white transition-colors text-sm"
+      >
+        Paramedikal
+      </Link>
+    </li>
+  </ul>
+</div>
           {/* Contact Info */}
           <div>
             <h4 className="font-semibold text-lg mb-4">İletişim</h4>
