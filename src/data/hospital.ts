@@ -142,10 +142,12 @@ export const stats = [
 ]
 
 export const navLinks = [
-  { href: "/", label: "Anasayfa" },
-  { href: "/hakkimizda", label: "Hakkımızda" },
-  { href: "/hizmetler", label: "Hizmetler" },
-  { href: "/iletisim", label: "İletişim" },
+  { label: "Anasayfa", href: "/" },
+  { label: "Hakkımızda", href: "/hakkimizda" },
+  { label: "Hizmetler", href: "/tibbi-birimler" },
+  { label: "Doktorlarımız", href: "/doktorlarimiz" },
+  { label: "Blog", href: "/blog" },
+  { label: "İletişim", href: "/iletisim" },
 ]
 
 export { Phone, Clock, MapPin, Mail }
@@ -233,7 +235,17 @@ Hastalarımızın sağlığı ve konforu her zaman önceliğimizdir. Etik Hastan
 
 image: "/images/...",
   },
+{
+  id: "ortopedi-ve-travmatoloji",
+  title: "Ortopedi ve Travmatoloji",
+  description:
+    "Ortopedi ve Travmatoloji bölümü; kemik, eklem, kas, bağ ve tendon hastalıklarının tanı ve tedavisi ile ilgilenir.",
 
+  longDescription:
+    "Ortopedi ve Travmatoloji bölümü; kemikler, eklemler, kaslar, bağlar ve tendonlar gibi hareket sistemini oluşturan yapıların hastalıklarının tanı ve tedavisi ile ilgilenir. Kırıklar, çıkıklar, spor yaralanmaları, eklem kireçlenmeleri, menisküs ve bağ yaralanmaları gibi birçok ortopedik problem bu bölüm kapsamında değerlendirilir. Etik Hastanesi Ortopedi ve Travmatoloji birimi, modern tanı yöntemleri ve güncel tedavi yaklaşımları ile hastalarına kapsamlı sağlık hizmeti sunar. Uzman doktor kadromuz, hastaların yaşam kalitesini artırmayı hedefleyen kişiye özel tedavi planları oluşturarak hareket kabiliyetinin yeniden kazanılmasına yardımcı olur.",
+
+  image: "/images/medical-units/ortopedi.jpg",
+},
   {
     id: "kadin-hastaliklari-dogum",
     title: "Kadın Hastalıkları ve Doğum",
@@ -291,20 +303,7 @@ Etik Hastanesi Nöroloji Bölümü olarak, hastalarımızın sağlığını koru
 image: "/images/...",
   },
 
-  {
-    id: "radyoloji",
-    title: "Radyoloji",
-    description: "Radyoloji; hastalıkların teşhis edilmesinde kullanılan görüntüleme yöntemlerini kapsayan bir tıp dalıdır. X-ray, ultrason, MR ve bilgisayarlı tomografi gibi teknolojilerle tanı sürecini destekler.",
-    longDescription:  `  Etik Hastanesi Radyoloji Bölümleri, hastalıkların teşhisinde kritik bir rol oynayan ve vücudun iç yapısını görüntülemek için kullanılan teknolojik yöntemlerin uzmanlık alanıdır. Radyolojik tetkikler, hastalıkların doğru teşhis edilmesi ve etkili bir tedavi sürecinin yürütülmesinde hayati öneme sahiptir. Gelişen teknolojiyle birlikte, farklı görüntüleme teknikleri kullanılarak vücut sistemleri detaylı bir şekilde incelenebilmekte ve bu da hastalıklarla mücadelede başarılı sonuçların elde edilmesine olanak tanımaktadır.
 
-
-Etik Hastanesi Radyoloji Bölümleri, dünya standartlarında hizmet sunmak üzere ileri teknoloji ürünü cihazlar ve deneyimli uzman kadrosuyla donatılmıştır. Tamamen dijital teknolojiye dayalı sistemlerle elde edilen görüntüler, dijital ortamda arşivlenerek kolayca erişilebilir hale getirilmektedir. Bölümlerimizde düşük doz ve yüksek çekim kalitesine sahip cihazlar kullanılarak en hassas görüntüler elde edilmekte ve hastaların konforu ön planda tutulmaktadır.
-
-
-Ayrıca, çocuk dostu doz uygulamalarıyla bebek ve çocuk hastaların görüntüleme tetkikleri güvenle yapılmaktadır. Hastalarımızın sağlığı ve konforu için sürekli olarak teknolojik ve prosedürel gelişmeleri takip ediyor ve en güncel yöntemleri kullanarak kaliteli hizmet sunmaya odaklanıyoruz. Etik Hastanesi olarak, hastalarımızın ihtiyaçlarına ve sağlık gereksinimlerine en iyi şekilde cevap vermek için çalışmaktan gurur duyuyoruz. ` ,
-
-image: "/images/...",
-  },
 
   {
     id: "uroloji",
@@ -390,23 +389,7 @@ Hastalarımızın sağlığı ve refahı her zaman önceliğimizdir. Etik Hastan
 
 image: "/images/...",
   },
-  {
-    id: "lazer-epilasyon",
-    title: "Lazer Epilasyon",
-    description: "Lazer epilasyon, istenmeyen tüylerden kurtulmak için uygulanan ve bunun için lazer kullanılan tıbbi bir işlemdir. Kadın ve erkekler tarafından tercih edilen lazer epilasyonda kıldaki pigment tarafından emilen bir ışık yayılarak ısıya dönüşür.",
-    longDescription: ` Etik Hastanesi, istenmeyen tüylerden kurtulmak için kadınlar ve erkekler tarafından tercih edilen lazer epilasyon gibi modern tıbbi işlemleri sunan bir sağlık kuruluşudur. Lazer epilasyon, istenmeyen tüylerin kalıcı olarak azaltılması veya yok edilmesi amacıyla kullanılan etkili bir yöntemdir.
 
-
-Lazer epilasyon işlemi, kıldaki pigment tarafından emilen bir ışığın cilde uygulanmasıyla gerçekleşir. Bu ışık, kıl köklerine nüfuz ederek ısıya dönüşür ve kıl üreten köklere zarar verir. Böylece, gelecekteki saç büyümesi engellenir ve istenmeyen tüylerin azalması sağlanır.
-
-
-Etik Hastanesi'nde lazer epilasyon işlemi, kişinin cilt tipi, renk, kıl yapısı ve kalınlığı gibi faktörlere uygun olarak özelleştirilir. Ayrıca, kişinin hormonal durumu da dikkate alınarak tedavi planı oluşturulur. Bu sayede, her hasta için en etkili ve güvenli sonuçlar elde edilir.
-
-
-Hastalar, Etik Hastanesi'nde uzmanlaşmış ekipler tarafından yapılan lazer epilasyon işlemleri ile istenmeyen tüylerden kalıcı olarak kurtulmanın keyfini yaşarlar. Modern tıbbın ve teknolojinin en son yeniliklerini kullanarak, hastalarımıza en iyi hizmeti sunmayı hedefliyoruz.`,
-
-image: "/images/...",
-  },
   {
     id: "cocuk-sagligi-hastaliklari",
     title: "Çocuk Sağlığı ve Hastalıkları",
@@ -458,6 +441,39 @@ Etik Hastanesi Ağız ve Diş Sağlığı Bölümleri, uzman diş hekimleri ve d
 
 
 Hastalarımızın sağlığı ve memnuniyeti bizim için ön plandadır. Bu nedenle, her hasta için kişiye özel tedavi planları oluşturarak, en etkili ve güvenilir tedavi yöntemlerini sunmaya özen gösteriyoruz. Ağız ve diş sağlığınızı korumak ve sağlıklı bir gülümsemeyle yaşamınızı sürdürmenize yardımcı olmak için Etik Hastanesi olarak buradayız. Size en iyi hizmeti sunabilmek için sabırsızlıkla bekliyoruz.`,
+
+image: "/images/...",
+  },
+
+   {
+    id: "radyoloji",
+    title: "Radyoloji",
+    description: "Radyoloji; hastalıkların teşhis edilmesinde kullanılan görüntüleme yöntemlerini kapsayan bir tıp dalıdır. X-ray, ultrason, MR ve bilgisayarlı tomografi gibi teknolojilerle tanı sürecini destekler.",
+    longDescription:  `  Etik Hastanesi Radyoloji Bölümleri, hastalıkların teşhisinde kritik bir rol oynayan ve vücudun iç yapısını görüntülemek için kullanılan teknolojik yöntemlerin uzmanlık alanıdır. Radyolojik tetkikler, hastalıkların doğru teşhis edilmesi ve etkili bir tedavi sürecinin yürütülmesinde hayati öneme sahiptir. Gelişen teknolojiyle birlikte, farklı görüntüleme teknikleri kullanılarak vücut sistemleri detaylı bir şekilde incelenebilmekte ve bu da hastalıklarla mücadelede başarılı sonuçların elde edilmesine olanak tanımaktadır.
+
+
+Etik Hastanesi Radyoloji Bölümleri, dünya standartlarında hizmet sunmak üzere ileri teknoloji ürünü cihazlar ve deneyimli uzman kadrosuyla donatılmıştır. Tamamen dijital teknolojiye dayalı sistemlerle elde edilen görüntüler, dijital ortamda arşivlenerek kolayca erişilebilir hale getirilmektedir. Bölümlerimizde düşük doz ve yüksek çekim kalitesine sahip cihazlar kullanılarak en hassas görüntüler elde edilmekte ve hastaların konforu ön planda tutulmaktadır.
+
+
+Ayrıca, çocuk dostu doz uygulamalarıyla bebek ve çocuk hastaların görüntüleme tetkikleri güvenle yapılmaktadır. Hastalarımızın sağlığı ve konforu için sürekli olarak teknolojik ve prosedürel gelişmeleri takip ediyor ve en güncel yöntemleri kullanarak kaliteli hizmet sunmaya odaklanıyoruz. Etik Hastanesi olarak, hastalarımızın ihtiyaçlarına ve sağlık gereksinimlerine en iyi şekilde cevap vermek için çalışmaktan gurur duyuyoruz. ` ,
+
+image: "/images/...",
+  },
+
+  {
+    id: "lazer-epilasyon",
+    title: "Lazer Epilasyon",
+    description: "Lazer epilasyon, istenmeyen tüylerden kurtulmak için uygulanan ve bunun için lazer kullanılan tıbbi bir işlemdir. Kadın ve erkekler tarafından tercih edilen lazer epilasyonda kıldaki pigment tarafından emilen bir ışık yayılarak ısıya dönüşür.",
+    longDescription: ` Etik Hastanesi, istenmeyen tüylerden kurtulmak için kadınlar ve erkekler tarafından tercih edilen lazer epilasyon gibi modern tıbbi işlemleri sunan bir sağlık kuruluşudur. Lazer epilasyon, istenmeyen tüylerin kalıcı olarak azaltılması veya yok edilmesi amacıyla kullanılan etkili bir yöntemdir.
+
+
+Lazer epilasyon işlemi, kıldaki pigment tarafından emilen bir ışığın cilde uygulanmasıyla gerçekleşir. Bu ışık, kıl köklerine nüfuz ederek ısıya dönüşür ve kıl üreten köklere zarar verir. Böylece, gelecekteki saç büyümesi engellenir ve istenmeyen tüylerin azalması sağlanır.
+
+
+Etik Hastanesi'nde lazer epilasyon işlemi, kişinin cilt tipi, renk, kıl yapısı ve kalınlığı gibi faktörlere uygun olarak özelleştirilir. Ayrıca, kişinin hormonal durumu da dikkate alınarak tedavi planı oluşturulur. Bu sayede, her hasta için en etkili ve güvenli sonuçlar elde edilir.
+
+
+Hastalar, Etik Hastanesi'nde uzmanlaşmış ekipler tarafından yapılan lazer epilasyon işlemleri ile istenmeyen tüylerden kalıcı olarak kurtulmanın keyfini yaşarlar. Modern tıbbın ve teknolojinin en son yeniliklerini kullanarak, hastalarımıza en iyi hizmeti sunmayı hedefliyoruz.`,
 
 image: "/images/...",
   },
@@ -516,4 +532,206 @@ export type MedicalUnitCategory = {
   description: string
   icon: any
   items: MedicalUnitBranch[]
+}
+
+export const doctors: Doctor[] = [
+  {
+    id: "1",
+    name: "Op. Dr. Hüseyin Kalgay",
+    title: "Ortopedi",
+    department: "Cerrahi Birimler",
+    order: 1,
+  },
+  {
+    id: "2",
+    name: "Op. Dr. Selin Haver",
+    title: "Ortopedi",
+    department: "Cerrahi Birimler",
+    order: 2,
+  },
+  {
+    id: "3",
+    name: "Op. Dr. Mehmet Arıkbuka",
+    title: "Kalp ve Damar Cerrahisi",
+    department: "Cerrahi Birimler",
+    order: 3,
+  },
+  {
+    id: "4",
+    name: "Dr. Kamuran Arıkbuka",
+    title: "Çocuk Sağlığı ve Hastalıkları",
+    department: "Dahili Birimler",
+    order: 1,
+  },
+  {
+    id: "5",
+    name: "Dr. Huriye Alasya",
+    title: "Dahiliye",
+    department: "Dahili Birimler",
+    order: 2,
+  },
+  {
+    id: "6",
+    name: "Op. Dr. Ceyhun Erdoğan",
+    title: "Genel Cerrahi",
+    department: "Cerrahi Birimler",
+    order: 4,
+  },
+  {
+    id: "7",
+    name: "Dr. Zafer Erdoğmuş",
+    title: "Mikrobiyoloji ve Enfeksiyon Hastalıkları",
+    department: "Dahili Birimler",
+    order: 3,
+  },
+  {
+    id: "8",
+    name: "Dr. Burak Bahçıvan",
+    title: "Radyoloji",
+    department: "Diğer Birimler",
+    order: 1,
+  },
+  {
+    id: "9",
+    name: "Dr. Kemal Tavukçu",
+    title: "Kadın Hastalıkları ve Doğum",
+    department: "Cerrahi Birimler",
+    order: 5,
+  },
+  {
+    id: "10",
+    name: "Dr. Sıla Usar",
+    title: "Nöroloji",
+    department: "Dahili Birimler",
+    order: 4,
+  },
+  {
+    id: "11",
+    name: "Dr. Ferda Selçuk",
+    title: "Nöroloji",
+    department: "Dahili Birimler",
+    order: 5,
+  },
+  {
+    id: "12",
+    name: "Dr. Mehmet Ali Yeşilada",
+    title: "Kulak Burun Boğaz",
+    department: "Cerrahi Birimler",
+    order: 6,
+  },
+  {
+    id: "13",
+    name: "Dr. Fatma Deniz",
+    title: "Deri ve Zührevi Hastalıklar",
+    department: "Dahili Birimler",
+    order: 6,
+  },
+  {
+    id: "14",
+    name: "Dr. Refika Hüral",
+    title: "Kardiyoloji",
+    department: "Dahili Birimler",
+    order: 7,
+  },
+  {
+    id: "15",
+    name: "Dr. Adil Öyyılkan",
+    title: "Göz Hastalıkları",
+    department: "Cerrahi Birimler",
+    order: 7,
+  },
+  {
+    id: "16",
+    name: "Dr. Nafiye Direktör",
+    title: "Dahiliye",
+    department: "Dahili Birimler",
+    order: 8,
+  },
+  {
+    id: "17",
+    name: "Dr. Güven Erkal",
+    title: "Dahiliye",
+    department: "Dahili Birimler",
+    order: 9,
+  },
+  {
+    id: "18",
+    name: "Dr. İsmet Başar",
+    title: "Üroloji",
+    department: "Cerrahi Birimler",
+    order: 8,
+  },
+  {
+    id: "19",
+    name: "Dr. Pınar Özbilgehan",
+    title: "Estetik Plastik ve Rekonstrüktif Cerrahi",
+    department: "Cerrahi Birimler",
+    order: 9,
+  },
+  {
+    id: "20",
+    name: "Dr. Mehmet Salih Bağzıbağlı",
+    title: "Çocuk Sağlığı ve Hastalıkları",
+    department: "Dahili Birimler",
+    order: 10,
+  },
+  {
+    id: "21",
+    name: "Ulus Kasap",
+    title: "Biyokimyager",
+    department: "Diğer Birimler",
+    order: 2,
+  },
+]
+export const doctorsPreview = [
+  doctors[0],
+  doctors[2],
+  doctors[3],
+]
+
+export const testimonials: Testimonial[] = [
+  {
+    id: "1",
+    name: "Ayşe Yılmaz",
+    role: "Hasta",
+    text: "Doktorlarımız ve sağlık personeli gerçekten çok ilgiliydi. Tedavi sürecim boyunca kendimi güvende hissettim.",
+    image: "/images/testimonials/patient-1.jpg",
+  },
+  {
+    id: "2",
+    name: "Mehmet Kaya",
+    role: "Hasta",
+    text: "Hastane çok temiz ve düzenli. Doktorlar oldukça profesyonel ve açıklayıcı bir şekilde bilgilendirme yapıyor.",
+    image: "/images/testimonials/patient-2.jpg",
+  },
+  {
+    id: "3",
+    name: "Fatma Demir",
+    role: "Hasta",
+    text: "Randevu sürecinden tedaviye kadar her şey çok hızlı ve düzenliydi. Tüm ekibe teşekkür ederim.",
+    image: "/images/testimonials/patient-3.jpg",
+  },
+  {
+    id: "4",
+    name: "Ali Çelik",
+    role: "Hasta",
+    text: "Gerçekten güven veren bir hastane. Doktorların ilgisi ve yaklaşımı sayesinde çok memnun kaldım.",
+    image: "/images/testimonials/patient-4.jpg",
+  },
+]
+export interface Doctor {
+  id: string
+  name: string
+  title: string
+  department: string
+  order: number
+  image?: string
+}
+
+export interface Testimonial {
+  id: string
+  name: string
+  role: string
+  text: string
+  image?: string
 }

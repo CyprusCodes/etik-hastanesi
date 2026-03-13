@@ -10,6 +10,9 @@ import Contact from "@/pages/Contact"
 import MedicalUnitBranch from "@/pages/MedicalUnitBranch"
 import MedicalUnits from "@/pages/MedicalUnits"
 import MedicalUnitCategory from "@/pages/MedicalUnitCategory"
+import Doctors from "@/pages/Doctors"
+import Blog from "@/pages/Blog"
+import BlogPost from "@/pages/BlogPost"
 
 
 // Scroll to top on route change
@@ -30,20 +33,15 @@ function App() {
       <Routes>
         <Route path="/" element={<Index />} />
         <Route path="/hakkimizda" element={<About />} />
-
-        {/* İstersen /hizmetler yerine direkt tıbbi birimler açsın */}
         <Route path="/hizmetler" element={<MedicalUnits />} />
-
         <Route path="/iletisim" element={<Contact />} />
-
-        {/* ✅ Tıbbi birimler route'ları */}
         <Route path="/tibbi-birimler" element={<MedicalUnits />} />
         <Route path="/tibbi-birimler/:category" element={<MedicalUnitCategory />} />
-        <Route path="/tibbi-birimler/:category/:branch" element={<MedicalUnitBranch />}
-/>
-
-        {/* Catch all - redirect to home */}
-        <Route path="*" element={<Index />} />
+        <Route path="/tibbi-birimler/:category/:branch" element={<MedicalUnitBranch />}/>
+        <Route path="/doktorlarimiz" element={<Doctors />} />
+        <Route path="/blog" element={<Blog />} />
+        <Route path="/blog/:slug" element={<BlogPost />} />
+        <Route path="/" element={<Index />} />
       </Routes>
     </Router>
   )
