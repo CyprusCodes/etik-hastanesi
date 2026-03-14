@@ -5,7 +5,7 @@ import { blogPreview } from "../../data/blog"
 
 export function BlogSection() {
   return (
-    <section className="section-padding bg-secondary">
+    <section className="section-padding bg-white">
       <div className="container-narrow">
         <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-12">
           <div className="max-w-2xl">
@@ -45,8 +45,8 @@ export function BlogSection() {
                 ) : null}
               </div>
 
-              <div className="p-6 flex flex-col flex-1">
-                <h3 className="font-semibold text-lg text-foreground group-hover:text-primary transition-colors min-h-[64px]">
+              <div className="p-5 flex flex-col flex-1">
+                <h3 className="font-semibold text-lg text-foreground group-hover:text-primary transition-colors min-h-[60px]">
                   {post.title}
                 </h3>
 

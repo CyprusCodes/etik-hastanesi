@@ -1,4 +1,4 @@
-import { useState, type FormEvent } from "react"
+import { useMemo, useState, type FormEvent } from "react"
 import { Layout } from "@/components/layout/Layout"
 import { Button } from "@/components/ui/button"
 import {
@@ -10,7 +10,7 @@ import {
   CheckCircle,
   AlertCircle,
 } from "lucide-react"
-import { contactInfo, departments } from "@/data/hospital"
+import { contactInfo, medicalUnitCategories } from "@/data/hospital"
 
 type FormStatus = "idle" | "submitting" | "success" | "error"
 
@@ -20,20 +20,42 @@ export default function Contact() {
     name: "",
     phone: "",
     email: "",
+    appointmentType: "",
     department: "",
     message: "",
   })
+
+type MedicalUnitOption = {
+  id: string
+  title: string
+}
+
+const allMedicalUnits = useMemo<MedicalUnitOption[]>(() => {
+  return medicalUnitCategories
+    .flatMap((category) =>
+      category.items.map((item) => ({
+        id: String(item.id),
+        title: String(item.title),
+      }))
+    )
+    .sort((a, b) => a.title.localeCompare(b.title, "tr"))
+}, [])
 
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault()
     setFormStatus("submitting")
 
-    // Simulate form submission
     await new Promise((resolve) => setTimeout(resolve, 1500))
 
-    // For now, just show success (in production, this would send to a backend)
     setFormStatus("success")
-    setFormData({ name: "", phone: "", email: "", department: "", message: "" })
+    setFormData({
+      name: "",
+      phone: "",
+      email: "",
+      appointmentType: "",
+      department: "",
+      message: "",
+    })
   }
 
   const handleChange = (
@@ -226,27 +248,50 @@ export default function Contact() {
                     </div>
                   </div>
 
-                  <div>
-                    <label
-                      htmlFor="department"
-                      className="block text-sm font-medium text-foreground mb-2"
-                    >
-                      Bölüm
-                    </label>
-                    <select
-                      id="department"
-                      name="department"
-                      value={formData.department}
-                      onChange={handleChange}
-                      className="w-full px-4 py-3 rounded-xl border border-border bg-background focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition-colors"
-                    >
-                      <option value="">Bölüm seçiniz</option>
-                      {departments.map((dept) => (
-                        <option key={dept.id} value={dept.id}>
-                          {dept.title}
-                        </option>
-                      ))}
-                    </select>
+                  <div className="grid sm:grid-cols-2 gap-5">
+                    <div>
+                      <label
+                        htmlFor="appointmentType"
+                        className="block text-sm font-medium text-foreground mb-2"
+                      >
+                        Randevu Türü
+                      </label>
+                      <select
+                        id="appointmentType"
+                        name="appointmentType"
+                        value={formData.appointmentType}
+                        onChange={handleChange}
+                        className="w-full px-4 py-3 rounded-xl border border-border bg-background focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition-colors"
+                      >
+                        <option value="">Randevu türü seçiniz</option>
+                        <option value="on-gorusme">Ön Görüşme</option>
+                        <option value="muayene">Muayene</option>
+                        <option value="kontrol">Kontrol</option>
+                      </select>
+                    </div>
+
+                    <div>
+                      <label
+                        htmlFor="department"
+                        className="block text-sm font-medium text-foreground mb-2"
+                      >
+                        Bölüm
+                      </label>
+                      <select
+                        id="department"
+                        name="department"
+                        value={formData.department}
+                        onChange={handleChange}
+                        className="w-full px-4 py-3 rounded-xl border border-border bg-background focus:outline-none focus:ring-2 focus:ring-primary/20 focus:border-primary transition-colors"
+                      >
+                        <option value="">Bölüm seçiniz</option>
+                        {allMedicalUnits.map((unit) => (
+                          <option key={unit.id} value={unit.id}>
+                            {unit.title}
+                          </option>
+                        ))}
+                      </select>
+                    </div>
                   </div>
 
                   <div>

@@ -12,14 +12,15 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
           {/* Company Info */}
           <div className="lg:col-span-1">
-            <Link to="/" className="flex items-center gap-3 mb-4">
-              <div className="w-10 h-10 bg-primary rounded-xl flex items-center justify-center">
-                <span className="text-white font-bold text-lg">E</span>
-              </div>
-              <div>
-                <h3 className="font-bold text-lg">{hospitalInfo.name}</h3>
-              </div>
-            </Link>
+    <Link to="/" className="inline-flex flex-col items-start mb-5">
+  <div className="bg-white rounded-xl px-4 py-3 shadow-sm">
+    <img
+      src="/images/logo.jpg"
+      alt="Etik Hastanesi"
+      className="h-14 lg:h-16 w-auto object-contain"
+    />
+  </div>
+</Link>
             <p className="text-gray-400 text-sm mb-6">
               {hospitalInfo.description}
             </p>

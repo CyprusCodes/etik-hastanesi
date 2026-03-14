@@ -93,7 +93,7 @@ export const blogPreview = [
     title: "Meme Kanseri ve Tedavi Seçenekleri",
     excerpt:
       "Meme kanseri kadınlarda en sık görülen kanser türlerinden biridir ve erken teşhis ile başarıyla yönetilebilir.",
-    image: "/images/blog/blog-1.jpg",
+    image: "/images/blog/memekanseri.webp",
   },
   {
     id: "2",
@@ -101,7 +101,7 @@ export const blogPreview = [
     title: "Diş Ağrısının Nedenleri ve Tedavi Seçenekleri",
     excerpt:
       "Diş ağrısı günlük yaşamı olumsuz etkileyebilen yaygın bir sağlık problemidir ve doğru tedavi ile kontrol altına alınabilir.",
-    image: "/images/blog/blog-2.jpg",
+    image: "/images/blog/dis-agrisi.jpg",
   },
   {
     id: "3",
@@ -109,6 +109,6 @@ export const blogPreview = [
     title: "HIV ve AIDS Nedir? Farkları Nelerdir?",
     excerpt:
       "HIV ve AIDS sıklıkla karıştırılan iki kavramdır. Bu yazıda aralarındaki temel farkları öğrenebilirsiniz.",
-    image: "/images/blog/blog-3.jpg",
+    image: "/images/blog/hiv-aids.jpg",
   },
 ]

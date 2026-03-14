@@ -3,7 +3,7 @@ import { Link, useLocation } from "react-router-dom"
 import { Menu, X, Phone, Clock } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
-import { hospitalInfo, contactInfo, navLinks } from "@/data/hospital"
+import { contactInfo, navLinks } from "@/data/hospital"
 
 export function Header() {
   const [isScrolled, setIsScrolled] = useState(false)
@@ -61,17 +61,12 @@ export function Header() {
           <div className="flex items-center justify-between h-16 lg:h-20">
             {/* Logo */}
             <Link to="/" className="flex items-center gap-3">
-              <div className="w-10 h-10 lg:w-12 lg:h-12 bg-primary rounded-xl flex items-center justify-center">
-                <span className="text-white font-bold text-lg lg:text-xl">E</span>
-              </div>
-              <div className="hidden sm:block">
-                <h1 className="font-bold text-lg lg:text-xl text-foreground">
-                  {hospitalInfo.name}
-                </h1>
-                <p className="text-xs text-muted-foreground">
-                  {hospitalInfo.tagline}
-                </p>
-              </div>
+             <img
+  src="/images/logo.jpg"
+  alt="Etik Hastanesi"
+  className="h-14 w-auto lg:h-16 object-contain"
+/>
+
             </Link>
 
             {/* Desktop Navigation */}

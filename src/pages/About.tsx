@@ -4,7 +4,7 @@ import { hospitalInfo, stats } from "@/data/hospital"
 
 const timeline = [
   {
-    year: "2000",
+    year: "1999",
     title: "Kuruluş",
     description: "Lefkoşa'nın ilk özel hastanesi olarak hizmete açıldık.",
   },
@@ -67,7 +67,7 @@ export default function About() {
               {hospitalInfo.name}
             </h1>
             <p className="body-large">
-              {hospitalInfo.foundedYear} yılından bu yana Lefkoşa'da güvenilir sağlık hizmeti
+              1999 yılından bu yana Lefkoşa'da güvenilir sağlık hizmeti
               sunuyoruz. Lefkoşa'nın ilk özel hastanesi olarak kurulmuş olan hastanemiz,
               bugün Kuzey Kıbrıs'ın önde gelen sağlık kuruluşları arasında yer almaktadır.
             </p>

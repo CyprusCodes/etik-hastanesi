@@ -4,47 +4,49 @@
 @import "tailwindcss";
 
 @theme {
-  /* Medical Teal/Green Palette for Hospital */
-  --color-primary: #0d9488;
+  /* Brand Blue (Logo uyumlu) */
+  --color-primary: #2F6FDD;
   --color-primary-foreground: #ffffff;
-  --color-primary-light: #ccfbf1;
-  --color-primary-dark: #0f766e;
+  --color-primary-light: #EAF2FF;
+  --color-primary-dark: #255CC2;
 
-  /* Blue Accent */
-  --color-accent: #0284c7;
+  /* Soft Medical Teal Accent */
+  --color-accent: #5EC7B7;
   --color-accent-foreground: #ffffff;
-  --color-accent-light: #e0f2fe;
+  --color-accent-light: #E6F9F5;
 
   /* Neutral Palette */
-  --color-background: #f8fafc;
+  --color-background: #f8fbff;
   --color-foreground: #0f172a;
 
   --color-card: #ffffff;
   --color-card-foreground: #0f172a;
 
-  --color-secondary: #f1f5f9;
+  --color-secondary: #F1F6FF;
   --color-secondary-foreground: #334155;
 
-  --color-muted: #f1f5f9;
+  --color-muted: #F4F7FC;
   --color-muted-foreground: #64748b;
 
   --color-destructive: #ef4444;
   --color-destructive-foreground: #ffffff;
 
-  --color-border: #e2e8f0;
-  --color-input: #e2e8f0;
-  --color-ring: #0d9488;
+  --color-border: #E3EAF5;
+  --color-input: #E3EAF5;
+  --color-ring: #2F6FDD;
 
   --radius-sm: 0.5rem;
   --radius-md: 0.75rem;
   --radius-lg: 1rem;
   --radius-xl: 1.5rem;
 
-  /* Custom Medical Variables */
-  --color-success: #22c55e;
-  --color-success-light: #dcfce7;
+  /* Medical Status Colors */
+  --color-success: #3DBB8A;
+  --color-success-light: #DEF8ED;
+
   --color-warning: #f59e0b;
   --color-warning-light: #fef3c7;
+
   --color-emergency: #dc2626;
   --color-emergency-light: #fee2e2;
 }

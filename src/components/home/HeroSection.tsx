@@ -19,7 +19,7 @@ export function HeroSection() {
             {/* Badge */}
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-primary/10 text-primary rounded-full text-sm font-medium">
               <Shield className="h-4 w-4" />
-              <span>2000'den beri güvenilir sağlık hizmeti</span>
+              <span>1999'dan beri güvenilir sağlık hizmeti</span>
             </div>
 
             {/* Heading */}

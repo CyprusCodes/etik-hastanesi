@@ -5,7 +5,7 @@ import { doctorsPreview } from "@/data/hospital"
 
 export function DoctorsSection() {
   return (
-    <section className="section-padding bg-white">
+    <section className="section-padding bg-secondary">
       <div className="container-narrow">
         <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-12">
           <div className="max-w-2xl">

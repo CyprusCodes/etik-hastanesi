@@ -2,7 +2,7 @@ import { features } from "@/data/hospital"
 
 export function FeaturesSection() {
   return (
-    <section className="section-padding bg-gradient-to-b from-white to-secondary/30">
+    <section className="section-padding bg-secondary from-white to-secondary/30">
       <div className="container-narrow">
         {/* Section Header */}
         <div className="text-center max-w-2xl mx-auto mb-12">
@@ -13,7 +13,7 @@ export function FeaturesSection() {
             Etik Hastanesi'ni Tercih Etmeniz İçin Nedenler
           </h2>
           <p className="body-large">
-            24 yılı aşkın deneyimimiz ve hasta odaklı yaklaşımımızla fark yaratıyoruz.
+            26 yılı aşkın deneyimimiz ve hasta odaklı yaklaşımımızla fark yaratıyoruz.
           </p>
         </div>
 

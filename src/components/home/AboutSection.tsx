@@ -5,7 +5,7 @@ import { hospitalInfo } from "@/data/hospital"
 
 const highlights = [
   "Lefkoşa'nın ilk özel hastanesi",
-  "24 yılı aşkın deneyim",
+  "26 yılı aşkın deneyim",
   "7/24 acil servis hizmeti",
   "Uzman doktor kadrosu",
   "Modern tıbbi teknoloji",
@@ -21,17 +21,13 @@ export function AboutSection() {
           <div className="relative">
             <div className="relative bg-gradient-to-br from-primary to-accent p-1 rounded-3xl">
               <div className="bg-secondary rounded-3xl aspect-[4/3] flex items-center justify-center">
-                <div className="text-center p-8">
-                  <div className="w-24 h-24 bg-primary rounded-full flex items-center justify-center mx-auto mb-4">
-                    <span className="text-white font-bold text-4xl">E</span>
-                  </div>
-                  <h3 className="font-bold text-2xl text-foreground mb-2">
-                    {hospitalInfo.name}
-                  </h3>
-                  <p className="text-muted-foreground">
-                    {hospitalInfo.foundedYear}'den beri hizmetinizde
-                  </p>
-                </div>
+               <div className="bg-secondary rounded-3xl aspect-[4/3] overflow-hidden">
+  <img
+    src="/images/about/etik-hastanesi.webp"
+    alt="Etik Hastanesi"
+    className="w-full h-full object-cover"
+  />
+</div>
               </div>
             </div>
 
