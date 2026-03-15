@@ -28,7 +28,7 @@ const categories = [
   {
     id: "paramedikal",
     title: "Paramedikal",
-    description: "Fizyoterapi ve destekleyici sağlık hizmetleri.",
+    description: "Tanı ve tedavi süreçlerini destekleyen sağlık hizmetleri.",
     href: "/tibbi-birimler/paramedikal",
     icon: HandHeart,
   },

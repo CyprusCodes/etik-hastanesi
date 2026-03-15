@@ -45,7 +45,7 @@ export const hospitalInfo = {
   tagline: "Lefkoşa'nın İlk Özel Hastanesi",
   description:
     "1999 yılından bu yana Lefkoşa'da sağlık hizmeti veren Etik Hastanesi, modern tıbbi teknoloji ve uzman kadrosuyla 7/24 yanınızda.",
-  foundedYear: 1999,
+  foundedYear: 2000,
   logo: "/logo.svg",
 }
 
@@ -135,7 +135,7 @@ export const features = [
 ]
 
 export const stats = [
-  { value: "24+", label: "Yıllık Deneyim" },
+  { value: "26+", label: "Yıllık Deneyim" },
   { value: "50K+", label: "Mutlu Hasta" },
   { value: "20+", label: "Uzman Doktor" },
   { value: "7/24", label: "Acil Servis" },
@@ -482,7 +482,7 @@ image: "/images/services/laser.jpg",
   {
     id: "paramedikal",
     title: "Paramedikal",
-    description: "Fizyoterapi ve destekleyici sağlık hizmetleri.",
+    description: "Tanı ve tedavi süreçlerini destekleyen sağlık hizmetleri.",
     longDescription: "Uzun açıklama (detay sayfasında)",
     image: "/images/branches/genel-cerrahi.jpg",
     bullets: [
@@ -496,7 +496,7 @@ image: "/images/services/laser.jpg",
   {
     id: "psikiyatri",
     title: "Psikiyatri",
-    image: "/images/branches/genel-cerrahi.jpg",
+    image: "/images/services/p.jpeg",
     description: "Psikiyatri; depresyon, anksiyete ve benzeri zihinsel sağlık sorunlarının tanı ve tedavisi ile ilgilenir. Bireylerin ruhsal sağlığını korumayı ve yaşam kalitesini artırmayı amaçlar.",
    longDescription: `
 Etik Hastanesi Psikiyatri Bölümü, bireylerin ruh sağlığı ve psikolojik rahatsızlıklarının tanı, tedavi ve yönetimi üzerine uzmanlaşmış bir ana bilim dalıdır. Depresyon, anksiyete bozuklukları, bipolar bozukluk, şizofreni, obsesif-kompulsif bozukluk, panik atak ve diğer ruhsal durumlarla ilgilenir.
@@ -602,21 +602,21 @@ export const doctors: Doctor[] = [
     id: "10",
     name: "Dr. Sıla Usar",
     title: "Nöroloji",
-    department: "Dahili Birimler",
+    department: "Cerrahi Birimler",
     order: 4,
   },
   {
     id: "11",
     name: "Dr. Ferda Selçuk",
     title: "Nöroloji",
-    department: "Dahili Birimler",
+    department: "Cerrahi Birimler",
     order: 5,
   },
   {
     id: "12",
     name: "Dr. Mehmet Ali Yeşilada",
     title: "Kulak Burun Boğaz",
-    department: "Cerrahi Birimler",
+    department: "Dahili Birimler",
     order: 6,
   },
   {
@@ -630,7 +630,7 @@ export const doctors: Doctor[] = [
     id: "14",
     name: "Dr. Refika Hüral",
     title: "Kardiyoloji",
-    department: "Dahili Birimler",
+    department: "Cerrahi Birimler",
     order: 7,
   },
   {
@@ -684,7 +684,7 @@ export const doctors: Doctor[] = [
   },
 ]
 export const doctorsPreview = [
-  doctors[0],
+  doctors[1],
   doctors[2],
   doctors[3],
 ]

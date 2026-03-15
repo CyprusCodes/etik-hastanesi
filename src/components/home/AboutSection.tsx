@@ -23,7 +23,7 @@ export function AboutSection() {
               <div className="bg-secondary rounded-3xl aspect-[4/3] flex items-center justify-center">
                <div className="bg-secondary rounded-3xl aspect-[4/3] overflow-hidden">
   <img
-    src="/images/about/etik-hastanesi.webp"
+    src="/images/about/hospital.jpg"
     alt="Etik Hastanesi"
     className="w-full h-full object-cover"
   />
