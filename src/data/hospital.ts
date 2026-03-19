@@ -28,6 +28,7 @@ export interface ContactInfo {
   phone2?: string
   emergency: string
   email?: string
+  hrEmail?: string
   address: string
   workingHours: {
     weekdays: string
@@ -54,6 +55,7 @@ export const contactInfo: ContactInfo = {
   phone2: "+90 533 885 9191",
   emergency: "1141",
   email: "info@etikhastanesi.com",
+  hrEmail: "info@etikhastanesi.xyz",
   address: "Dr. Remzi Gönenç Sokak No:5, 99010 Ortaköy, Lefkoşa, Kuzey Kıbrıs",
   workingHours: {
     weekdays: "08:00 - 20:00",
@@ -300,7 +302,7 @@ Hastalarımızın sağlığına odaklanarak, nörolojik rahatsızlıkların teş
 
 Etik Hastanesi Nöroloji Bölümü olarak, hastalarımızın sağlığını korumak ve yaşam kalitelerini artırmak için en iyi hizmeti sunmaya kararlıyız. Her hasta için özel olarak tasarlanmış tedavi planlarıyla, nörolojik sağlık sorunlarıyla mücadele etmekteyiz. Hastalarımızın güvenliği ve iyiliği her zaman önceliğimizdir.` ,
 
-image: "/images/services/noroloji.webp",
+image: "/images/services/noroloji.jpg",
   },
 
 
@@ -352,7 +354,7 @@ image: "/images/services/urology.jpg",
 
 Etik Hastanesi iç hastalıkları bölümü, hastaların sağlık sorunlarına karşı duyarlı bir şekilde yaklaşarak, doğru teşhis ve etkili tedavi planlarıyla hastaların sağlıklı bir yaşam sürmelerine yardımcı olmaktadır. Hastaların ihtiyaçlarına özel olarak tasarlanmış tedavi yöntemleri ile her zaman yanlarında olduğumuzu belirtmek isteriz. Sağlıklı bir gelecek için Etik Hastanesi iç hastalıkları bölümü her zaman hizmetinizdedir.  ` ,
 
-image: "/images/services/dahiliye.jpg",
+image: "/images/services/dahiliye.webp",
   },
 
   {
@@ -408,7 +410,7 @@ Etik Hastanesi Çocuk Sağlığı ve Hastalıkları Bölümü uzmanları, çocuk
 
 Bölüm olarak, çocukların sağlıklı ve mutlu bireyler olarak büyümelerini sağlamak için çaba sarf ediyoruz. Çocuklarımızın her biri özeldir ve onlara en iyi sağlık hizmetini sunmak, onların ve ailelerinin yaşam kalitesini artırmak temel önceliğimizdir. Her çocuğun gelişimine ve sağlığına katkıda bulunarak, sağlıklı bir toplumun temellerini atmaya devam ediyoruz.`,
 
-    image: "/images/services/cocuk-sagligi.webp",
+    image: "/images/services/cocuk-sagligi.jpg",
   },
 ]
   },
@@ -442,7 +444,7 @@ Etik Hastanesi Ağız ve Diş Sağlığı Bölümleri, uzman diş hekimleri ve d
 
 Hastalarımızın sağlığı ve memnuniyeti bizim için ön plandadır. Bu nedenle, her hasta için kişiye özel tedavi planları oluşturarak, en etkili ve güvenilir tedavi yöntemlerini sunmaya özen gösteriyoruz. Ağız ve diş sağlığınızı korumak ve sağlıklı bir gülümsemeyle yaşamınızı sürdürmenize yardımcı olmak için Etik Hastanesi olarak buradayız. Size en iyi hizmeti sunabilmek için sabırsızlıkla bekliyoruz.`,
 
-image: "/images/services/dental.png",
+image: "/images/services/dental.jpg",
   },
 
    {
@@ -496,7 +498,7 @@ image: "/images/services/laser.jpg",
   {
     id: "psikiyatri",
     title: "Psikiyatri",
-    image: "/images/services/p.jpeg",
+    image: "/images/services/p.jpg",
     description: "Psikiyatri; depresyon, anksiyete ve benzeri zihinsel sağlık sorunlarının tanı ve tedavisi ile ilgilenir. Bireylerin ruhsal sağlığını korumayı ve yaşam kalitesini artırmayı amaçlar.",
    longDescription: `
 Etik Hastanesi Psikiyatri Bölümü, bireylerin ruh sağlığı ve psikolojik rahatsızlıklarının tanı, tedavi ve yönetimi üzerine uzmanlaşmış bir ana bilim dalıdır. Depresyon, anksiyete bozuklukları, bipolar bozukluk, şizofreni, obsesif-kompulsif bozukluk, panik atak ve diğer ruhsal durumlarla ilgilenir.

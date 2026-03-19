@@ -134,6 +134,14 @@ const allMedicalUnits = useMemo<MedicalUnitOption[]>(() => {
                     href={`mailto:${contactInfo.email}`}
                   />
                 )}
+                {contactInfo.hrEmail && (
+                  <ContactCard
+                    icon={Mail}
+                    title="İnsan Kaynakları"
+                  content={contactInfo.hrEmail}
+                 href={`mailto:${contactInfo.hrEmail}`}
+                  />
+                )}
                 <ContactCard
                   icon={MapPin}
                   title="Adres"
