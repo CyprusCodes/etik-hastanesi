@@ -3,6 +3,7 @@ import { Layout } from "@/components/layout/Layout"
 import { Link } from "react-router-dom"
 import { ChevronLeft, ChevronRight } from "lucide-react"
 import { doctors, medicalUnitCategories } from "@/data/hospital"
+import { Helmet } from "react-helmet-async"
 
 const groupedDoctors = doctors.reduce<Record<string, typeof doctors[number][]>>(
   (acc, doctor) => {
@@ -52,6 +53,14 @@ export default function Doctors() {
   }
 
   return (
+    <>
+  <Helmet>
+    <title>Doktorlarımız | Etik Hastanesi</title>
+    <meta
+      name="description"
+      content="Etik Hastanesi uzman hekim kadrosunu ve branşlara göre doktorlarımızı inceleyin."
+    />
+  </Helmet>
     <Layout>
       <section className="relative bg-gradient-to-br from-primary/10 via-background to-accent/10 py-16 lg:py-24">
         <div className="container-narrow">
@@ -185,5 +194,6 @@ export default function Doctors() {
         </div>
       </section>
     </Layout>
+    </>
   )
 }

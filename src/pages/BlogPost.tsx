@@ -1,5 +1,6 @@
 import { Layout } from "@/components/layout/Layout"
 import { Link, useParams } from "react-router-dom"
+import { Helmet } from "react-helmet-async"
 import { ArrowLeft } from "lucide-react"
 import { blogPosts } from "../data/blog"
 
@@ -9,6 +10,14 @@ export default function BlogPost() {
 
   if (!post) {
     return (
+      <>
+    <Helmet>
+      <title>Yazı Bulunamadı | Etik Hastanesi Blog</title>
+      <meta
+        name="description"
+        content="Aradığınız blog yazısı bulunamadı. Etik Hastanesi blog sayfasına geri dönebilirsiniz."
+      />
+    </Helmet>
       <Layout>
         <section className="section-padding bg-white">
           <div className="container-narrow">
@@ -19,12 +28,18 @@ export default function BlogPost() {
           </div>
         </section>
       </Layout>
+      </>
     )
   }
 
   const otherPosts = blogPosts.filter((item) => item.slug !== slug)
 
   return (
+    <>
+  <Helmet>
+    <title>{post.title} | Etik Hastanesi Blog</title>
+    <meta name="description" content={post.excerpt} />
+  </Helmet>
     <Layout>
       <section className="section-padding bg-white">
         <div className="container-narrow">
@@ -108,5 +123,6 @@ export default function BlogPost() {
         </div>
       </section>
     </Layout>
+    </>
   )
 }

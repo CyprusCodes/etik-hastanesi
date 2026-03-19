@@ -1,6 +1,7 @@
 import { useMemo, useState, type FormEvent } from "react"
 import { Layout } from "@/components/layout/Layout"
 import { Button } from "@/components/ui/button"
+import { Helmet } from "react-helmet-async"
 import {
   Phone,
   Mail,
@@ -70,6 +71,14 @@ const allMedicalUnits = useMemo<MedicalUnitOption[]>(() => {
   }
 
   return (
+    <>
+  <Helmet>
+    <title>İletişim | Etik Hastanesi</title>
+    <meta
+      name="description"
+      content="Etik Hastanesi iletişim bilgileri, adres, telefon, çalışma saatleri ve randevu formuna buradan ulaşabilirsiniz."
+    />
+  </Helmet>
     <Layout>
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 via-background to-accent/10 py-16 lg:py-24">
@@ -355,6 +364,7 @@ const allMedicalUnits = useMemo<MedicalUnitOption[]>(() => {
         />
       </section>
     </Layout>
+    </>
   )
 }
 

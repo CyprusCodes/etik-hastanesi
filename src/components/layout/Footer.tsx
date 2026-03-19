@@ -9,21 +9,23 @@ export function Footer() {
     <footer className="bg-foreground text-white">
       {/* Main Footer */}
       <div className="container-narrow py-12 lg:py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 lg:gap-12">
           {/* Company Info */}
           <div className="lg:col-span-1">
-    <Link to="/" className="inline-flex flex-col items-start mb-5">
-  <div className="bg-white rounded-xl px-4 py-3 shadow-sm">
-    <img
-      src="/images/logo.jpg"
-      alt="Etik Hastanesi"
-      className="h-14 lg:h-16 w-auto object-contain"
-    />
-  </div>
-</Link>
+            <Link to="/" className="inline-flex flex-col items-start mb-5">
+              <div className="bg-white rounded-xl px-4 py-3 shadow-sm">
+                <img
+                  src="/images/logo.jpg"
+                  alt="Etik Hastanesi"
+                  className="h-14 lg:h-16 w-auto object-contain"
+                />
+              </div>
+            </Link>
+
             <p className="text-gray-400 text-sm mb-6">
               {hospitalInfo.description}
             </p>
+
             <div className="flex items-center gap-3">
               <a
                 href="https://www.instagram.com/etikhastanesi/"
@@ -64,43 +66,75 @@ export function Footer() {
           </div>
 
           {/* Departments */}
-       <div>
-  <h4 className="font-semibold text-lg mb-4">Tıbbi Birimlerimiz</h4>
-  <ul className="space-y-2">
-    <li>
-      <Link
-        to="/tibbi-birimler/cerrahi"
-        className="text-gray-400 hover:text-white transition-colors text-sm"
-      >
-        Cerrahi Birimler
-      </Link>
-    </li>
-    <li>
-      <Link
-        to="/tibbi-birimler/dahili"
-        className="text-gray-400 hover:text-white transition-colors text-sm"
-      >
-        Dahili Birimler
-      </Link>
-    </li>
-    <li>
-      <Link
-        to="/tibbi-birimler/diger"
-        className="text-gray-400 hover:text-white transition-colors text-sm"
-      >
-        Diğer Birimler
-      </Link>
-    </li>
-    <li>
-      <Link
-        to="/tibbi-birimler/paramedikal"
-        className="text-gray-400 hover:text-white transition-colors text-sm"
-      >
-        Paramedikal
-      </Link>
-    </li>
-  </ul>
-</div>
+          <div>
+            <h4 className="font-semibold text-lg mb-4">Tıbbi Birimlerimiz</h4>
+            <ul className="space-y-2">
+              <li>
+                <Link
+                  to="/tibbi-birimler/cerrahi"
+                  className="text-gray-400 hover:text-white transition-colors text-sm"
+                >
+                  Cerrahi Birimler
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/tibbi-birimler/dahili"
+                  className="text-gray-400 hover:text-white transition-colors text-sm"
+                >
+                  Dahili Birimler
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/tibbi-birimler/diger"
+                  className="text-gray-400 hover:text-white transition-colors text-sm"
+                >
+                  Diğer Birimler
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/tibbi-birimler/paramedikal"
+                  className="text-gray-400 hover:text-white transition-colors text-sm"
+                >
+                  Paramedikal
+                </Link>
+              </li>
+            </ul>
+          </div>
+
+          {/* Legal Info */}
+          <div>
+            <h4 className="font-semibold text-lg mb-4">Yasal Bilgiler</h4>
+            <ul className="space-y-2">
+              <li>
+                <Link
+                  to="/hizmet-sozlesmesi"
+                  className="text-gray-400 hover:text-white transition-colors text-sm"
+                >
+                  Hizmet Sözleşmesi
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/cerez-politikasi"
+                  className="text-gray-400 hover:text-white transition-colors text-sm"
+                >
+                  Çerez Politikası
+                </Link>
+              </li>
+              <li>
+                <Link
+                  to="/gizlilik-politikasi"
+                  className="text-gray-400 hover:text-white transition-colors text-sm"
+                >
+                  Gizlilik Politikası
+                </Link>
+              </li>
+            </ul>
+          </div>
+
           {/* Contact Info */}
           <div>
             <h4 className="font-semibold text-lg mb-4">İletişim</h4>
@@ -114,6 +148,7 @@ export function Footer() {
                   <span>{contactInfo.phone}</span>
                 </a>
               </li>
+
               {contactInfo.email && (
                 <li>
                   <a
@@ -125,10 +160,12 @@ export function Footer() {
                   </a>
                 </li>
               )}
+
               <li className="flex items-start gap-3 text-gray-400 text-sm">
                 <MapPin className="h-4 w-4 mt-0.5 flex-shrink-0" />
                 <span>{contactInfo.address}</span>
               </li>
+
               <li className="flex items-start gap-3 text-gray-400 text-sm">
                 <Clock className="h-4 w-4 mt-0.5 flex-shrink-0" />
                 <div>

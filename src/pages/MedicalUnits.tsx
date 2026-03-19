@@ -1,8 +1,17 @@
 import { Layout } from "@/components/layout/Layout"
 import { CategoryCards } from "@/components/medical/CategoryCards"
+import { Helmet } from "react-helmet-async"
 
 export default function MedicalUnits() {
   return (
+    <>
+  <Helmet>
+    <title>Tıbbi Birimler | Etik Hastanesi</title>
+    <meta
+      name="description"
+      content="Etik Hastanesi tıbbi birimlerini, cerrahi, dahili, diğer ve paramedikal branşları inceleyin."
+    />
+  </Helmet>
     <Layout>
       <section className="relative bg-gradient-to-br from-primary/10 via-background to-accent/10 py-16 lg:py-24">
         <div className="container-narrow">
@@ -24,5 +33,6 @@ export default function MedicalUnits() {
         </div>
       </section>
     </Layout>
+    </>
   )
 }

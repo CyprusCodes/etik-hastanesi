@@ -3,6 +3,7 @@ import { Link, useParams } from "react-router-dom"
 import { ArrowLeft, Phone, Calendar } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { medicalUnitCategories, contactInfo } from "@/data/hospital"
+import { Helmet } from "react-helmet-async"
 
 export default function MedicalUnitBranch() {
   const { category, branch } = useParams()
@@ -53,6 +54,14 @@ export default function MedicalUnitBranch() {
   const phoneHref = `tel:${contactInfo.phone.replace(/\s/g, "")}`
 
   return (
+    <>
+  <Helmet>
+    <title>Tıbbi Branş Detayı | Etik Hastanesi</title>
+    <meta
+      name="description"
+      content="Etik Hastanesi branş detayları, hizmet kapsamı ve ilgili tıbbi bilgiler."
+    />
+  </Helmet>
     <Layout>
       {/* Hero */}
       <section className="relative overflow-hidden bg-gradient-to-br from-primary/10 via-background to-accent/10 py-14 lg:py-20">
@@ -190,5 +199,6 @@ export default function MedicalUnitBranch() {
         </div>
       </section>
     </Layout>
+    </>
   )
 }

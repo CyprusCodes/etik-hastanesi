@@ -4,6 +4,7 @@ import { Layout } from "@/components/layout/Layout"
 import { Button } from "@/components/ui/button"
 import { Phone, ArrowRight } from "lucide-react"
 import { departments, contactInfo } from "@/data/hospital"
+import { Helmet } from "react-helmet-async"
 
 export default function Services() {
   const location = useLocation()
@@ -21,6 +22,14 @@ export default function Services() {
   }, [location.hash])
 
   return (
+    <>
+      <Helmet>
+        <title>Hizmetlerimiz | Etik Hastanesi</title>
+        <meta
+          name="description"
+          content="Etik Hastanesi'nde sunulan tıbbi hizmetler, uzman branşlar ve modern sağlık çözümlerini keşfedin."
+        />
+      </Helmet>
     <Layout>
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 via-background to-accent/10 py-16 lg:py-24">
@@ -154,6 +163,7 @@ export default function Services() {
         </div>
       </section>
     </Layout>
+    </>
   )
 }
 

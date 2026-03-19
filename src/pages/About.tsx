@@ -1,6 +1,7 @@
 import { Layout } from "@/components/layout/Layout"
 import { Award, Users, Heart, Target, Eye } from "lucide-react"
 import { hospitalInfo, stats } from "@/data/hospital"
+import { Helmet } from "react-helmet-async"
 
 const timeline = [
   {
@@ -55,6 +56,14 @@ const values = [
 
 export default function About() {
   return (
+    <>
+  <Helmet>
+    <title>Hakkımızda | Etik Hastanesi</title>
+    <meta
+      name="description"
+      content="Etik Hastanesi'nin kurumsal yapısı, hizmet anlayışı ve Lefkoşa'daki sağlık deneyimi hakkında bilgi alın."
+    />
+  </Helmet>
     <Layout>
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-primary/10 via-background to-accent/10 py-16 lg:py-24">
@@ -205,5 +214,6 @@ export default function About() {
         </div>
       </section>
     </Layout>
+    </>
   )
 }

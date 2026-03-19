@@ -352,7 +352,7 @@ image: "/images/services/urology.jpg",
 
 Etik Hastanesi iç hastalıkları bölümü, hastaların sağlık sorunlarına karşı duyarlı bir şekilde yaklaşarak, doğru teşhis ve etkili tedavi planlarıyla hastaların sağlıklı bir yaşam sürmelerine yardımcı olmaktadır. Hastaların ihtiyaçlarına özel olarak tasarlanmış tedavi yöntemleri ile her zaman yanlarında olduğumuzu belirtmek isteriz. Sağlıklı bir gelecek için Etik Hastanesi iç hastalıkları bölümü her zaman hizmetinizdedir.  ` ,
 
-image: "/images/services/kardiyoloji.jpg",
+image: "/images/services/dahiliye.jpg",
   },
 
   {

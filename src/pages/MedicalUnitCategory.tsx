@@ -2,6 +2,7 @@ import { Layout } from "@/components/layout/Layout"
 import { Link, useParams } from "react-router-dom"
 import { ArrowRight } from "lucide-react"
 import { medicalUnitCategories } from "@/data/hospital"
+import { Helmet } from "react-helmet-async"
 
 export default function MedicalUnitCategory() {
   const { category } = useParams()
@@ -29,6 +30,14 @@ export default function MedicalUnitCategory() {
   const Icon = current.icon
 
   return (
+    <>
+  <Helmet>
+    <title>Tıbbi Birim Kategorisi | Etik Hastanesi</title>
+    <meta
+      name="description"
+      content="Etik Hastanesi tıbbi birim kategorilerinde yer alan branşları ve detaylarını inceleyin."
+    />
+  </Helmet>
     <Layout>
       {/* Header */}
 
@@ -126,5 +135,6 @@ export default function MedicalUnitCategory() {
 
 
     </Layout>
+    </>
   )
 }
