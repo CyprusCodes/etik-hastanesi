@@ -1,0 +1,894 @@
+{
+  "name": "Etik Hospital",
+  "tagline": "The First Private Hospital in Nicosia",
+  "description": "Serving healthcare in Nicosia since 1999, Etik Hospital is by your side 24/7 with modern medical technology and an expert team.",
+  "workingHours": {
+    "emergency": "24/7 Emergency Service"
+  },
+  "hero": {
+    "badge": "Trusted Healthcare Service",
+    "titleStart": "Reliable",
+    "titleHighlight": "Healthcare",
+    "titleEnd": "Solutions",
+    "emergency": "24/7 Emergency Support",
+    "expertTeam": "Expert Medical Team",
+    "urgentShort": "Urgent"
+  },
+  "stats": {
+  "experience": "Years of Experience",
+  "happyPatients": "Happy Patients",
+  "specialistDoctors": "Specialist Doctors",
+  "emergencyService": "Emergency Service"
+},
+"featuresSection": {
+  "badge": "Why Us?",
+  "title": "Why Choose Etik Hospital",
+  "description": "We make a difference with over 26 years of experience and a patient-focused approach."
+},
+"features": {
+  "emergency": {
+    "title": "24/7 Emergency Service",
+    "description": "We are available around the clock for your urgent healthcare needs."
+  },
+  "expertTeam": {
+    "title": "Expert Team",
+    "description": "Experienced doctors and healthcare professionals in their fields."
+  },
+  "technology": {
+    "title": "Modern Technology",
+    "description": "Care supported by the latest medical devices and treatment methods."
+  },
+  "access": {
+    "title": "Easy Access",
+    "description": "Conveniently located in central Nicosia."
+  }
+},
+"aboutSection": {
+  "badge": "About Us",
+  "title": "The Right Address for Reliable Healthcare",
+  "description": "Founded in {{foundedYear}} as the first private hospital in Nicosia, {{hospitalName}} is now among the leading healthcare institutions in Northern Cyprus with its modern medical technology and expert staff.",
+  "experienceLabel": "Years of Experience",
+  "cta": "Learn More",
+  "highlights": [
+    "The first private hospital in Nicosia",
+    "Over 26 years of experience",
+    "24/7 emergency service",
+    "Expert physician staff",
+    "Modern medical technology",
+    "A patient-focused approach"
+  ]
+},
+"servicesSection": {
+  "badge": "Our Services",
+  "title": "Medical Units",
+  "description": "Our medical units are listed by category. You can choose the most suitable department and access detailed information.",
+  "details": "Details",
+  "allUnits": "All Medical Units",
+  "categories": {
+    "surgical": {
+      "title": "Surgical Units",
+      "description": "Our departments that require surgical intervention and operations."
+    },
+    "internal": {
+      "title": "Internal Medicine Units",
+      "description": "Our internal branches focused on diagnosis, follow-up, and treatment."
+    },
+    "other": {
+      "title": "Other Units",
+      "description": "Our supporting units in different areas of specialization."
+    },
+    "paramedical": {
+      "title": "Paramedical",
+      "description": "Healthcare services that support diagnosis and treatment processes."
+    }
+  }
+},
+"doctorsSection": {
+  "badge": "Our Doctors",
+  "title": "Our Expert Medical Team",
+  "description": "We provide reliable and high-quality healthcare services with our experienced specialist doctors.",
+  "cta": "All Our Doctors"
+},
+"blogSection": {
+  "badge": "Blog",
+  "title": "Health Articles",
+  "description": "You can browse our blog posts for up-to-date health information, awareness content, and helpful recommendations.",
+  "cta": "All Articles",
+  "readMore": "Read More"
+},
+"testimonialsSection": {
+  "badge": "Patient Reviews",
+  "title": "We Are Happy"
+},
+"contactSection": {
+  "badge": "Contact",
+  "title": "Contact Us for Your Health",
+  "description": "You can reach us for your questions or appointment requests. Our expert team will be happy to assist you.",
+  "phoneLabel": "Phone",
+  "addressLabel": "Address",
+  "workingHoursLabel": "Working Hours",
+  "cardTitle": "Book an Appointment",
+  "cardDescription": "You can quickly book an appointment by filling out the online appointment form or contacting us by phone.",
+  "onlineAppointment": "Online Appointment",
+  "emergencyLabel": "In Emergencies"
+},
+"footer": {
+  "quickLinks": "Quick Links",
+  "medicalUnits": "Our Medical Units",
+  "legal": "Legal Information",
+  "contact": "Contact",
+  "weekdays": "Weekdays",
+  "weekend": "Weekend",
+  "emergencyBanner": "In Emergencies:",
+  "copyright": "All rights reserved.",
+  "units": {
+    "surgical": "Surgical Units",
+    "internal": "Internal Medicine Units",
+    "other": "Other Units",
+    "paramedical": "Paramedical"
+  },
+  "legalLinks": {
+    "serviceAgreement": "Service Agreement",
+    "cookiePolicy": "Cookie Policy",
+    "privacyPolicy": "Privacy Policy"
+  }
+},
+"aboutPage": {
+  "seo": {
+    "title": "About Us | Etik Hospital",
+    "description": "Learn about Etik Hospital's corporate structure, service approach, and healthcare experience in Nicosia."
+  },
+  "hero": {
+    "badge": "About Us",
+    "description": "We have been providing reliable healthcare services in Nicosia since 1999. Founded as the first private hospital in Nicosia, our hospital is now among the leading healthcare institutions in Northern Cyprus."
+  },
+  "mission": {
+    "title": "Our Mission",
+    "description": "To provide our patients with the highest quality, reliable, and accessible healthcare services. To meet society's healthcare needs with modern medical technology and our expert staff."
+  },
+  "vision": {
+    "title": "Our Vision",
+    "description": "To become the most trusted and preferred healthcare institution in Northern Cyprus. We aim to lead healthcare services through continuous development and innovative approaches."
+  },
+  "values": {
+    "badge": "Our Values",
+    "title": "The Values That Define Us",
+    "items": [
+      {
+        "title": "Patient Focus",
+        "description": "In every decision we make, the health and comfort of our patients come first."
+      },
+      {
+        "title": "Quality",
+        "description": "We aim to provide healthcare services at the highest standards."
+      },
+      {
+        "title": "Teamwork",
+        "description": "We deliver coordinated and effective healthcare services with our expert team."
+      }
+    ]
+  },
+  "timelineSection": {
+    "badge": "Our History",
+    "title": "Our Journey"
+  },
+  "timeline": [
+    {
+      "title": "Foundation",
+      "description": "We opened our doors as the first private hospital in Nicosia."
+    },
+    {
+      "title": "Expansion",
+      "description": "We expanded our capacity with new departments and modern medical devices."
+    },
+    {
+      "title": "Technology Investment",
+      "description": "We equipped our hospital with the latest medical technology."
+    },
+    {
+      "title": "Expert Team",
+      "description": "We strengthened our team with specialist doctors in their fields."
+    },
+    {
+      "title": "20th Year",
+      "description": "We continue our healthcare services with 20 years of experience."
+    },
+    {
+      "year": "Today",
+      "title": "Continuous Improvement",
+      "description": "We work every day to provide even better healthcare services."
+    }
+  ]
+},
+"medicalUnitsPage": {
+  "seo": {
+    "title": "Medical Units | Etik Hospital",
+    "description": "Explore Etik Hospital's medical units, including surgical, internal medicine, other, and paramedical branches."
+  },
+  "hero": {
+    "badge": "Our Services",
+    "title": "Medical Units",
+    "description": "Our medical units are listed by category. You can choose the most suitable department and access detailed information."
+  },
+  "details": "Details"
+},
+
+"medicalUnitCategories": {
+  "surgical": {
+    "title": "Surgical Units",
+    "description": "Our departments that require surgical intervention and operations."
+  },
+  "internal": {
+    "title": "Internal Medicine Units",
+    "description": "Our internal branches focused on diagnosis, follow-up, and treatment."
+  },
+  "other": {
+    "title": "Other Units",
+    "description": "Our supporting units in different areas of specialization."
+  },
+  "paramedical": {
+    "title": "Paramedical",
+    "description": "Healthcare services that support diagnosis and treatment processes."
+  }
+},
+
+"medicalUnitCategoryPage": {
+  "seo": {
+    "title": "{{category}} | Medical Units | Etik Hospital",
+    "description": "Review the branches and details in Etik Hospital's {{category}} category."
+  },
+  "hero": {
+    "badge": "Our Services",
+    "backToAll": "Back to all categories"
+  },
+  "branchesTitle": "Branches",
+  "branchCount": "{{count}} branches",
+  "notFound": {
+    "title": "Category not found",
+    "backLink": "Return to the Medical Units page"
+  }
+},
+
+"medicalUnitBranchPage": {
+  "seo": {
+    "title": "{{branch}} | Medical Branch Detail | Etik Hospital",
+    "description": "Review the service scope and related medical information for Etik Hospital's {{branch}} branch."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "description": "The branch you are looking for could not be found. Please return to the branches page.",
+    "button": "Medical Units"
+  },
+  "hero": {
+    "branches": "Branches",
+    "callNow": "Call Now",
+    "branchLabel": "Branch"
+  },
+  "aboutTitle": "About the Branch",
+  "highlightsTitle": "Highlights",
+  "sidebar": {
+    "categoryLabel": "Category",
+    "quickActions": "Quick Actions",
+    "appointmentForm": "Appointment Form",
+    "callByPhone": "Call by Phone",
+    "backToBranches": "Back to branches"
+  }
+},
+"doctorsPage": {
+  "seo": {
+    "title": "Our Doctors | Etik Hospital",
+    "description": "Review Etik Hospital's expert medical staff and our doctors by specialty."
+  },
+  "hero": {
+    "badge": "Our Doctors",
+    "title": "Our Expert Medical Team",
+    "description": "You can review our specialist doctors by department, who provide reliable healthcare services to our patients."
+  },
+  "contactButton": "Contact Us",
+  "pagination": {
+    "previous": "Previous doctors in {{department}}",
+    "next": "Next doctors in {{department}}",
+    "page": "{{department}} page {{page}}"
+  }
+},
+"blogPage": {
+  "seo": {
+    "title": "Health Articles | Etik Hospital Blog",
+    "description": "Review current blog articles on health, treatment, quality of life, and awareness on the Etik Hospital blog page."
+  },
+  "hero": {
+    "badge": "Blog",
+    "title": "Health Articles",
+    "description": "You can access up-to-date health information, awareness content, and expert opinions on our blog page."
+  },
+  "readMore": "Read More"
+},
+"blogPostPage": {
+  "seo": {
+    "title": "{{title}} | Etik Hospital Blog"
+  },
+  "backToBlog": "Back to blog",
+  "otherPosts": "Other Articles",
+  "backToAllPosts": "Back to all articles",
+  "notFound": {
+    "seo": {
+      "title": "Article Not Found | Etik Hospital Blog",
+      "description": "The blog article you are looking for could not be found. You can return to the Etik Hospital blog page."
+    },
+    "title": "Article not found",
+    "backToBlog": "Return to the blog page"
+  }
+},
+"contactPage": {
+  "seo": {
+    "title": "Contact | Etik Hospital",
+    "description": "You can access Etik Hospital contact information, address, phone numbers, working hours, and appointment form here."
+  },
+  "hero": {
+    "badge": "Contact",
+    "title": "Get in Touch",
+    "description": "You can contact us for your questions, appointment requests, or suggestions. We will be happy to assist you."
+  },
+  "info": {
+    "title": "Contact Information",
+    "description": "You can reach us through the contact channels below or visit our hospital directly."
+  },
+  "cards": {
+    "phone": "Phone",
+    "phone2": "Phone 2",
+    "email": "Email",
+    "hr": "Human Resources",
+    "address": "Address",
+    "workingHours": "Working Hours"
+  },
+  "emergency": {
+    "label": "In Emergencies"
+  },
+  "form": {
+    "title": "Appointment Form",
+    "submit": "Send",
+    "submitting": "Sending...",
+    "error": "An error occurred. Please try again.",
+    "success": {
+      "title": "Your Request Has Been Received",
+      "description": "We will contact you as soon as possible.",
+      "button": "Create a New Request"
+    },
+    "fields": {
+      "name": {
+        "label": "Full Name *",
+        "placeholder": "Your full name"
+      },
+      "phone": {
+        "label": "Phone *",
+        "placeholder": "Your phone number"
+      },
+      "email": {
+        "label": "Email",
+        "placeholder": "Your email address"
+      },
+      "appointmentType": {
+        "label": "Appointment Type",
+        "placeholder": "Select appointment type",
+        "options": {
+          "preConsultation": "Pre-Consultation",
+          "examination": "Examination",
+          "control": "Follow-up"
+        }
+      },
+      "department": {
+        "label": "Department",
+        "placeholder": "Select department"
+      },
+      "message": {
+        "label": "Your Message",
+        "placeholder": "Write your message..."
+      }
+    }
+  },
+  "mapTitle": "Etik Hospital Location"
+},
+"cookiePolicyPage": {
+  "seo": {
+    "title": "Cookie Policy | Etik Hospital",
+    "description": "Learn about the cookies used on the Etik Hospital website and how cookies are managed."
+  },
+  "hero": {
+    "title": "Cookie Policy",
+    "description": "Information about the cookies used on the Etik Hospital website"
+  },
+  "content": {
+    "title": "Cookie Policy",
+    "intro": "This cookie policy provides information about the cookies used by the Etik Hospital website (https://etikhastanesi.xyz). Cookies are small text files used to optimize your use of the website, improve performance, and enhance user experience. This policy is designed to help everyone visiting the website understand the use of cookies."
+  },
+  "sections": {
+    "whatIsCookie": {
+      "title": "What Is a Cookie?",
+      "description": "Cookies are small text files placed on your browser or device by a website. These files are used to collect and store information about website visitors. Cookies can be used to remember user preferences, analyze the site, track user interactions, and personalize content and advertisements according to interests."
+    },
+    "types": {
+      "title": "Types of Cookies and Their Use",
+      "items": {
+        "session": {
+          "title": "Session Cookies",
+          "description": "Session cookies remain valid during a user's visit to the website and are deleted when the browser is closed."
+        },
+        "persistent": {
+          "title": "Persistent Cookies",
+          "description": "Persistent cookies remain in your browser for a certain period and allow you to be recognized when you visit again."
+        },
+        "analytics": {
+          "title": "Analytics Cookies",
+          "description": "Analytics cookies are used to analyze and improve the use of the website. These cookies can be used to track visitor numbers, page views, traffic sources, and other statistics."
+        }
+      }
+    },
+    "management": {
+      "title": "Cookie Management",
+      "description": "You are in control of whether to accept or reject cookies. You can manage cookie usage as you wish by changing your browser settings. However, please note that disabling some cookies may cause certain website functions to not work properly."
+    },
+    "updates": {
+      "title": "Policy Updates",
+      "description": "This cookie policy may be updated or changed from time to time by Etik Hospital. Whenever an update is made, we will inform users by publishing the effective date of the changes on the current cookie policy page."
+    },
+    "contact": {
+      "title": "Contact",
+      "description": "If you have any questions or concerns, please contact us."
+    }
+  }
+},
+"privacyPolicyPage": {
+  "seo": {
+    "title": "Privacy Policy | Etik Hospital",
+    "description": "You can find information here about Etik Hospital's privacy policy and the protection of personal data."
+  },
+  "hero": {
+    "title": "Privacy Policy",
+    "description": "Data collected through the Etik Hospital website and privacy principles"
+  },
+  "content": {
+    "title": "Privacy Policy",
+    "intro": "This privacy policy explains the policies regarding the collection, use, and disclosure of personal information through the Etik Hospital website. As Etik Hospital, we respect the privacy of our visitors and apply the highest standards to protect your personal information. This policy is designed to help everyone using our website understand how personal information is collected, used, and protected."
+  },
+  "sections": {
+    "collection": {
+      "title": "Collection and Use of Personal Information",
+      "paragraph1": "When you visit the Etik Hospital website, general information such as standard data provided by users' browsers may be automatically recorded. This information may include internet protocol (IP) addresses, browser types, internet service providers (ISPs), exit pages, and date and time stamps. This information may be used to analyze website usage, manage the site, track user interactions, and collect demographic information.",
+      "paragraph2": "The Etik Hospital website may offer various forms for users to provide personal information such as name, email address, and phone number. This information is collected to process appointment requests, receive feedback, provide services, or communicate with users when necessary. Personal information will only be used for fulfilling a specific purpose and will not be shared with third parties without users' consent."
+    },
+    "cookies": {
+      "title": "Cookies",
+      "description": "The Etik Hospital website may use cookies to improve user experience and optimize the site. Cookies may be used to remember user preferences, analyze the preferences of site visitors, and personalize content and advertisements according to interests. Users can control or reject cookie usage as they wish by changing their browser settings."
+    },
+    "sharing": {
+      "title": "Information Sharing and Third-Party Links",
+      "description": "Etik Hospital does not share or sell users' personal information to third parties. However, information may be transferred to service providers in accordance with legal requirements or for the operation of the website. The Etik Hospital website may occasionally contain links to other websites. These links may direct users to other websites. We are not responsible for the privacy practices of linked websites. We recommend reviewing their privacy policies before visiting other websites."
+    },
+    "security": {
+      "title": "Security",
+      "description": "Etik Hospital takes appropriate security measures to protect users' personal information. However, we cannot guarantee complete security regarding the transmission or storage of information over the internet. Information transfer is entirely at the user's own risk. Therefore, we recommend that you exercise due care to protect your personal information while using the Etik Hospital website."
+    },
+    "acceptance": {
+      "title": "Acceptance of the Privacy Policy",
+      "description": "By using the Etik Hospital website, you are deemed to have accepted this privacy policy. If you have any questions regarding the policy, please contact us."
+    },
+    "updates": {
+      "title": "Policy Updates",
+      "description": "Etik Hospital may revise this privacy policy from time to time to update or modify it. Whenever an update is made, we will inform users by publishing the effective date of the changes on the current privacy policy page."
+    }
+  }
+},
+"serviceAgreementPage": {
+  "seo": {
+    "title": "Service Agreement | Etik Hospital",
+    "description": "Review Etik Hospital's service agreement and general terms of service."
+  },
+  "hero": {
+    "title": "Service Agreement",
+    "description": "Etik Hospital Cyprus service terms and general agreement provisions"
+  },
+  "content": {
+    "title": "ETIK HOSPITAL CYPRUS SERVICE AGREEMENT",
+    "intro": "This Service Agreement (the \"Agreement\") has been made between the parties on [Agreement Start Date] and is defined as follows."
+  },
+  "sections": {
+    "parties": {
+      "title": "1. Parties",
+      "provider": {
+        "title": "A. Service Provider (\"Hospital\")",
+        "name": "Etik Hospital Cyprus",
+        "address": "Address: [Full Hospital Address]"
+      },
+      "patient": {
+        "title": "B. Patient (\"Patient\")",
+        "name": "[Full Name of the Patient]",
+        "address": "Address: [Full Address of the Patient]"
+      }
+    },
+    "services": {
+      "title": "2. Services",
+      "description": "The Hospital agrees to provide healthcare services to the Patient. These services may include, but are not limited to, examination, diagnosis, treatment, and other healthcare services."
+    },
+    "terms": {
+      "title": "3. Terms of Service",
+      "description": "The Hospital undertakes to provide the highest quality service in accordance with medical ethics and standards. The Patient agrees to comply with the medical procedures and treatments recommended by the Hospital."
+    },
+    "payment": {
+      "title": "4. Pricing and Payment",
+      "description": "The pricing of services will be determined according to the Hospital's current price list and the specific services to be received by the Patient. The Patient agrees to pay the fees determined by the Hospital for the services."
+    },
+    "confidentiality": {
+      "title": "5. Confidentiality",
+      "description": "The Hospital will act in accordance with the law to keep the Patient's personal and medical information confidential and will share this information only when legally required and with the Patient's permission."
+    },
+    "liability": {
+      "title": "6. Liability",
+      "description": "The Hospital will exercise due care while providing its services. However, the Hospital does not provide any guarantee regarding the outcome of the treatment."
+    },
+    "disputes": {
+      "title": "7. Resolution of Disputes",
+      "description": "Any dispute between the parties will first be attempted to be resolved in good faith; otherwise, it will be resolved according to the laws of [Jurisdiction]."
+    },
+    "duration": {
+      "title": "8. Term and Termination of the Agreement",
+      "description": "This Agreement remains valid until terminated in writing by either party."
+    },
+    "otherTerms": {
+      "title": "9. Other Terms",
+      "description": "This Agreement constitutes the entire agreement between the parties and supersedes any prior agreement."
+    }
+  },
+  "signatures": {
+    "title": "Signatures",
+    "hospital": "Hospital Representative",
+    "patient": "Patient",
+    "date": "Date: ___________"
+  }
+},
+"blogData": {
+  "preview": {
+    "1": {
+      "excerpt": "Breast cancer is one of the most common cancers in women and can be successfully managed with early diagnosis."
+    },
+    "2": {
+      "excerpt": "Tooth pain is a common health problem that can negatively affect daily life and can be controlled with proper treatment."
+    },
+    "3": {
+      "excerpt": "HIV and AIDS are two concepts that are often confused. In this article, you can learn the main differences between them."
+    }
+  },
+  "posts": {
+    "1": {
+      "title": "Breast Cancer and Treatment Options",
+      "category": "Breast Health",
+      "excerpt": "Breast cancer is one of the most common types of cancer in women. It can be successfully managed with early diagnosis and proper treatment planning.",
+      "content": [
+        "Breast cancer is one of the most common types of cancer in women and can be successfully managed with early diagnosis and treatment. Etik Hospital aims to be a reliable healthcare partner during the treatment process by offering an expert and ethical approach to patients diagnosed with breast cancer.",
+        "Early signs of breast cancer may include a lump in the breast tissue, redness or dimpling of the breast skin, changes in the nipple, or discharge. If these symptoms are noticed, it is very important to consult a healthcare professional without delay. Etik Hospital evaluates patients accurately using the necessary imaging methods and tests for the diagnosis of breast cancer.",
+        "Etik Hospital adopts a multidisciplinary approach to breast cancer treatment. Surgical intervention, chemotherapy, radiotherapy, hormone therapy, and targeted treatment options are determined by considering the type and stage of the cancer as well as the patient's overall health condition.",
+        "During the treatment process, not only the physical but also the emotional needs of patients are taken into consideration. With its expert staff and modern medical infrastructure, Etik Hospital provides reliable support throughout patients' treatment journeys.",
+        "Early diagnosis is of great importance in the fight against breast cancer. To protect your health and get information about the right treatment options, you can contact Etik Hospital specialists."
+      ]
+    },
+    "2": {
+      "title": "Causes of Toothache and Treatment Options",
+      "category": "Oral and Dental Health",
+      "excerpt": "Toothache is a common health problem that directly affects daily life. Correctly identifying the source of pain is important for treatment.",
+      "content": [
+        "Toothache is an uncomfortable condition that many people experience at some point in their lives. It can result from various causes and can be controlled with proper treatment. Etik Hospital helps patients achieve healthy smiles with its expert staff and modern medical equipment in the field of toothache.",
+        "The most common causes of toothache include tooth decay, gum disease, clenching or grinding of teeth, trauma, and nerve inflammation. These conditions can usually appear as sensitivity, throbbing, or sharp pain.",
+        "In order for toothache to be treated effectively, the source of the pain must first be accurately determined. At Etik Hospital, the cause of the problem is identified through examination and necessary imaging procedures.",
+        "Treatment options may include fillings, root canal treatment, gum treatment, or tooth extraction when necessary. Appropriate pain relief treatments may also be applied to ensure patient comfort.",
+        "Regular dental check-ups are very important for a healthy smile and strong teeth. Etik Hospital aims to protect oral and dental health by providing reliable and ethical healthcare services to its patients."
+      ]
+    },
+    "3": {
+      "title": "What Are HIV and AIDS? What Are the Differences?",
+      "category": "Infectious Diseases",
+      "excerpt": "Although HIV and AIDS are often used as if they mean the same thing, they are actually different concepts. Accurate information and early diagnosis are very important.",
+      "content": [
+        "HIV and AIDS are among the important issues affecting human health. Although both concepts are related to the immune system, they actually have different meanings.",
+        "HIV, or Human Immunodeficiency Virus, is a virus that targets the immune system. HIV infection can be transmitted through sexual contact, blood, or from mother to baby.",
+        "A person carrying HIV may not show symptoms for a long time, and this condition is referred to as being HIV positive. However, if left untreated, the virus can damage the immune system and AIDS may develop over time.",
+        "AIDS, or Acquired Immune Deficiency Syndrome, is the advanced stage of HIV infection. At this stage, the immune system becomes seriously weakened and the body becomes vulnerable to infections.",
+        "With early diagnosis and regular treatment, the progression of HIV infection can be controlled to a large extent. Therefore, regular health check-ups and conscious behavior are very important."
+      ]
+    },
+    "4": {
+      "title": "Chest Health and the Journey of Recovery",
+      "category": "Chest Diseases",
+      "excerpt": "Chest diseases are among the important health problems affecting the respiratory system. Early diagnosis increases treatment success.",
+      "content": [
+        "Chest diseases include various disorders affecting the lungs and chest cavity, which are important parts of the respiratory system. If not diagnosed in time, they can lead to serious health problems.",
+        "Symptoms of these diseases may include cough, shortness of breath, chest pain, and sputum production. These symptoms may be signs of diseases such as asthma, bronchitis, or COPD.",
+        "Etik Hospital's specialist doctors and modern medical equipment evaluate patients' health conditions in detail and create personalized treatment plans.",
+        "Treatment options may include medication, respiratory therapies, rehabilitation, and surgical interventions when necessary.",
+        "Chest health is of great importance for overall health. With regular check-ups and proper treatment approaches, respiratory system health can be protected."
+      ]
+    },
+    "5": {
+      "title": "Protect Your Mental Health: Psychological Disorders",
+      "category": "Psychology",
+      "excerpt": "Mental health is an important part of quality of life. Psychological disorders can be managed with proper support and treatment.",
+      "content": [
+        "Mental health is an important part of our overall health, and many people struggling with psychological disorders can improve their quality of life with the right support.",
+        "Psychological disorders such as depression, anxiety, and bipolar disorder can affect an individual's daily life. Symptoms may include persistent sadness, intense anxiety, sleep problems, and loss of energy.",
+        "Etik Hospital's specialist psychiatrists and psychologists evaluate patients' conditions and create appropriate treatment plans.",
+        "Treatment options may include psychotherapy, medication, and supportive therapies. An approach appropriate to each patient's individual needs is applied.",
+        "Protecting mental health is of great importance for both individual and social life. Receiving support early can positively affect the recovery process."
+      ]
+    }
+  }
+},
+"doctorDepartments": {
+  "surgical": "Surgical Units",
+  "internal": "Internal Medicine Units",
+  "other": "Other Units",
+  "paramedical": "Paramedical"
+},
+"doctorTitles": {
+  "orthopedics": "Orthopedics",
+  "cardiovascularSurgery": "Cardiovascular Surgery",
+  "pediatrics": "Pediatrics",
+  "internalMedicine": "Internal Medicine",
+  "generalSurgery": "General Surgery",
+  "microbiologyInfectiousDiseases": "Microbiology and Infectious Diseases",
+  "radiology": "Radiology",
+  "obstetricsGynecology": "Obstetrics and Gynecology",
+  "neurology": "Neurology",
+  "ent": "Ear, Nose and Throat",
+  "dermatologyVenereal": "Dermatology and Venereal Diseases",
+  "cardiology": "Cardiology",
+  "ophthalmology": "Ophthalmology",
+  "urology": "Urology",
+  "plasticReconstructiveSurgery": "Aesthetic Plastic and Reconstructive Surgery",
+  "biochemist": "Biochemist"
+},
+"testimonialsData": {
+  "roles": {
+    "patient": "Patient"
+  },
+  "items": {
+    "1": {
+      "text": "I was extremely satisfied with the treatment process I received at Etik Hospital. The doctors were very attentive and patient-focused. The staff were friendly and helpful. The cleanliness of the hospital was also at a very good level. I would definitely recommend it."
+    },
+    "2": {
+      "text": "My experience at Etik Hospital deeply impressed me. Nurses and doctors showed extraordinary empathy toward patients. I was informed at every step of my treatment process and felt at ease. The hospital environment was also very comfortable. Thank you, Etik Hospital."
+    },
+    "3": {
+      "text": "I had concerns before going to Etik Hospital, but once I arrived, all my worries disappeared. Thanks to my doctors' professionalism and the hospital's modern medical facilities, my diagnosis and treatment process started quickly. I recommend Etik Hospital to everyone."
+    },
+    "4": {
+      "text": "I was very satisfied with the treatment process I went through at Etik Hospital. Our doctors were always friendly and understanding. I was informed and supported at every step of my treatment. The hospital's hygiene standards were also very high."
+    }
+  }
+},
+"medicalUnitsData": {
+  "categories": {
+    "cerrahi": {
+      "title": "Surgical Units",
+      "description": "Our departments that require surgical intervention and operations.",
+      "longDescription": [
+        "Long description (on the detail page)"
+      ],
+      "bullets": [
+        "Diagnosis and treatment processes",
+        "Pre-operative evaluation",
+        "Follow-up and monitoring"
+      ]
+    },
+    "dahili": {
+      "title": "Internal Medicine Units",
+      "description": "Our internal branches focused on diagnosis, monitoring and treatment.",
+      "longDescription": [
+        "Long description (on the detail page)"
+      ],
+      "bullets": [
+        "Diagnosis and treatment processes",
+        "Pre-operative evaluation",
+        "Follow-up and monitoring"
+      ]
+    },
+    "diger": {
+      "title": "Other Units",
+      "description": "Our supporting units in different areas of specialization.",
+      "longDescription": [
+        "Long description (on the detail page)"
+      ],
+      "bullets": [
+        "Diagnosis and treatment processes",
+        "Pre-operative evaluation",
+        "Follow-up and monitoring"
+      ]
+    },
+    "paramedikal": {
+      "title": "Paramedical",
+      "description": "Healthcare services that support diagnosis and treatment processes.",
+      "longDescription": [
+        "Long description (on the detail page)"
+      ],
+      "bullets": [
+        "Diagnosis and treatment processes",
+        "Pre-operative evaluation",
+        "Follow-up and monitoring"
+      ]
+    }
+  },
+  "branches": {
+    "estetikPlastikRekonstruktifCerrahi": {
+      "title": "Aesthetic Plastic and Reconstructive Surgery",
+      "description": "Aesthetic and Reconstructive Surgery is a medical specialty that includes surgical procedures aimed at correcting congenital or acquired tissue and organ deformities and improving aesthetic appearance.",
+      "longDescription": [
+        "Plastic Surgery is a broad discipline that extends across various areas of medicine and includes many sub-branches such as reconstructive surgery, hand surgery, craniofacial surgery, microsurgery and burn treatment in addition to aesthetic surgery. Reconstructive surgery includes the repair of all kinds of tissue loss affecting the skin, subcutaneous tissues and bones in the body. For example, separation of fused fingers, treatment of traumatic burns, and repair of cuts and limb loss are within this field.",
+        "Aesthetic surgery, on the other hand, includes operations performed to improve and beautify body appearance. The main purpose is beauty and aesthetic concerns rather than a medical problem. However, in some cases aesthetic surgery may also involve medical problems. For example, surgically correcting excessively large breasts or reshaping an excessively obese torso may involve both medical and aesthetic concerns.",
+        "In addition to reconstructive and aesthetic surgery, Plastic Surgery also deals with pathological conditions such as tissue deformities throughout the body, surgical scars and trauma-related sagging. At Etik Hospital, our plastic surgery specialists offer the most suitable treatment plans by considering patients' demands and needs in order to both address aesthetic concerns and solve health problems. By adopting a personalized and safe approach for every patient, we work for our patients' healthy lives and satisfaction."
+      ]
+    },
+    "genelCerrahi": {
+      "title": "General Surgery",
+      "description": "General surgery is a broad specialty covering surgical interventions in many areas such as the abdomen, breast, skin, soft tissues and hernias. It includes both emergency and planned operations.",
+      "longDescription": [
+        "Etik Hospital provides services at high quality standards in surgery and post-operative care processes with its doctors specialized in General Surgery and experienced medical staff. With fully equipped hospital facilities, operating rooms and supportive medical care units in various cities of Turkey, surgical processes are managed in the healthiest way possible.",
+        "Thanks to its team of doctors specialized in different surgical fields, the aim is to effectively treat and improve all diseases within the scope of General Surgery. Etik Hospital aims to ensure patient safety and comfort by using the latest technology in surgical interventions.",
+        "All medical and psychological support needed by patients before, during and after surgery is meticulously provided by Etik Hospital's expert staff. The health and well-being of our patients are always our priority.",
+        "As Etik Hospital, with our teams specialized in General Surgery, we strive to provide our patients with the best treatment and contribute to their healthy lives. We work to ensure a personalized and safe treatment experience for every patient."
+      ]
+    },
+    "gozHastaliklari": {
+      "title": "Eye Diseases",
+      "description": "Eye diseases cover the diagnosis and treatment of disorders affecting vision and eye health. They include conditions such as myopia, hyperopia, astigmatism, cataracts and glaucoma.",
+      "longDescription": [
+        "Etik Hospital provides services in the field of eye diseases with doctors specialized in ophthalmology and state-of-the-art equipment. Eye diseases are physical conditions that may arise due to various environmental or genetic factors and affect the ability to see. Any disease occurring in the eyelids, the membrane of the eye, tear ducts, the lens or the nerve tissues surrounding the eye is considered an eye disease.",
+        "Etik Hospital offers a wide range of services in the diagnosis and treatment of eye diseases. From visual disorders to common eye conditions such as cataracts, glaucoma and retinal diseases, the hospital consists of a team specialized in the diagnosis and treatment of all kinds of eye problems.",
+        "In our hospital, modern imaging and testing methods are used in the diagnosis of eye diseases. In addition, the latest technological equipment is used in surgical interventions such as eye surgery and laser treatment.",
+        "Etik Hospital aims to provide the highest level of service for patients' health and comfort. By creating a personalized treatment plan for each patient, it helps patients achieve a healthier eye life. You can trust Etik Hospital to protect your eye health and fight visual problems."
+      ]
+    },
+    "gogusHastaliklari": {
+      "title": "Chest Diseases",
+      "description": "Chest diseases are a branch of medicine that covers the diagnosis, treatment and follow-up of respiratory system diseases. It includes the evaluation of asthma, COPD, pneumonia and lung diseases.",
+      "longDescription": [
+        "The Chest Diseases Department of Etik Hospital is a specialized medical department focused on the diagnosis and treatment of diseases related to the lungs and respiratory system. It deals with various conditions such as asthma, allergic diseases, bronchitis, chronic obstructive pulmonary disease, pneumonia, tuberculosis, pulmonary embolism, chronic cough and lung cancer.",
+        "The specialist physicians working in our department adopt a multidisciplinary approach in diagnosing and treating diseases. In this process, various techniques such as advanced radiological imaging tests, laboratory tests, and procedures performed in the pulmonary function laboratory like vital capacity testing and diffusion testing are used.",
+        "Physicians in the chest diseases department help their patients not only in the diagnosis and treatment of diseases, but also in matters such as smoking addiction, smoking-related diseases and smoking cessation methods.",
+        "The specialists of Etik Hospital's Chest Diseases Department undergo a long training process in order to diagnose, treat and follow up on lung diseases. This process includes six years of medical school education followed by four years of specialty training in chest diseases.",
+        "The health and comfort of our patients are always our priority. As the Chest Diseases Department of Etik Hospital, we strive to provide the best treatment to our patients and contribute to their healthy lives. By adopting a personalized treatment approach for each patient, we aim to solve our patients' health problems in the most effective way."
+      ]
+    },
+    "ortopediVeTravmatoloji": {
+      "title": "Orthopedics and Traumatology",
+      "description": "The Orthopedics and Traumatology department deals with the diagnosis and treatment of diseases of the bones, joints, muscles, ligaments and tendons.",
+      "longDescription": [
+        "The Orthopedics and Traumatology department deals with the diagnosis and treatment of diseases affecting the structures that make up the musculoskeletal system, such as bones, joints, muscles, ligaments and tendons. Many orthopedic problems such as fractures, dislocations, sports injuries, joint calcification, meniscus and ligament injuries are evaluated within the scope of this department. The Orthopedics and Traumatology unit of Etik Hospital provides comprehensive healthcare services to its patients with modern diagnostic methods and up-to-date treatment approaches. Our team of specialist doctors creates personalized treatment plans aimed at improving patients' quality of life and helping them regain mobility."
+      ]
+    },
+    "kadinHastaliklariDogum": {
+      "title": "Gynecology and Obstetrics",
+      "description": "Gynecology and obstetrics covers the diagnosis and treatment of diseases related to the female reproductive system. It includes pregnancy follow-up, childbirth processes and the evaluation of gynecological diseases.",
+      "longDescription": [
+        "The Gynecology and Obstetrics Department of Etik Hospital is a unit that provides comprehensive services related to women's health and benefits from all the possibilities of modern medicine. The specialty of Gynecology and Obstetrics covers the branch of 'Gynecology and Obstetrics' and includes the diagnosis and treatment of diseases related to the female reproductive organs, as well as pregnancy follow-up and childbirth procedures.",
+        "The gynecology part focuses on the diagnosis and treatment of diseases related to the female reproductive organs such as the uterus, cervix, vagina, vulva and tubes, while the obstetrics part focuses on pregnancy follow-up and the resolution of pregnancy-related problems. In addition, treatments related to reproductive health such as the diagnosis of female infertility, hysterosalpingography, ovulation tracking, insemination and IVF methods are also within the expertise of this department.",
+        "The Gynecology and Obstetrics department provides services in many areas such as pediatric and adolescent gynecology, gynecological cancers, urogynecology, reproductive health, follow-up of high-risk pregnancies, sexual dysfunctions, menopause and gynecological operations. Our expert staff aims to provide the most effective and reliable healthcare service by creating a personalized treatment plan according to each patient's needs.",
+        "As the Gynecology and Obstetrics Department of Etik Hospital, we are proud to provide the highest quality service so that women can lead healthy lives and go through childbirth safely. We work to stand by our patients at every stage and to keep their health and happiness at the highest level."
+      ]
+    },
+    "kardiyoloji": {
+      "title": "Cardiology",
+      "description": "Cardiology is a specialty that covers the diagnosis, treatment and follow-up of diseases related to the heart and vascular system. It includes the evaluation of heart rhythm disorders and vascular diseases.",
+      "longDescription": [
+        "The Cardiology Department of Etik Hospital is a vital unit focused on heart health. The heart is one of the most important organs of the body and constantly circulates blood, carrying oxygen and nutrients to body tissues. The proper functioning of the heart is of vital importance for overall health and quality of life.",
+        "Cardiology is one of the key branches of medicine and deals with the heart and circulatory system. Cardiologists are physicians specialized in the diagnosis and treatment of heart diseases. The Cardiology Department of Etik Hospital offers a wide range of services in the diagnosis, treatment and follow-up of heart diseases.",
+        "In our cardiology department, modern diagnostic methods are used for the diagnosis of various conditions related to heart health. With advanced technology-based diagnostic tools such as echocardiography, stress tests, electrocardiography (ECG) and heart rhythm monitoring, patients' heart health is evaluated in detail.",
+        "The Cardiology Department of Etik Hospital has a team specialized in the diagnosis and treatment of heart disorders. Our experienced physicians offer the most effective and reliable treatment options for various heart diseases such as heart attack, heart rhythm disorders, heart failure and vascular blockage.",
+        "The health and well-being of our patients are always our priority. As the Cardiology Department of Etik Hospital, you can be sure that we have the most advanced technology and the most qualified specialists to protect heart health and effectively treat heart diseases. With a personalized treatment approach for every patient, we are here to keep your heart health safe."
+      ]
+    },
+    "noroloji": {
+      "title": "Neurology",
+      "description": "Neurology is a branch of medicine concerned with the diagnosis and treatment of diseases of the brain, spinal cord and nervous system. It includes the evaluation of neurological diseases such as stroke, epilepsy and Parkinson's disease.",
+      "longDescription": [
+        "The Neurology Department of Etik Hospital is a medical unit concerned with the physiology and diseases of the nervous system. The nervous system consists of the brain, spinal cord and peripheral nervous system. The diagnosis and treatment of diseases that develop in these three regions and do not require surgical intervention are carried out by the Neurology Department.",
+        "Neurology is divided into two main branches: adult neurology and pediatric neurology. In both branches, our specialized physicians work to provide our patients with comprehensive and personalized treatment. In our neurology department, in addition to outpatient and inpatient treatment services, intensive care services are also provided for the follow-up of diseases requiring intensive care.",
+        "Focusing on our patients' health, we use the latest technological opportunities in the diagnosis and treatment of neurological disorders. Our expert staff consists of experienced physicians who are specialists in their fields, and we offer our patients effective and reliable treatment options.",
+        "As the Neurology Department of Etik Hospital, we are committed to providing the best service to protect our patients' health and improve their quality of life. With treatment plans specially designed for each patient, we fight neurological health problems. The safety and well-being of our patients are always our priority."
+      ]
+    },
+    "uroloji": {
+      "title": "Urology",
+      "description": "Urology deals with the diagnosis and treatment of diseases of the urinary tract and male reproductive system. It includes the evaluation of diseases of the kidneys, bladder, prostate and urinary tract.",
+      "longDescription": [
+        "Etik Hospital is a medical center with doctors specialized in the field of urology, which deals with the urinary tract and urinary system. Urologists specialize in the diagnosis, treatment and follow-up of urological problems seen in women, men and children.",
+        "Urology deals with various subjects such as urinary tract infections, kidney stones, urinary incontinence, prostate problems and the health of reproductive organs. The Urology Department of Etik Hospital is equipped with modern medical technology and expertise to manage such conditions in the most effective and reliable way.",
+        "Urological problems can affect anyone regardless of gender or age. Etik Hospital aims to provide the most appropriate and personalized care for each patient by adopting a special treatment approach.",
+        "Our specialist urologists have extensive experience and expertise in understanding patients' health problems and offering the most suitable treatment options. By focusing on our patients' health, we strive to help effectively manage urological problems and improve their quality of life. As Etik Hospital, we are proud to provide our patients with a professional and reliable environment in the fight against urological health problems."
+      ]
+    },
+    "dahiliye": {
+      "title": "Internal Medicine",
+      "description": "Internal medicine is a fundamental branch of medicine that covers the diagnosis, treatment and follow-up of internal diseases seen in adults. It includes the evaluation of internal organ systems and general health management.",
+      "longDescription": [
+        "The development of early diagnosis and treatment methods has enabled medicine to make significant progress. Thanks to the use of new technologies, many diseases can now be detected before they progress. Laboratory tests, advanced imaging techniques and other modern technologies facilitate the diagnosis and treatment of diseases.",
+        "The internal medicine department is one of the units where these technologies are used and that plays an important role in the diagnosis and treatment of diseases. As Etik Hospital, our internal medicine department ensures that diseases are diagnosed at an early stage through detailed examinations and the opportunities offered by modern medicine. In this way, patients' treatment processes are carried out more effectively and successfully.",
+        "The internal medicine department undertakes the diagnosis and treatment of various disorders related to internal organs in patients over the age of 15. It also informs patients in order to protect their health and prevent possible illnesses. It provides services in a wide range of conditions such as hypertension, respiratory diseases, diabetes, thyroid problems, kidney and intestinal diseases.",
+        "The internal medicine department of Etik Hospital helps patients lead healthy lives with accurate diagnosis and effective treatment plans by approaching their health problems sensitively. We would like to state that we are always by our patients' side with treatment methods specially designed for their needs. For a healthy future, the internal medicine department of Etik Hospital is always at your service."
+      ]
+    },
+"deriZuhreviHastaliklar": {
+      "title": "Skin and Venereal Diseases",
+      "description": "Dermatology deals with the diagnosis and treatment of diseases affecting the skin, hair, nails and mucous membranes. It also includes the evaluation of sexually transmitted diseases.",
+      "longDescription": [
+        "Skin and Venereal Diseases (Dermatology) is an important branch of medicine concerned with the diagnosis and treatment of the skin, hair, nails, mucous membranes and sexually transmitted diseases. Dermatology specialists deal with a wide range of skin problems and strive to ensure that patients have healthy skin.",
+        "As the Dermatology Department of Etik Hospital, we are here to protect your skin health and solve all kinds of skin-related problems. Our dermatology specialists support patients in having healthy skin by using modern diagnostic and treatment methods.",
+        "Dermatology specialists use various methods such as skin examination, microscopic analysis, biopsy and laboratory tests in the diagnosis of diseases. Treatment plans for skin problems may generally include medications, topical creams, laser therapies or surgical interventions.",
+        "Skin health and appearance have a significant effect on overall health and quality of life. As the Dermatology Department of Etik Hospital, we strive to achieve the best results with personalized treatment approaches for each patient. We are pleased to serve you for healthy skin and a healthy life."
+      ]
+    },
+    "kulakBurunBogaz": {
+      "title": "Ear, Nose and Throat",
+      "description": "Ear, nose and throat diseases cover the diagnosis and treatment of health problems related to the ear, nose and throat. It includes the evaluation of hearing loss, sinusitis and throat diseases.",
+      "longDescription": [
+        "The Ear, Nose and Throat (ENT) Department of Etik Hospital is managed by experienced specialist physicians and equipped with state-of-the-art devices. All ENT diseases are successfully diagnosed and treated here. Thanks to the advanced technological infrastructure in our hospital, surgeries in the ear, nose and throat region are performed with endoscopic, microscopic or open surgical methods using the most up-to-date techniques.",
+        "The diagnosis and treatment processes of patients from all age groups are carried out in cooperation with experienced physicians from other specialties when necessary. This multidisciplinary approach gives us the opportunity to offer the most comprehensive and effective treatment plans to our patients.",
+        "The ENT Department of Etik Hospital specializes in the diagnosis and treatment of a wide range of diseases related to the ear, nose and throat. In addition to common conditions such as ear infections, hearing loss, nasal congestion, sinusitis, sore throat and hoarseness, more complex cases are also handled with great care.",
+        "The health and well-being of our patients are always our priority. As the ENT Department of Etik Hospital, we are proud to provide the best treatment with our expert team and state-of-the-art equipment. By creating a personalized treatment plan for each patient, we strive to help them lead a healthy life."
+      ]
+    },
+"cocukSagligiHastaliklari": {
+  "title": "Child Health and Diseases",
+  "description": "Child health and diseases is a specialty that covers health monitoring and the diagnosis and treatment of diseases in children from infancy to adolescence.",
+  "longDescription": [
+    "The Child Health and Diseases Department of Etik Hospital is a medical specialty focused on the prevention, diagnosis and treatment of children's health problems from infancy to adolescence. It covers various health issues such as infectious diseases, allergic reactions, growth and development disorders, nutritional problems and vaccination follow-up.",
+    "The specialist pediatricians working in this department provide supportive and preventive healthcare services for children's physical and psychological development. With a multidisciplinary approach, preventive services such as developmental assessment, regular health check-ups and vaccination programs are provided.",
+    "The pediatrics department also helps in areas such as nutritional counseling, adolescent health, behavioral problems and educational difficulties to support healthy growth and development in children. Personalized treatment plans are developed according to the needs of children and their families.",
+    "The specialists of the Child Health and Diseases Department of Etik Hospital undergo comprehensive training to support healthy growth and development processes as well as childhood diseases. After medical school education, they receive specialty training in pediatrics.",
+    "As a department, we strive to help children grow up as healthy and happy individuals. Each of our children is special, and our main priority is to provide them with the best healthcare service and improve the quality of life of both them and their families. By contributing to the development and health of every child, we continue to build the foundations of a healthy society."
+  ]
+},
+
+"agizDisSagligi": {
+  "title": "Oral and Dental Health",
+  "description": "Oral and dental health covers the diagnosis and treatment of diseases affecting the teeth, gums and oral structure. It aims to preserve a healthy oral structure and support an aesthetic smile.",
+  "longDescription": [
+    "Oral and dental health is an important part of our overall health and should not be neglected. As Etik Hospital, we strive to offer the best in protecting and treating your oral and dental health.",
+    "Diseases of the mouth and teeth can have serious effects not only inside the mouth but also on overall health. For example, conditions such as tooth decay and gum disease can lead to oral infections, and these infections may spread throughout the body and cause health problems. In addition, poor oral hygiene can increase the risk of serious health conditions such as heart disease, diabetes and respiratory infections.",
+    "The Oral and Dental Health Departments of Etik Hospital treat all kinds of oral and dental problems with expert dentists and experienced staff through modern technology and a patient-oriented approach. We offer a wide range of services, from routine dental cleaning and check-ups to teeth whitening and aesthetic applications.",
+    "The health and satisfaction of our patients are our priority. Therefore, we carefully create personalized treatment plans for each patient and provide the most effective and reliable treatment methods. As Etik Hospital, we are here to help protect your oral and dental health and allow you to live with a healthy smile. We look forward to providing you with the best service."
+  ]
+},
+
+"radyoloji": {
+  "title": "Radiology",
+  "description": "Radiology is a branch of medicine that covers imaging methods used in the diagnosis of diseases. It supports the diagnostic process with technologies such as X-ray, ultrasound, MRI and computed tomography.",
+  "longDescription": [
+    "The Radiology Departments of Etik Hospital are specialized in technological methods used to image the internal structure of the body and play a critical role in the diagnosis of diseases. Radiological examinations are vital for accurate diagnosis and an effective treatment process. With advancing technology, different imaging techniques make it possible to examine body systems in detail, which enables successful results in the fight against diseases.",
+    "The Radiology Departments of Etik Hospital are equipped with advanced technology devices and an experienced specialist staff to provide service at world standards. Images obtained with fully digital technology-based systems are archived digitally and made easily accessible. In our departments, devices with low dose and high image quality are used to obtain the most sensitive images while prioritizing patient comfort.",
+    "In addition, imaging examinations of infant and pediatric patients are safely performed with child-friendly dose applications. For the health and comfort of our patients, we continuously follow technological and procedural developments and focus on providing high-quality service using the most up-to-date methods. As Etik Hospital, we are proud to work to respond to our patients' needs and health requirements in the best possible way."
+  ]
+},
+
+"lazerEpilasyon": {
+  "title": "Laser Hair Removal",
+  "description": "Laser hair removal is a medical procedure applied to get rid of unwanted hair by using laser. In laser hair removal, which is preferred by both women and men, a light absorbed by the pigment in the hair turns into heat.",
+  "longDescription": [
+    "Etik Hospital is a healthcare institution that offers modern medical procedures such as laser hair removal, which is preferred by women and men to get rid of unwanted hair. Laser hair removal is an effective method used for the permanent reduction or removal of unwanted hair.",
+    "The laser hair removal procedure takes place by applying a light to the skin that is absorbed by the pigment in the hair. This light penetrates the hair follicles, turns into heat and damages the roots that produce hair. Thus, future hair growth is prevented and unwanted hair is reduced.",
+    "At Etik Hospital, the laser hair removal procedure is customized according to factors such as the person's skin type, color, hair structure and thickness. In addition, the person's hormonal condition is also taken into account when creating the treatment plan. In this way, the most effective and safe results are achieved for each patient.",
+    "Patients enjoy getting rid of unwanted hair permanently through laser hair removal procedures performed by specialized teams at Etik Hospital. By using the latest innovations in modern medicine and technology, we aim to provide our patients with the best service."
+  ]
+},
+
+"psikiyatri": {
+  "title": "Psychiatry",
+  "description": "Psychiatry deals with the diagnosis and treatment of mental health problems such as depression, anxiety and similar conditions. It aims to protect individuals' mental health and improve quality of life.",
+  "longDescription": [
+    "The Psychiatry Department of Etik Hospital is a medical specialty focused on the diagnosis, treatment and management of individuals' mental health and psychological disorders. It deals with depression, anxiety disorders, bipolar disorder, schizophrenia, obsessive-compulsive disorder, panic attacks and other mental conditions.",
+    "The specialist psychiatrists in the department support their patients through various treatment methods such as individual therapy, group therapy, medication and, when necessary, advanced psychological tests. By adopting a multidisciplinary approach, a treatment plan covering the psychological, social and biological aspects of patients is developed.",
+    "The psychiatry department also provides counseling services in areas such as stress management, development of life skills, relationship problems and personal growth. The main purpose of the department is to protect patients' mental health and improve their quality of life.",
+    "The specialists of the Psychiatry Department of Etik Hospital have extensive training and experience in the diagnosis and treatment of psychiatric diseases. This includes receiving psychiatry specialty training after medical school.",
+    "With the awareness that every patient is unique, personalized treatment plans are created so that patients can feel better and continue their social lives.",
+    "As the Psychiatry Department of Etik Hospital, we work to improve individuals' mental health and create a happier, healthier society. By offering respect, understanding and support to each of our patients, we aim to stand by them throughout their recovery process."
+  ]
+   }
+  }
+ }
+}

@@ -1,29 +1,29 @@
 import { Link } from "react-router-dom"
 import { Phone, Mail, MapPin, Clock, Facebook, Instagram } from "lucide-react"
+import { useTranslation } from "react-i18next"
 import { hospitalInfo, contactInfo, navLinks } from "@/data/hospital"
 
 export function Footer() {
+  const { t } = useTranslation(["common", "hospital"])
   const currentYear = new Date().getFullYear()
 
   return (
     <footer className="bg-foreground text-white">
-      {/* Main Footer */}
       <div className="container-narrow py-12 lg:py-16">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 lg:gap-12">
-          {/* Company Info */}
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-5 lg:gap-12">
           <div className="lg:col-span-1">
-            <Link to="/" className="inline-flex flex-col items-start mb-5">
-              <div className="bg-white rounded-xl px-4 py-3 shadow-sm">
+            <Link to="/" className="mb-5 inline-flex flex-col items-start">
+              <div className="rounded-xl bg-white px-4 py-3 shadow-sm">
                 <img
                   src="/images/logo.jpg"
-                  alt="Etik Hastanesi"
-                  className="h-14 lg:h-16 w-auto object-contain"
+                  alt={t("hospital:name")}
+                  className="h-14 w-auto object-contain lg:h-16"
                 />
               </div>
             </Link>
 
-            <p className="text-gray-400 text-sm mb-6">
-              {hospitalInfo.description}
+            <p className="mb-6 text-sm text-gray-400">
+              {t("hospital:description")}
             </p>
 
             <div className="flex items-center gap-3">
@@ -31,16 +31,17 @@ export function Footer() {
                 href="https://www.instagram.com/etikhastanesi/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-primary transition-colors"
+                className="flex h-10 w-10 items-center justify-center rounded-lg bg-white/10 transition-colors hover:bg-primary"
                 aria-label="Instagram"
               >
                 <Instagram className="h-5 w-5" />
               </a>
+
               <a
                 href="https://www.facebook.com/etikhastanesi"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="w-10 h-10 bg-white/10 rounded-lg flex items-center justify-center hover:bg-primary transition-colors"
+                className="flex h-10 w-10 items-center justify-center rounded-lg bg-white/10 transition-colors hover:bg-primary"
                 aria-label="Facebook"
               >
                 <Facebook className="h-5 w-5" />
@@ -48,103 +49,111 @@ export function Footer() {
             </div>
           </div>
 
-          {/* Quick Links */}
           <div>
-            <h4 className="font-semibold text-lg mb-4">Hızlı Bağlantılar</h4>
+            <h4 className="mb-4 text-lg font-semibold">
+              {t("hospital:footer.quickLinks")}
+            </h4>
+
             <ul className="space-y-2">
               {navLinks.map((link) => (
                 <li key={link.href}>
                   <Link
                     to={link.href}
-                    className="text-gray-400 hover:text-white transition-colors text-sm"
+                    className="text-sm text-gray-400 transition-colors hover:text-white"
                   >
-                    {link.label}
+                    {t(link.labelKey)}
                   </Link>
                 </li>
               ))}
             </ul>
           </div>
 
-          {/* Departments */}
           <div>
-            <h4 className="font-semibold text-lg mb-4">Tıbbi Birimlerimiz</h4>
+            <h4 className="mb-4 text-lg font-semibold">
+              {t("hospital:footer.medicalUnits")}
+            </h4>
+
             <ul className="space-y-2">
               <li>
                 <Link
                   to="/tibbi-birimler/cerrahi"
-                  className="text-gray-400 hover:text-white transition-colors text-sm"
+                  className="text-sm text-gray-400 transition-colors hover:text-white"
                 >
-                  Cerrahi Birimler
+                  {t("hospital:footer.units.surgical")}
                 </Link>
               </li>
               <li>
                 <Link
                   to="/tibbi-birimler/dahili"
-                  className="text-gray-400 hover:text-white transition-colors text-sm"
+                  className="text-sm text-gray-400 transition-colors hover:text-white"
                 >
-                  Dahili Birimler
+                  {t("hospital:footer.units.internal")}
                 </Link>
               </li>
               <li>
                 <Link
                   to="/tibbi-birimler/diger"
-                  className="text-gray-400 hover:text-white transition-colors text-sm"
+                  className="text-sm text-gray-400 transition-colors hover:text-white"
                 >
-                  Diğer Birimler
+                  {t("hospital:footer.units.other")}
                 </Link>
               </li>
               <li>
                 <Link
                   to="/tibbi-birimler/paramedikal"
-                  className="text-gray-400 hover:text-white transition-colors text-sm"
+                  className="text-sm text-gray-400 transition-colors hover:text-white"
                 >
-                  Paramedikal
+                  {t("hospital:footer.units.paramedical")}
                 </Link>
               </li>
             </ul>
           </div>
 
-          {/* Legal Info */}
           <div>
-            <h4 className="font-semibold text-lg mb-4">Yasal Bilgiler</h4>
+            <h4 className="mb-4 text-lg font-semibold">
+              {t("hospital:footer.legal")}
+            </h4>
+
             <ul className="space-y-2">
               <li>
                 <Link
                   to="/hizmet-sozlesmesi"
-                  className="text-gray-400 hover:text-white transition-colors text-sm"
+                  className="text-sm text-gray-400 transition-colors hover:text-white"
                 >
-                  Hizmet Sözleşmesi
+                  {t("hospital:footer.legalLinks.serviceAgreement")}
                 </Link>
               </li>
               <li>
                 <Link
                   to="/cerez-politikasi"
-                  className="text-gray-400 hover:text-white transition-colors text-sm"
+                  className="text-sm text-gray-400 transition-colors hover:text-white"
                 >
-                  Çerez Politikası
+                  {t("hospital:footer.legalLinks.cookiePolicy")}
                 </Link>
               </li>
               <li>
                 <Link
                   to="/gizlilik-politikasi"
-                  className="text-gray-400 hover:text-white transition-colors text-sm"
+                  className="text-sm text-gray-400 transition-colors hover:text-white"
                 >
-                  Gizlilik Politikası
+                  {t("hospital:footer.legalLinks.privacyPolicy")}
                 </Link>
               </li>
             </ul>
           </div>
 
-          {/* Contact Info */}
           <div>
-            <h4 className="font-semibold text-lg mb-4">İletişim</h4>
+            <h4 className="mb-4 text-lg font-semibold">
+              {t("hospital:footer.contact")}
+            </h4>
+
             <ul className="space-y-3">
               <li>
                 <a
                   href={`tel:${contactInfo.phone.replace(/\s/g, "")}`}
-                  className="flex items-start gap-3 text-gray-400 hover:text-white transition-colors text-sm"
+                  className="flex items-start gap-3 text-sm text-gray-400 transition-colors hover:text-white"
                 >
-                  <Phone className="h-4 w-4 mt-0.5 flex-shrink-0" />
+                  <Phone className="mt-0.5 h-4 w-4 shrink-0" />
                   <span>{contactInfo.phone}</span>
                 </a>
               </li>
@@ -153,26 +162,30 @@ export function Footer() {
                 <li>
                   <a
                     href={`mailto:${contactInfo.email}`}
-                    className="flex items-start gap-3 text-gray-400 hover:text-white transition-colors text-sm"
+                    className="flex items-start gap-3 text-sm text-gray-400 transition-colors hover:text-white"
                   >
-                    <Mail className="h-4 w-4 mt-0.5 flex-shrink-0" />
+                    <Mail className="mt-0.5 h-4 w-4 shrink-0" />
                     <span>{contactInfo.email}</span>
                   </a>
                 </li>
               )}
 
-              <li className="flex items-start gap-3 text-gray-400 text-sm">
-                <MapPin className="h-4 w-4 mt-0.5 flex-shrink-0" />
+              <li className="flex items-start gap-3 text-sm text-gray-400">
+                <MapPin className="mt-0.5 h-4 w-4 shrink-0" />
                 <span>{contactInfo.address}</span>
               </li>
 
-              <li className="flex items-start gap-3 text-gray-400 text-sm">
-                <Clock className="h-4 w-4 mt-0.5 flex-shrink-0" />
+              <li className="flex items-start gap-3 text-sm text-gray-400">
+                <Clock className="mt-0.5 h-4 w-4 shrink-0" />
                 <div>
-                  <p>Hafta içi: {contactInfo.workingHours.weekdays}</p>
-                  <p>Hafta sonu: {contactInfo.workingHours.weekend}</p>
-                  <p className="text-primary font-medium">
-                    {contactInfo.workingHours.emergency}
+                  <p>
+                    {t("hospital:footer.weekdays")}: {contactInfo.workingHours.weekdays}
+                  </p>
+                  <p>
+                    {t("hospital:footer.weekend")}: {contactInfo.workingHours.weekend}
+                  </p>
+                  <p className="font-medium text-primary">
+                    {t("hospital:workingHours.emergency")}
                   </p>
                 </div>
               </li>
@@ -181,24 +194,25 @@ export function Footer() {
         </div>
       </div>
 
-      {/* Emergency Banner */}
       <div className="bg-emergency py-3">
-        <div className="container-narrow flex flex-col sm:flex-row items-center justify-center gap-2 text-center">
-          <span className="font-semibold">Acil Durumlarda:</span>
+        <div className="container-narrow flex flex-col items-center justify-center gap-2 text-center sm:flex-row">
+          <span className="font-semibold">
+            {t("hospital:footer.emergencyBanner")}
+          </span>
           <a
             href={`tel:${contactInfo.emergency}`}
-            className="font-bold text-xl hover:opacity-80 transition-opacity"
+            className="text-xl font-bold transition-opacity hover:opacity-80"
           >
             {contactInfo.emergency}
           </a>
         </div>
       </div>
 
-      {/* Copyright */}
       <div className="border-t border-white/10 py-6">
-        <div className="container-narrow text-center text-gray-500 text-sm">
+        <div className="container-narrow text-center text-sm text-gray-500">
           <p>
-            &copy; {currentYear} {hospitalInfo.name}. Tüm hakları saklıdır.
+            &copy; {currentYear} {t("hospital:name")}.{" "}
+            {t("hospital:footer.copyright")}
           </p>
         </div>
       </div>

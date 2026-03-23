@@ -4,8 +4,10 @@ import { Menu, X, Phone, Clock } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
 import { contactInfo, navLinks } from "@/data/hospital"
+import { useTranslation } from "react-i18next"
 
 export function Header() {
+  const { t, i18n } = useTranslation(["common", "hospital"])
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const location = useLocation()
@@ -14,6 +16,7 @@ export function Header() {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20)
     }
+
     window.addEventListener("scroll", handleScroll, { passive: true })
     return () => window.removeEventListener("scroll", handleScroll)
   }, [])
@@ -22,9 +25,11 @@ export function Header() {
     setIsMobileMenuOpen(false)
   }, [location.pathname])
 
+  const isTR = i18n.language.startsWith("tr")
+  const isEN = i18n.language.startsWith("en")
+
   return (
     <>
-      {/* Top Bar */}
       <div className="hidden lg:block bg-primary text-primary-foreground py-2">
         <div className="container-narrow flex items-center justify-between text-sm">
           <div className="flex items-center gap-6">
@@ -33,22 +38,23 @@ export function Header() {
               className="flex items-center gap-2 hover:opacity-80 transition-opacity"
             >
               <Phone className="h-4 w-4" />
-              {contactInfo.phone}
+              <span>{contactInfo.phone}</span>
             </a>
+
             <span className="flex items-center gap-2">
               <Clock className="h-4 w-4" />
-              {contactInfo.workingHours.emergency}
+              <span>{t("hospital:workingHours.emergency")}</span>
             </span>
           </div>
+
           <div className="flex items-center gap-4">
             <span className="font-semibold">
-              Acil Yardım: {contactInfo.emergency}
+              {t("common:emergencyHelp")}: {contactInfo.emergency}
             </span>
           </div>
         </div>
       </div>
 
-      {/* Main Header */}
       <header
         className={cn(
           "sticky top-0 z-50 transition-all duration-300",
@@ -59,52 +65,85 @@ export function Header() {
       >
         <div className="container-narrow">
           <div className="flex items-center justify-between h-16 lg:h-20">
-            {/* Logo */}
-            <Link to="/" className="flex items-center gap-3">
-             <img
-  src="/images/logo.jpg"
-  alt="Etik Hastanesi"
-  className="h-14 w-auto lg:h-16 object-contain"
-/>
-
+            <Link to="/" className="flex items-center gap-3 shrink-0">
+              <img
+                src="/images/logo.jpg"
+                alt={t("hospital:name")}
+                className="h-14 w-auto lg:h-16 object-contain"
+              />
             </Link>
 
-            {/* Desktop Navigation */}
             <nav className="hidden lg:flex items-center gap-1">
               {navLinks.map((link) => (
                 <Link
                   key={link.href}
                   to={link.href}
                   className={cn(
-                    "px-4 py-2 rounded-lg text-sm font-medium transition-colors",
+                    "px-4 py-2 rounded-xl text-sm font-medium transition-all duration-200",
                     location.pathname === link.href
                       ? "bg-primary/10 text-primary"
-                      : "text-foreground hover:bg-secondary"
+                      : "text-foreground hover:bg-secondary hover:text-primary"
                   )}
                 >
-                  {link.label}
+                  {t(link.labelKey)}
                 </Link>
               ))}
             </nav>
 
-            {/* Desktop CTA */}
             <div className="hidden lg:flex items-center gap-3">
-              <Button variant="outline" size="sm" asChild>
+              <Button
+                variant="outline"
+                size="sm"
+                asChild
+                className="rounded-xl border-primary/30 hover:border-primary hover:bg-primary/5"
+              >
                 <a href={`tel:${contactInfo.phone.replace(/\s/g, "")}`}>
                   <Phone className="h-4 w-4 mr-2" />
-                  Ara
+                  {t("common:call")}
                 </a>
               </Button>
-              <Button size="sm" asChild>
-                <Link to="/iletisim">Randevu Al</Link>
+
+              <Button
+                size="sm"
+                asChild
+                className="rounded-xl shadow-md hover:shadow-lg transition-all"
+              >
+                <Link to="/iletisim">{t("common:bookAppointment")}</Link>
               </Button>
+
+              <div className="flex items-center rounded-full border border-primary/20 bg-white p-1 shadow-sm">
+                <button
+                  type="button"
+                  onClick={() => i18n.changeLanguage("tr")}
+                  className={cn(
+                    "min-w-[44px] rounded-full px-3 py-1.5 text-sm font-semibold transition-all duration-200",
+                    isTR
+                      ? "bg-primary text-primary-foreground shadow-sm"
+                      : "text-muted-foreground hover:text-foreground"
+                  )}
+                >
+                  TR
+                </button>
+
+                <button
+                  type="button"
+                  onClick={() => i18n.changeLanguage("en")}
+                  className={cn(
+                    "min-w-[44px] rounded-full px-3 py-1.5 text-sm font-semibold transition-all duration-200",
+                    isEN
+                      ? "bg-primary text-primary-foreground shadow-sm"
+                      : "text-muted-foreground hover:text-foreground"
+                  )}
+                >
+                  EN
+                </button>
+              </div>
             </div>
 
-            {/* Mobile Menu Button */}
             <button
-              className="lg:hidden p-2 rounded-lg hover:bg-secondary transition-colors"
+              className="lg:hidden p-2 rounded-xl hover:bg-secondary transition-colors"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-              aria-label="Toggle menu"
+              aria-label={t("common:toggleMenu")}
             >
               {isMobileMenuOpen ? (
                 <X className="h-6 w-6" />
@@ -115,11 +154,10 @@ export function Header() {
           </div>
         </div>
 
-        {/* Mobile Menu */}
         <div
           className={cn(
             "lg:hidden overflow-hidden transition-all duration-300 bg-white border-t",
-            isMobileMenuOpen ? "max-h-96" : "max-h-0"
+            isMobileMenuOpen ? "max-h-[36rem]" : "max-h-0"
           )}
         >
           <nav className="container-narrow py-4 space-y-1">
@@ -128,20 +166,42 @@ export function Header() {
                 key={link.href}
                 to={link.href}
                 className={cn(
-                  "block px-4 py-3 rounded-lg font-medium transition-colors",
+                  "block px-4 py-3 rounded-xl font-medium transition-colors",
                   location.pathname === link.href
                     ? "bg-primary/10 text-primary"
                     : "text-foreground hover:bg-secondary"
                 )}
               >
-                {link.label}
+                {t(link.labelKey)}
               </Link>
             ))}
-            <div className="pt-4 space-y-2">
-              <Button className="w-full" asChild>
-                <Link to="/iletisim">Randevu Al</Link>
+
+            <div className="pt-4 space-y-3">
+              <div className="grid grid-cols-2 gap-2">
+                <Button
+                  type="button"
+                  variant={isTR ? "default" : "outline"}
+                  className="rounded-xl"
+                  onClick={() => i18n.changeLanguage("tr")}
+                >
+                  TR
+                </Button>
+
+                <Button
+                  type="button"
+                  variant={isEN ? "default" : "outline"}
+                  className="rounded-xl"
+                  onClick={() => i18n.changeLanguage("en")}
+                >
+                  EN
+                </Button>
+              </div>
+
+              <Button className="w-full rounded-xl" asChild>
+                <Link to="/iletisim">{t("common:bookAppointment")}</Link>
               </Button>
-              <Button variant="outline" className="w-full" asChild>
+
+              <Button variant="outline" className="w-full rounded-xl" asChild>
                 <a href={`tel:${contactInfo.phone.replace(/\s/g, "")}`}>
                   <Phone className="h-4 w-4 mr-2" />
                   {contactInfo.phone}

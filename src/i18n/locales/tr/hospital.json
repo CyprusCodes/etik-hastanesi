@@ -1,0 +1,893 @@
+{
+  "name": "Etik Hastanesi",
+  "tagline": "Lefkoşa'nın İlk Özel Hastanesi",
+  "description": "1999 yılından bu yana Lefkoşa'da sağlık hizmeti veren Etik Hastanesi, modern tıbbi teknoloji ve uzman kadrosuyla 7/24 yanınızda.",
+  "workingHours": {
+    "emergency": "7/24 Acil Servis"
+  },
+  "hero": {
+    "badge": "Güvenilir Sağlık Hizmeti",
+    "titleStart": "Sağlığınız İçin",
+    "titleHighlight": "Güvenilir",
+    "titleEnd": "Çözümler",
+    "emergency": "7/24 Acil Destek",
+    "expertTeam": "Uzman Hekim Kadrosu",
+    "urgentShort": "Acil"
+  },
+  "stats": {
+  "experience": "Yıllık Deneyim",
+  "happyPatients": "Mutlu Hasta",
+  "specialistDoctors": "Uzman Doktor",
+  "emergencyService": "Acil Servis"
+},
+"featuresSection": {
+  "badge": "Neden Biz?",
+  "title": "Etik Hastanesi'ni Tercih Etmeniz İçin Nedenler",
+  "description": "26 yılı aşkın deneyimimiz ve hasta odaklı yaklaşımımızla fark yaratıyoruz."
+},
+"features": {
+  "emergency": {
+    "title": "7/24 Acil Servis",
+    "description": "Acil sağlık ihtiyaçlarınız için günün her saati hizmetinizdeyiz."
+  },
+  "expertTeam": {
+    "title": "Uzman Kadro",
+    "description": "Alanında deneyimli doktorlar ve sağlık profesyonelleri."
+  },
+  "technology": {
+    "title": "Modern Teknoloji",
+    "description": "En son tıbbi cihazlar ve tedavi yöntemleriyle hizmet."
+  },
+  "access": {
+    "title": "Kolay Ulaşım",
+    "description": "Lefkoşa merkezinde, kolay ulaşılabilir konumda."
+  }
+},
+"aboutSection": {
+  "badge": "Hakkımızda",
+  "title": "Güvenilir Sağlık Hizmeti İçin Doğru Adres",
+  "description": "{{foundedYear}} yılında Lefkoşa'nın ilk özel hastanesi olarak kurulan {{hospitalName}}, bugün modern tıbbi teknolojisi ve uzman kadrosuyla Kuzey Kıbrıs'ın önde gelen sağlık kuruluşları arasında yer almaktadır.",
+  "experienceLabel": "Yıllık Deneyim",
+  "cta": "Daha Fazla Bilgi",
+  "highlights": [
+    "Lefkoşa'nın ilk özel hastanesi",
+    "26 yılı aşkın deneyim",
+    "7/24 acil servis hizmeti",
+    "Uzman doktor kadrosu",
+    "Modern tıbbi teknoloji",
+    "Hasta memnuniyeti odaklı yaklaşım"
+  ]
+},
+"servicesSection": {
+  "badge": "Hizmetlerimiz",
+  "title": "Tıbbi Birimler",
+  "description": "Tıbbi birimlerimiz kategoriler halinde listelenmiştir. Size uygun bölümü seçerek detaylara ulaşabilirsiniz.",
+  "details": "Detaylar",
+  "allUnits": "Tüm Tıbbi Birimler",
+  "categories": {
+    "surgical": {
+      "title": "Cerrahi Birimler",
+      "description": "Cerrahi müdahale ve ameliyat gerektiren branşlarımız."
+    },
+    "internal": {
+      "title": "Dahili Birimler",
+      "description": "Tanı, takip ve tedavi odaklı dahili branşlarımız."
+    },
+    "other": {
+      "title": "Diğer Birimler",
+      "description": "Farklı uzmanlık alanlarında destek birimlerimiz."
+    },
+    "paramedical": {
+      "title": "Paramedikal",
+      "description": "Tanı ve tedavi süreçlerini destekleyen sağlık hizmetleri."
+    }
+  }
+},
+"doctorsSection": {
+  "badge": "Doktorlarımız",
+  "title": "Uzman Hekim Kadromuz",
+  "description": "Alanında deneyimli uzman doktorlarımız ile hastalarımıza güvenilir ve kaliteli sağlık hizmeti sunuyoruz.",
+  "cta": "Tüm Doktorlarımız"
+},
+"blogSection": {
+  "badge": "Blog",
+  "title": "Sağlık Yazıları",
+  "description": "Sağlığınızla ilgili güncel bilgiler, farkındalık içerikleri ve faydalı öneriler için blog yazılarımıza göz atabilirsiniz.",
+  "cta": "Tüm Yazılar",
+  "readMore": "Devamını Oku"
+},
+"testimonialsSection": {
+  "badge": "Hasta Yorumları",
+  "title": "Biz Mutluyuz"
+},
+"contactSection": {
+  "badge": "İletişim",
+  "title": "Sağlığınız İçin Bize Ulaşın",
+  "description": "Sorularınız veya randevu talepleriniz için bize ulaşabilirsiniz. Uzman kadromuz size yardımcı olmaktan mutluluk duyacaktır.",
+  "phoneLabel": "Telefon",
+  "addressLabel": "Adres",
+  "workingHoursLabel": "Çalışma Saatleri",
+  "cardTitle": "Randevu Alın",
+  "cardDescription": "Online randevu formunu doldurarak veya telefon ile bize ulaşarak hızlıca randevu alabilirsiniz.",
+  "onlineAppointment": "Online Randevu",
+  "emergencyLabel": "Acil Durumlarda"
+},
+"footer": {
+  "quickLinks": "Hızlı Bağlantılar",
+  "medicalUnits": "Tıbbi Birimlerimiz",
+  "legal": "Yasal Bilgiler",
+  "contact": "İletişim",
+  "weekdays": "Hafta içi",
+  "weekend": "Hafta sonu",
+  "emergencyBanner": "Acil Durumlarda:",
+  "copyright": "Tüm hakları saklıdır.",
+  "units": {
+    "surgical": "Cerrahi Birimler",
+    "internal": "Dahili Birimler",
+    "other": "Diğer Birimler",
+    "paramedical": "Paramedikal"
+  },
+  "legalLinks": {
+    "serviceAgreement": "Hizmet Sözleşmesi",
+    "cookiePolicy": "Çerez Politikası",
+    "privacyPolicy": "Gizlilik Politikası"
+  }
+},
+"aboutPage": {
+  "seo": {
+    "title": "Hakkımızda | Etik Hastanesi",
+    "description": "Etik Hastanesi'nin kurumsal yapısı, hizmet anlayışı ve Lefkoşa'daki sağlık deneyimi hakkında bilgi alın."
+  },
+  "hero": {
+    "badge": "Hakkımızda",
+    "description": "1999 yılından bu yana Lefkoşa'da güvenilir sağlık hizmeti sunuyoruz. Lefkoşa'nın ilk özel hastanesi olarak kurulmuş olan hastanemiz, bugün Kuzey Kıbrıs'ın önde gelen sağlık kuruluşları arasında yer almaktadır."
+  },
+  "mission": {
+    "title": "Misyonumuz",
+    "description": "Hastalarımıza en yüksek kalitede, güvenilir ve erişilebilir sağlık hizmeti sunmak. Modern tıbbi teknoloji ve uzman kadromuzla toplumun sağlık ihtiyaçlarına çözüm üretmek."
+  },
+  "vision": {
+    "title": "Vizyonumuz",
+    "description": "Kuzey Kıbrıs'ın en güvenilir ve tercih edilen sağlık kuruluşu olmak. Sürekli gelişim ve yenilikçi yaklaşımlarla sağlık hizmetlerinde öncü olmayı hedefliyoruz."
+  },
+  "values": {
+    "badge": "Değerlerimiz",
+    "title": "Bizi Biz Yapan Değerler",
+    "items": [
+      {
+        "title": "Hasta Odaklılık",
+        "description": "Her kararımızda hastalarımızın sağlığı ve konforu ön plandadır."
+      },
+      {
+        "title": "Kalite",
+        "description": "En yüksek standartlarda sağlık hizmeti sunmayı hedefliyoruz."
+      },
+      {
+        "title": "Takım Çalışması",
+        "description": "Uzman kadromuzla koordineli ve etkili sağlık hizmeti veriyoruz."
+      }
+    ]
+  },
+  "timelineSection": {
+    "badge": "Tarihçemiz",
+    "title": "Yolculuğumuz"
+  },
+  "timeline": [
+    {
+      "title": "Kuruluş",
+      "description": "Lefkoşa'nın ilk özel hastanesi olarak hizmete açıldık."
+    },
+    {
+      "title": "Genişleme",
+      "description": "Yeni bölümler ve modern tıbbi cihazlarla kapasitemizi artırdık."
+    },
+    {
+      "title": "Teknoloji Yatırımı",
+      "description": "En son teknoloji tıbbi ekipmanlarla hastanemizi donattık."
+    },
+    {
+      "title": "Uzman Kadro",
+      "description": "Alanında uzman doktorlarla ekibimizi güçlendirdik."
+    },
+    {
+      "title": "20. Yıl",
+      "description": "20 yıllık deneyimimizle sağlık hizmetlerimizi sürdürüyoruz."
+    },
+    {
+      "year": "Bugün",
+      "title": "Sürekli Gelişim",
+      "description": "Her geçen gün daha iyi sağlık hizmeti sunmak için çalışıyoruz."
+    }
+  ]
+},
+"medicalUnitsPage": {
+  "seo": {
+    "title": "Tıbbi Birimler | Etik Hastanesi",
+    "description": "Etik Hastanesi tıbbi birimlerini, cerrahi, dahili, diğer ve paramedikal branşları inceleyin."
+  },
+  "hero": {
+    "badge": "Hizmetlerimiz",
+    "title": "Tıbbi Birimler",
+    "description": "Tıbbi birimlerimiz kategoriler halinde listelenmiştir. Size uygun bölümü seçerek detaylara ulaşabilirsiniz."
+  },
+   "details": "Detaylar"
+},
+"medicalUnitCategories": {
+  "surgical": {
+    "title": "Cerrahi Birimler",
+    "description": "Cerrahi müdahale ve ameliyat gerektiren branşlarımız."
+  },
+  "internal": {
+    "title": "Dahili Birimler",
+    "description": "Tanı, takip ve tedavi odaklı dahili branşlarımız."
+  },
+  "other": {
+    "title": "Diğer Birimler",
+    "description": "Farklı uzmanlık alanlarında destek birimlerimiz."
+  },
+  "paramedical": {
+    "title": "Paramedikal",
+    "description": "Tanı ve tedavi süreçlerini destekleyen sağlık hizmetleri."
+  }
+},
+"medicalUnitCategoryPage": {
+  "seo": {
+    "title": "{{category}} | Tıbbi Birimler | Etik Hastanesi",
+    "description": "Etik Hastanesi {{category}} kategorisinde yer alan branşları ve detaylarını inceleyin."
+  },
+  "hero": {
+    "badge": "Hizmetlerimiz",
+    "backToAll": "Tüm kategoriler"
+  },
+  "branchesTitle": "Branşlar",
+  "branchCount": "{{count}} branş",
+  "notFound": {
+    "title": "Kategori bulunamadı",
+    "backLink": "Tıbbi Birimler sayfasına dön"
+  }
+},
+"medicalUnitBranchPage": {
+  "seo": {
+    "title": "{{branch}} | Tıbbi Branş Detayı | Etik Hastanesi",
+    "description": "Etik Hastanesi {{branch}} branş detayları, hizmet kapsamı ve ilgili tıbbi bilgiler."
+  },
+  "notFound": {
+    "title": "Sayfa bulunamadı",
+    "description": "Aradığınız branş bulunamadı. Lütfen branşlar sayfasına dönün.",
+    "button": "Tıbbi Birimler"
+  },
+  "hero": {
+    "branches": "Branşlar",
+    "callNow": "Hemen Ara",
+    "branchLabel": "Branş"
+  },
+  "aboutTitle": "Branş Hakkında",
+  "highlightsTitle": "Öne Çıkan Alanlar",
+  "sidebar": {
+    "categoryLabel": "Kategori",
+    "quickActions": "Hızlı İşlemler",
+    "appointmentForm": "Randevu Formu",
+    "callByPhone": "Telefonla Ara",
+    "backToBranches": "Branşlara geri dön"
+  }
+},
+"doctorsPage": {
+  "seo": {
+    "title": "Doktorlarımız | Etik Hastanesi",
+    "description": "Etik Hastanesi uzman hekim kadrosunu ve branşlara göre doktorlarımızı inceleyin."
+  },
+  "hero": {
+    "badge": "Doktorlarımız",
+    "title": "Uzman Hekim Kadromuz",
+    "description": "Hastalarımıza güvenilir sağlık hizmeti sunan uzman doktorlarımızı branşlarına göre inceleyebilirsiniz."
+  },
+  "contactButton": "İletişime Geç",
+  "pagination": {
+    "previous": "{{department}} önceki doktorlar",
+    "next": "{{department}} sonraki doktorlar",
+    "page": "{{department}} sayfa {{page}}"
+  }
+},
+"blogPage": {
+  "seo": {
+    "title": "Sağlık Yazıları | Etik Hastanesi Blog",
+    "description": "Sağlık, tedavi, yaşam kalitesi ve farkındalık üzerine güncel blog yazılarını Etik Hastanesi blog sayfasında inceleyin."
+  },
+  "hero": {
+    "badge": "Blog",
+    "title": "Sağlık Yazıları",
+    "description": "Sağlığınızla ilgili güncel bilgiler, farkındalık içerikleri ve uzman görüşlerine blog sayfamızdan ulaşabilirsiniz."
+  },
+  "readMore": "Devamını Oku"
+},
+"blogPostPage": {
+  "seo": {
+    "title": "{{title}} | Etik Hastanesi Blog"
+  },
+  "backToBlog": "Bloga geri dön",
+  "otherPosts": "Diğer Yazılar",
+  "backToAllPosts": "Tüm yazılara dön",
+  "notFound": {
+    "seo": {
+      "title": "Yazı Bulunamadı | Etik Hastanesi Blog",
+      "description": "Aradığınız blog yazısı bulunamadı. Etik Hastanesi blog sayfasına geri dönebilirsiniz."
+    },
+    "title": "Yazı bulunamadı",
+    "backToBlog": "Blog sayfasına dön"
+  }
+},
+"contactPage": {
+  "seo": {
+    "title": "İletişim | Etik Hastanesi",
+    "description": "Etik Hastanesi iletişim bilgileri, adres, telefon, çalışma saatleri ve randevu formuna buradan ulaşabilirsiniz."
+  },
+  "hero": {
+    "badge": "İletişim",
+    "title": "Bize Ulaşın",
+    "description": "Sorularınız, randevu talepleriniz veya önerileriniz için bizimle iletişime geçebilirsiniz. Size yardımcı olmaktan mutluluk duyarız."
+  },
+  "info": {
+    "title": "İletişim Bilgileri",
+    "description": "Aşağıdaki iletişim kanallarından bize ulaşabilir veya doğrudan hastanemizi ziyaret edebilirsiniz."
+  },
+  "cards": {
+    "phone": "Telefon",
+    "phone2": "Telefon 2",
+    "email": "E-posta",
+    "hr": "İnsan Kaynakları",
+    "address": "Adres",
+    "workingHours": "Çalışma Saatleri"
+  },
+  "emergency": {
+    "label": "Acil Durumlarda"
+  },
+  "form": {
+    "title": "Randevu Formu",
+    "submit": "Gönder",
+    "submitting": "Gönderiliyor...",
+    "error": "Bir hata oluştu. Lütfen tekrar deneyin.",
+    "success": {
+      "title": "Talebiniz Alındı",
+      "description": "En kısa sürede sizinle iletişime geçeceğiz.",
+      "button": "Yeni Talep Oluştur"
+    },
+    "fields": {
+      "name": {
+        "label": "Ad Soyad *",
+        "placeholder": "Adınız ve soyadınız"
+      },
+      "phone": {
+        "label": "Telefon *",
+        "placeholder": "Telefon numaranız"
+      },
+      "email": {
+        "label": "E-posta",
+        "placeholder": "E-posta adresiniz"
+      },
+      "appointmentType": {
+        "label": "Randevu Türü",
+        "placeholder": "Randevu türü seçiniz",
+        "options": {
+          "preConsultation": "Ön Görüşme",
+          "examination": "Muayene",
+          "control": "Kontrol"
+        }
+      },
+      "department": {
+        "label": "Bölüm",
+        "placeholder": "Bölüm seçiniz"
+      },
+      "message": {
+        "label": "Mesajınız",
+        "placeholder": "Mesajınızı yazın..."
+      }
+    }
+  },
+  "mapTitle": "Etik Hastanesi Konum"
+},
+"cookiePolicyPage": {
+  "seo": {
+    "title": "Çerez Politikası | Etik Hastanesi",
+    "description": "Etik Hastanesi web sitesinde kullanılan çerezler ve çerez yönetimi hakkında bilgi alın."
+  },
+  "hero": {
+    "title": "Çerez Politikası",
+    "description": "Etik Hastanesi web sitesinde kullanılan çerezler hakkında bilgilendirme"
+  },
+  "content": {
+    "title": "Çerez Politikası",
+    "intro": "Bu çerez politikası, Etik Hastanesi web sitesi (https://etikhastanesi.xyz) tarafından kullanılan çerezler hakkında bilgi vermektedir. Çerezler, web sitesini kullanımınızı optimize etmek, performansını artırmak ve kullanıcı deneyimini geliştirmek için kullanılan küçük metin dosyalarıdır. Bu politika, web sitesini ziyaret eden herkesin çerez kullanımını anlamalarına yardımcı olmak için tasarlanmıştır."
+  },
+  "sections": {
+    "whatIsCookie": {
+      "title": "Çerez Nedir?",
+      "description": "Çerezler, bir web sitesi tarafından tarayıcınıza veya cihazınıza yerleştirilen küçük metin dosyalarıdır. Bu dosyalar, web sitesinin ziyaretçileri hakkında bilgi toplamak ve depolamak için kullanılır. Çerezler, kullanıcı tercihlerini hatırlamak, siteyi analiz etmek, kullanıcı etkileşimlerini izlemek ve ilgi alanlarına göre içerik ve reklamları özelleştirmek için kullanılabilir."
+    },
+    "types": {
+      "title": "Çerez Türleri ve Kullanımı",
+      "items": {
+        "session": {
+          "title": "Oturum Çerezleri",
+          "description": "Oturum çerezleri, bir kullanıcının web sitesini ziyaret ettiği süre boyunca geçerlidir ve tarayıcı kapandığında silinir."
+        },
+        "persistent": {
+          "title": "Kalıcı Çerezler",
+          "description": "Kalıcı çerezler, belirli bir süre boyunca tarayıcınızda kalır ve tekrar ziyaret ettiğinizde tanımlanmanızı sağlar."
+        },
+        "analytics": {
+          "title": "Analitik Çerezler",
+          "description": "Analitik çerezler, web sitesinin kullanımını analiz etmek ve iyileştirmek için kullanılır. Bu çerezler, ziyaretçi sayısını, sayfa görüntülemelerini, trafik kaynaklarını ve diğer istatistikleri izlemek için kullanılabilir."
+        }
+      }
+    },
+    "management": {
+      "title": "Çerez Yönetimi",
+      "description": "Çerezleri kabul etmek veya reddetmek konusunda kontrol sizde. Tarayıcınızın ayarlarını değiştirerek çerez kullanımını istediğiniz şekilde yönetebilirsiniz. Ancak, bazı çerezleri devre dışı bırakmanın, web sitesinin bazı fonksiyonlarının düzgün çalışmamasına neden olabileceğini unutmayın."
+    },
+    "updates": {
+      "title": "Politika Güncellemeleri",
+      "description": "Bu çerez politikası, Etik Hastanesi tarafından zaman zaman güncellenebilir veya değiştirilebilir. Herhangi bir güncelleme yapıldığında, değişikliklerin yürürlüğe girdiği tarihi güncel çerez politikası sayfasında yayınlayarak kullanıcıları bilgilendireceğiz."
+    },
+    "contact": {
+      "title": "İletişim",
+      "description": "Herhangi bir sorunuz veya endişeniz varsa, lütfen bizimle iletişime geçin."
+    }
+  }
+},
+"privacyPolicyPage": {
+  "seo": {
+    "title": "Gizlilik Politikası | Etik Hastanesi",
+    "description": "Etik Hastanesi gizlilik politikası ve kişisel verilerin korunmasına ilişkin bilgilere buradan ulaşabilirsiniz."
+  },
+  "hero": {
+    "title": "Gizlilik Politikası",
+    "description": "Etik Hastanesi web sitesi üzerinden toplanan veriler ve gizlilik esasları"
+  },
+  "content": {
+    "title": "Gizlilik Politikası",
+    "intro": "Bu gizlilik politikası, Etik Hastanesi web sitesi üzerinden kişisel bilgilerin toplanması, kullanılması ve ifşa edilmesi ile ilgili politikaları açıklar. Etik Hastanesi olarak, ziyaretçilerimizin gizliliğine saygı duyuyor ve kişisel bilgilerinizi korumak için en yüksek standartları uyguluyoruz. Bu politika, web sitemizi kullanan herkesin kişisel bilgilerinin nasıl toplandığını, kullanıldığını ve korunduğunu anlamalarına yardımcı olmak için tasarlanmıştır."
+  },
+  "sections": {
+    "collection": {
+      "title": "Kişisel Bilgilerin Toplanması ve Kullanılması",
+      "paragraph1": "Etik Hastanesi web sitesini ziyaret ettiğinizde, kullanıcıların tarayıcıları tarafından sağlanan standart bilgiler gibi genel bilgiler otomatik olarak kaydedilebilir. Bu bilgiler, internet protokol (IP) adresleri, tarayıcı türleri, internet servis sağlayıcıları (ISP'ler), çıkış sayfaları, tarih ve saat damgalarını içerebilir. Bu bilgiler, web sitesinin kullanımını analiz etmek, siteyi yönetmek, kullanıcı etkileşimlerini takip etmek ve demografik bilgileri toplamak için kullanılabilir.",
+      "paragraph2": "Etik Hastanesi web sitesi, kullanıcıların kişisel bilgilerini (ad, e-posta adresi, telefon numarası vb.) sağlamaları için çeşitli formlar sunabilir. Bu bilgiler, randevu taleplerini işlemek, geri bildirim almak, hizmet sunmak veya gerektiğinde kullanıcılarla iletişim kurmak için toplanır. Kişisel bilgiler, yalnızca belirli bir amacın yerine getirilmesi için kullanılacak ve kullanıcıların rızası olmadan üçüncü taraflarla paylaşılmayacaktır."
+    },
+    "cookies": {
+      "title": "Çerezler (Cookies)",
+      "description": "Etik Hastanesi web sitesi, kullanıcı deneyimini geliştirmek ve siteyi optimize etmek için çerezler kullanabilir. Çerezler, kullanıcı tercihlerini hatırlamak, siteyi ziyaret edenlerin tercihlerini analiz etmek ve ilgi alanlarına göre içerik ve reklamları özelleştirmek için kullanılabilir. Kullanıcılar, tarayıcı ayarlarını değiştirerek çerez kullanımını istedikleri şekilde kontrol edebilir veya reddedebilirler."
+    },
+    "sharing": {
+      "title": "Bilgi Paylaşımı ve Üçüncü Taraf Bağlantıları",
+      "description": "Etik Hastanesi, kullanıcıların kişisel bilgilerini üçüncü taraflarla paylaşmaz veya satmaz. Ancak, yasal gereklilikler doğrultusunda veya web sitesinin işletilmesi için hizmet sağlayıcılarına bilgi aktarılabilir. Etik Hastanesi web sitesi, zaman zaman diğer web sitelerine bağlantılar içerebilir. Bu bağlantılar, kullanıcıları diğer web sitelerine yönlendirebilir. Bağlantı verilen diğer web sitelerinin gizlilik uygulamalarından sorumlu değiliz. Diğer web sitelerini ziyaret etmeden önce kendi gizlilik politikalarını incelemenizi öneririz."
+    },
+    "security": {
+      "title": "Güvenlik",
+      "description": "Etik Hastanesi, kullanıcıların kişisel bilgilerini korumak için uygun güvenlik önlemlerini alır. Ancak, internet üzerinden bilgi iletimi veya depolama konusunda tam güvenlik garantisi sağlayamayız. Bilgi aktarımı tamamen kullanıcının kendi riskindedir. Bu nedenle, Etik Hastanesi web sitesini kullanırken kişisel bilgilerinizi korumak için gereken özeni göstermenizi öneririz."
+    },
+    "acceptance": {
+      "title": "Gizlilik Politikasının Kabul Edilmesi",
+      "description": "Etik Hastanesi web sitesini kullanarak, bu gizlilik politikasını kabul etmiş sayılırsınız. Politika ile ilgili herhangi bir sorunuz varsa, lütfen bizimle iletişime geçin."
+    },
+    "updates": {
+      "title": "Politika Güncellemeleri",
+      "description": "Etik Hastanesi, bu gizlilik politikasını güncellemek veya değiştirmek için zaman zaman revize edebilir. Herhangi bir güncelleme yapıldığında, değişikliklerin yürürlüğe girdiği tarihi güncel gizlilik politikası sayfasında yayınlayarak kullanıcıları bilgilendireceğiz."
+    }
+  }
+},
+"serviceAgreementPage": {
+  "seo": {
+    "title": "Hizmet Sözleşmesi | Etik Hastanesi",
+    "description": "Etik Hastanesi hizmet sözleşmesi ve genel hizmet şartlarını inceleyin."
+  },
+  "hero": {
+    "title": "Hizmet Sözleşmesi",
+    "description": "Etik Hastanesi Kıbrıs hizmet şartları ve genel sözleşme hükümleri"
+  },
+  "content": {
+    "title": "ETİK HASTANESİ KIBRIS HİZMET SÖZLEŞMESİ",
+    "intro": "Bu Hizmet Sözleşmesi (\"Sözleşme\"), taraflar arasında [Sözleşmenin Başlangıç Tarihi] tarihinde yapılmıştır ve aşağıdaki gibi tanımlanmıştır."
+  },
+  "sections": {
+    "parties": {
+      "title": "1. Taraflar",
+      "provider": {
+        "title": "A. Hizmet Sağlayıcı (\"Hastane\")",
+        "name": "Etik Hastanesi Kıbrıs",
+        "address": "Adres: [Hastanenin Tam Adresi]"
+      },
+      "patient": {
+        "title": "B. Hasta (\"Hasta\")",
+        "name": "[Hasta'nın Tam Adı]",
+        "address": "Adres: [Hasta'nın Tam Adresi]"
+      }
+    },
+    "services": {
+      "title": "2. Hizmetler",
+      "description": "Hastane, Hasta'ya sağlık hizmetleri sunmayı kabul eder. Bu hizmetler, ancak bunlarla sınırlı olmamak üzere, muayene, teşhis, tedavi ve diğer sağlık hizmetlerini içerebilir."
+    },
+    "terms": {
+      "title": "3. Hizmetin Şartları",
+      "description": "Hastane, tıbbi etik ve standartlara uygun olarak en yüksek kalitede hizmet sağlamayı taahhüt eder. Hasta, Hastane tarafından önerilen tıbbi prosedürlere ve tedavilere uyacağını kabul eder."
+    },
+    "payment": {
+      "title": "4. Ücretlendirme ve Ödeme",
+      "description": "Hizmetlerin ücretlendirilmesi, Hastane'nin geçerli fiyat listesine ve Hasta'nın alacağı spesifik hizmetlere göre belirlenecektir. Hasta, hizmetler için Hastane tarafından belirlenen ücretleri ödemeyi kabul eder."
+    },
+    "confidentiality": {
+      "title": "5. Gizlilik",
+      "description": "Hastane, Hasta'nın kişisel ve tıbbi bilgilerini gizli tutma konusunda yasalara uygun hareket edecek ve bu bilgileri yalnızca yasal olarak gerektiğinde ve Hasta'nın izniyle paylaşacaktır."
+    },
+    "liability": {
+      "title": "6. Sorumluluk",
+      "description": "Hastane, hizmetlerini sunarken gereken özeni gösterecektir. Ancak, Hastane, tedavinin sonuçlarına dair herhangi bir garanti vermez."
+    },
+    "disputes": {
+      "title": "7. Anlaşmazlıkların Çözümü",
+      "description": "Taraflar arasındaki herhangi bir anlaşmazlık, öncelikle iyi niyetle çözülmeye çalışılacak; aksi takdirde, [Yargı Bölgesi] yasalarına göre çözülecektir."
+    },
+    "duration": {
+      "title": "8. Sözleşmenin Süresi ve Feshi",
+      "description": "Bu Sözleşme, herhangi bir taraf tarafından yazılı olarak feshedilene kadar geçerlidir."
+    },
+    "otherTerms": {
+      "title": "9. Diğer Şartlar",
+      "description": "Bu Sözleşme, taraflar arasındaki tam anlaşmayı oluşturur ve herhangi bir önceki anlaşmayı iptal eder."
+    }
+  },
+  "signatures": {
+    "title": "İmzalar",
+    "hospital": "Hastane Yetkilisi",
+    "patient": "Hasta",
+    "date": "Tarih: ___________"
+  }
+},
+"blogData": {
+  "preview": {
+    "1": {
+      "excerpt": "Meme kanseri kadınlarda en sık görülen kanser türlerinden biridir ve erken teşhis ile başarıyla yönetilebilir."
+    },
+    "2": {
+      "excerpt": "Diş ağrısı günlük yaşamı olumsuz etkileyebilen yaygın bir sağlık problemidir ve doğru tedavi ile kontrol altına alınabilir."
+    },
+    "3": {
+      "excerpt": "HIV ve AIDS sıklıkla karıştırılan iki kavramdır. Bu yazıda aralarındaki temel farkları öğrenebilirsiniz."
+    }
+  },
+  "posts": {
+    "1": {
+      "title": "Meme Kanseri ve Tedavi Seçenekleri",
+      "category": "Meme Sağlığı",
+      "excerpt": "Meme kanseri kadınlarda en sık görülen kanser türlerinden biridir. Erken teşhis ve doğru tedavi planlaması ile başarıyla yönetilebilir.",
+      "content": [
+        "Meme kanseri, kadınlarda en sık görülen kanser türlerinden biridir ve erken teşhis ve tedavi ile başarıyla yönetilebilir. Etik Hastanesi, meme kanseri teşhisi konulmuş hastalara uzman ve etik bir yaklaşım sunarak tedavi sürecinde güvenilir bir sağlık partneri olmayı hedeflemektedir.",
+        "Meme kanserinin erken belirtileri arasında meme dokusunda ele gelen kitle, meme derisinde kızarıklık veya çekinti, meme ucunda değişiklikler ya da akıntı yer alabilir. Bu belirtiler fark edildiğinde zaman kaybetmeden bir sağlık uzmanına başvurmak büyük önem taşır. Etik Hastanesi, meme kanseri tanısı için gerekli görüntüleme yöntemleri ve testleri kullanarak hastaların durumunu doğru şekilde değerlendirmektedir.",
+        "Etik Hastanesi meme kanseri tedavisinde multidisipliner bir yaklaşım benimser. Cerrahi müdahale, kemoterapi, radyoterapi, hormon tedavisi ve hedefe yönelik tedavi seçenekleri; hastanın kanserin türü, evresi ve genel sağlık durumu dikkate alınarak belirlenir.",
+        "Tedavi sürecinde hastaların yalnızca fiziksel değil, duygusal ihtiyaçları da göz önünde bulundurulur. Etik Hastanesi, uzman kadrosu ve modern tıbbi altyapısı ile hastaların tedavi yolculuğunda güvenilir bir destek sunmaktadır.",
+        "Meme kanseri ile mücadelede erken teşhis büyük önem taşır. Sağlığınızı korumak ve doğru tedavi seçenekleri hakkında bilgi almak için Etik Hastanesi uzmanlarıyla iletişime geçebilirsiniz."
+      ]
+    },
+    "2": {
+      "title": "Diş Ağrısının Nedenleri ve Tedavi Seçenekleri",
+      "category": "Ağız ve Diş Sağlığı",
+      "excerpt": "Diş ağrısı günlük yaşamı doğrudan etkileyen yaygın bir sağlık problemidir. Ağrının kaynağının doğru belirlenmesi tedavi için önemlidir.",
+      "content": [
+        "Diş ağrısı çoğu insanın hayatının bir döneminde karşılaştığı rahatsız edici bir durumdur. Çeşitli nedenlerden kaynaklanabilir ve doğru tedavi ile kontrol altına alınabilir. Etik Hastanesi, diş ağrısı konusunda uzman kadrosu ve modern tıbbi ekipmanları ile hastaların sağlıklı gülüşlerine kavuşmasına yardımcı olur.",
+        "Diş ağrısının en yaygın nedenleri arasında diş çürükleri, diş eti hastalıkları, diş sıkma veya gıcırdatma, travmalar ve sinir iltihabı yer alır. Bu durumlar genellikle hassasiyet, zonklama veya keskin bir ağrı şeklinde ortaya çıkabilir.",
+        "Diş ağrısının etkili şekilde tedavi edilebilmesi için öncelikle ağrının kaynağı doğru şekilde belirlenmelidir. Etik Hastanesi’nde yapılan muayene ve gerekli görüntüleme işlemleri ile sorunun nedeni belirlenir.",
+        "Tedavi seçenekleri arasında dolgu, kanal tedavisi, diş eti tedavisi veya gerekli durumlarda diş çekimi yer alabilir. Ayrıca hastanın konforunu sağlamak için uygun ağrı kesici tedaviler de uygulanabilir.",
+        "Sağlıklı bir gülüş ve güçlü dişler için düzenli diş kontrolleri oldukça önemlidir. Etik Hastanesi, hastalarına güvenilir ve etik sağlık hizmeti sunarak ağız ve diş sağlığını korumayı amaçlar."
+      ]
+    },
+    "3": {
+      "title": "HIV ve AIDS Nedir? Farkları Nelerdir?",
+      "category": "Enfeksiyon Hastalıkları",
+      "excerpt": "HIV ve AIDS sıklıkla aynı anlamda kullanılsa da aslında farklı kavramlardır. Doğru bilgi ve erken tanı büyük önem taşır.",
+      "content": [
+        "HIV ve AIDS insan sağlığını etkileyen önemli konular arasında yer alır. Her iki kavram da bağışıklık sistemi ile ilgili olsa da aslında farklı anlamlara gelir.",
+        "HIV yani İnsan Bağışıklık Yetmezlik Virüsü, bağışıklık sistemini hedef alan bir virüstür. HIV enfeksiyonu cinsel temas, kan yoluyla veya anneden bebeğe geçiş ile bulaşabilir.",
+        "HIV taşıyan bir kişi uzun süre belirti göstermeyebilir ve bu durum HIV pozitif olarak adlandırılır. Ancak tedavi edilmediğinde virüs bağışıklık sistemine zarar verebilir ve zamanla AIDS gelişebilir.",
+        "AIDS yani Edinsel Bağışıklık Yetmezliği Sendromu, HIV enfeksiyonunun ilerlemiş aşamasıdır. Bu aşamada bağışıklık sistemi ciddi şekilde zayıflar ve vücut enfeksiyonlara karşı savunmasız hale gelir.",
+        "Erken teşhis ve düzenli tedavi ile HIV enfeksiyonunun ilerlemesi büyük ölçüde kontrol altına alınabilir. Bu nedenle düzenli sağlık kontrolleri ve bilinçli davranışlar oldukça önemlidir."
+      ]
+    },
+    "4": {
+      "title": "Göğüs Sağlığı ve İyileşme Yolculuğu",
+      "category": "Göğüs Hastalıkları",
+      "excerpt": "Göğüs hastalıkları solunum sistemini etkileyen önemli sağlık sorunları arasında yer alır. Erken teşhis tedavi başarısını artırır.",
+      "content": [
+        "Göğüs hastalıkları solunum sisteminin önemli bir parçası olan akciğerleri ve göğüs boşluğunu etkileyen çeşitli rahatsızlıkları kapsar. Zamanında teşhis edilmediğinde ciddi sağlık sorunlarına yol açabilir.",
+        "Bu hastalıkların belirtileri arasında öksürük, nefes darlığı, göğüs ağrısı ve balgam üretimi yer alabilir. Bu semptomlar astım, bronşit veya KOAH gibi hastalıkların habercisi olabilir.",
+        "Etik Hastanesi uzman doktorları ve modern tıbbi ekipmanları ile hastaların sağlık durumunu ayrıntılı şekilde değerlendirir ve kişiye özel tedavi planları oluşturur.",
+        "Tedavi seçenekleri arasında ilaç tedavisi, solunum terapileri, rehabilitasyon ve gerekli durumlarda cerrahi müdahaleler bulunabilir.",
+        "Göğüs sağlığı genel sağlık için büyük önem taşır. Düzenli kontroller ve doğru tedavi yaklaşımları ile solunum sistemi sağlığı korunabilir."
+      ]
+    },
+    "5": {
+      "title": "Zihinsel Sağlığınızı Koruyun: Psikolojik Rahatsızlıklar",
+      "category": "Psikoloji",
+      "excerpt": "Zihinsel sağlık yaşam kalitesinin önemli bir parçasıdır. Psikolojik rahatsızlıklar doğru destek ve tedavi ile yönetilebilir.",
+      "content": [
+        "Zihinsel sağlık genel sağlığımızın önemli bir parçasıdır ve psikolojik rahatsızlıklarla mücadele eden birçok kişi doğru destek ile yaşam kalitesini artırabilir.",
+        "Depresyon, anksiyete ve bipolar bozukluk gibi psikolojik rahatsızlıklar bireyin günlük yaşamını etkileyebilir. Bu rahatsızlıkların belirtileri arasında sürekli üzüntü, yoğun kaygı, uyku problemleri ve enerji kaybı yer alabilir.",
+        "Etik Hastanesi uzman psikiyatristleri ve psikologları hastaların durumunu değerlendirerek uygun tedavi planlarını oluşturur.",
+        "Tedavi seçenekleri arasında psikoterapi, ilaç tedavisi ve destekleyici terapiler bulunabilir. Her hastaya bireysel ihtiyaçlarına uygun yaklaşım uygulanır.",
+        "Zihinsel sağlığın korunması hem bireysel hem de toplumsal yaşam için büyük önem taşır. Erken destek almak iyileşme sürecini olumlu yönde etkileyebilir."
+      ]
+    }
+  }
+},
+"doctorDepartments": {
+  "surgical": "Cerrahi Birimler",
+  "internal": "Dahili Birimler",
+  "other": "Diğer Birimler",
+  "paramedical": "Paramedikal"
+},
+"doctorTitles": {
+  "orthopedics": "Ortopedi",
+  "cardiovascularSurgery": "Kalp ve Damar Cerrahisi",
+  "pediatrics": "Çocuk Sağlığı ve Hastalıkları",
+  "internalMedicine": "Dahiliye",
+  "generalSurgery": "Genel Cerrahi",
+  "microbiologyInfectiousDiseases": "Mikrobiyoloji ve Enfeksiyon Hastalıkları",
+  "radiology": "Radyoloji",
+  "obstetricsGynecology": "Kadın Hastalıkları ve Doğum",
+  "neurology": "Nöroloji",
+  "ent": "Kulak Burun Boğaz",
+  "dermatologyVenereal": "Deri ve Zührevi Hastalıklar",
+  "cardiology": "Kardiyoloji",
+  "ophthalmology": "Göz Hastalıkları",
+  "urology": "Üroloji",
+  "plasticReconstructiveSurgery": "Estetik Plastik ve Rekonstrüktif Cerrahi",
+  "biochemist": "Biyokimyager"
+},
+"testimonialsData": {
+  "roles": {
+    "patient": "Hasta"
+  },
+  "items": {
+    "1": {
+      "text": "Etik Hastanesi’nde geçirdiğim tedavi sürecinden son derece memnun kaldım. Doktorlar çok ilgili ve hasta odaklıydı. Personel güler yüzlü ve yardımseverdi. Hastane temizliği de oldukça iyi düzeydeydi. Kesinlikle tavsiye ederim."
+    },
+    "2": {
+      "text": "Etik Hastanesi’nde yaşadığım deneyim beni çok etkiledi. Hemşireler ve doktorlar hastalara karşı olağanüstü bir empati gösterdi. Tedavi sürecimde her adımda bilgilendirildim ve rahat hissettim. Hastane ortamı da son derece konforluydu. Teşekkürler Etik Hastanesi."
+    },
+    "3": {
+      "text": "Etik Hastanesi’ne gitmeden önce endişelerim vardı ama gittiğimde tüm endişelerim dağıldı. Doktorlarımın profesyonelliği ve hastanenin modern tıbbi imkanlarıyla hızlıca teşhis ve tedavi sürecim başladı. Herkese Etik Hastanesi’ni öneririm."
+    },
+    "4": {
+      "text": "Etik Hastanesi’nde geçirdiğim tedavi sürecinden çok memnun kaldım. Doktorlarımız her zaman güler yüzlü ve anlayışlıydı. Tedavi sürecim boyunca her adımda bilgilendirildim ve desteklendim. Hastanenin hijyen standartları da oldukça yüksekti."
+    }
+  }
+},
+
+"medicalUnitsData": {
+  "categories": {
+    "cerrahi": {
+      "title": "Cerrahi Birimler",
+      "description": "Cerrahi müdahale ve ameliyat gerektiren branşlarımız.",
+      "longDescription": [
+        "Uzun açıklama (detay sayfasında)"
+      ],
+      "bullets": [
+        "Tanı ve tedavi süreçleri",
+        "Ameliyat öncesi değerlendirme",
+        "Takip ve kontrol"
+      ]
+    },
+    "dahili": {
+      "title": "Dahili Birimler",
+      "description": "Tanı, takip ve tedavi odaklı dahili branşlarımız.",
+      "longDescription": [
+        "Uzun açıklama (detay sayfasında)"
+      ],
+      "bullets": [
+        "Tanı ve tedavi süreçleri",
+        "Ameliyat öncesi değerlendirme",
+        "Takip ve kontrol"
+      ]
+    },
+    "diger": {
+      "title": "Diğer Birimler",
+      "description": "Farklı uzmanlık alanlarında destek birimlerimiz.",
+      "longDescription": [
+        "Uzun açıklama (detay sayfasında)"
+      ],
+      "bullets": [
+        "Tanı ve tedavi süreçleri",
+        "Ameliyat öncesi değerlendirme",
+        "Takip ve kontrol"
+      ]
+    },
+    "paramedikal": {
+      "title": "Paramedikal",
+      "description": "Tanı ve tedavi süreçlerini destekleyen sağlık hizmetleri.",
+      "longDescription": [
+        "Uzun açıklama (detay sayfasında)"
+      ],
+      "bullets": [
+        "Tanı ve tedavi süreçleri",
+        "Ameliyat öncesi değerlendirme",
+        "Takip ve kontrol"
+      ]
+    }
+  },
+  "branches": {
+    "estetikPlastikRekonstruktifCerrahi": {
+      "title": "Estetik Plastik ve Rekonstrüktif Cerrahi",
+      "description": "Estetik ve Rekonstrüktif Cerrahi, doğuştan gelen veya sonradan oluşan doku ve organ bozukluklarının düzeltilmesi ile estetik görünümün iyileştirilmesini amaçlayan cerrahi işlemleri kapsayan bir tıp dalıdır.",
+      "longDescription": [
+        "Plastik Cerrahi, tıbbın çeşitli alanlarına yayılan geniş bir disiplindir ve estetik cerrahiye ek olarak rekonstrüktif cerrahi, el cerrahisi, kraniyofasiyal cerrahi, mikro cerrahi ve yanık tedavisi gibi birçok alt dalı içerir. Rekonstrüktif cerrahi, vücutta deri, deri altı dokuları ve kemikleri etkileyen her türlü doku kaybının onarılmasını içerir. Örneğin, yapışık parmakların ayrılması, travmatik yanıkların tedavisi, kesiklerin ve uzuv kopmalarının onarılması gibi durumlar bu alana girer.",
+        "Estetik cerrahi ise vücut görünümünün iyileştirilmesi ve güzelleştirilmesi için yapılan ameliyatları içerir. Temel amaç, tıbbi bir problem yerine güzellik ve estetik kaygılardır. Ancak, bazen estetik cerrahi, tıbbi problemleri de içerebilir. Örneğin, dev boyutlara ulaşan memelerin cerrahi olarak düzeltilmesi, aşırı şişman bir gövdenin yeniden şekillendirilmesi gibi durumlar hem tıbbi hem de estetik problemleri içerir.",
+        "Plastik Cerrahi, rekonstrüktif ve estetik cerrahinin yanı sıra genel vücutta meydana gelen doku bozuklukları, ameliyat izleri, travmalara bağlı sarkmalar gibi patolojik durumlarla da ilgilenir. Etik Hastanesi olarak, plastik cerrahi uzmanlarımız, hastaların taleplerini ve ihtiyaçlarını dikkate alarak, hem estetik kaygılarını gidermek hem de sağlık sorunlarını çözmek için en uygun tedavi planlarını sunmaktadır. Her hasta için kişiselleştirilmiş ve güvenli bir yaklaşımı benimseyerek, hastalarımızın sağlıklı bir yaşam ve memnuniyeti için çalışıyoruz."
+      ]
+    },
+    "genelCerrahi": {
+      "title": "Genel Cerrahi",
+      "description": "Genel cerrahi; karın, meme, cilt, yumuşak dokular ve fıtık gibi birçok alanda cerrahi müdahaleleri kapsayan geniş bir uzmanlık alanıdır. Acil ve planlı operasyonların gerçekleştirilmesini içerir.",
+      "longDescription": [
+        "Etik Hastanesi, Genel Cerrahi alanında uzmanlaşmış doktor ve deneyimli tıbbi personeliyle, ameliyat ve ameliyat sonrası bakım süreçlerinde üst düzey kalite standartlarında hizmet sunmaktadır. Türkiye'nin çeşitli illerinde bulunan tam teşekküllü hastane, ameliyathane ve destekleyici tıbbi bakım birimleriyle, ameliyat süreçlerini en sağlıklı şekilde yönetmektedir.",
+        "Farklı cerrahi konularda uzmanlaşmış doktor kadrosu sayesinde, Genel Cerrahi alanına giren tüm hastalıkların etkili bir şekilde tedavi edilmesi ve iyileştirilmesi hedeflenmektedir. Etik Hastanesi, cerrahi müdahalelerde en son teknolojiyi kullanarak, hastaların güvenliğini ve konforunu sağlamayı amaçlamaktadır.",
+        "Ameliyat öncesi, sırası ve sonrasında hastaların ihtiyaç duyduğu tüm tıbbi ve psikolojik destek, Etik Hastanesi'nin uzman kadrosu tarafından titizlikle sağlanmaktadır. Hastaların sağlığı ve iyiliği her zaman önceliğimizdir.",
+        "Etik Hastanesi olarak, Genel Cerrahi alanında uzmanlaşmış ekiplerimizle, hastalarımıza en iyi tedaviyi sunmak ve onların sağlıklı bir yaşam sürmelerine katkıda bulunmak için çaba gösteriyoruz. Her hasta için kişiselleştirilmiş ve güvenli bir tedavi deneyimi sağlamak için çalışıyoruz."
+      ]
+    },
+    "gozHastaliklari": {
+      "title": "Göz Hastalıkları",
+      "description": "Göz hastalıkları; görme bozuklukları ve göz sağlığını etkileyen hastalıkların tanı ve tedavisini kapsar. Miyopi, hipermetropi, astigmatizma, katarakt ve glokom gibi rahatsızlıkları içerir.",
+      "longDescription": [
+        "Etik Hastanesi, göz hastalıkları konusunda uzmanlaşmış doktorları ve son teknolojiye sahip ekipmanlarıyla hizmet vermektedir. Göz hastalıkları, çeşitli çevresel veya genetik faktörlere bağlı olarak ortaya çıkabilen ve görme yeteneğini etkileyen fiziksel rahatsızlıklardır. Göz kapaklarında, göz zarında, gözyaşı kanallarında, göz merceğinde veya gözü çevreleyen sinir dokularında meydana gelen her türlü hastalık göz hastalıkları olarak kabul edilir.",
+        "Etik Hastanesi, göz hastalıklarının teşhis ve tedavisi konusunda geniş bir yelpazede hizmet sunmaktadır. Görme bozukluklarından, katarakt, glokom, retinal hastalıklar gibi yaygın göz rahatsızlıklarına kadar, her türlü göz sorununun teşhisinde ve tedavisinde uzmanlaşmış bir ekipten oluşmaktadır.",
+        "Hastanemizde, göz hastalıklarının teşhisinde modern görüntüleme ve test yöntemleri kullanılmaktadır. Ayrıca, göz cerrahisi ve lazer tedavisi gibi cerrahi müdahalelerde de en son teknolojiye sahip ekipmanlar kullanılmaktadır.",
+        "Etik Hastanesi, hastaların sağlığı ve konforu için en üst düzeyde hizmet sunmayı amaçlamaktadır. Her hasta için kişiselleştirilmiş bir tedavi planı oluşturarak, hastaların sağlıklı bir göz yaşamına kavuşmalarına yardımcı olmaktadır. Göz sağlığınızı korumak ve görme problemleriyle mücadele etmek için Etik Hastanesi'ne güvenebilirsiniz."
+      ]
+    },
+    "gogusHastaliklari": {
+      "title": "Göğüs Hastalıkları",
+      "description": "Göğüs hastalıkları; solunum sistemi ile ilgili hastalıkların tanı, tedavi ve takibini kapsayan bir tıp dalıdır. Astım, KOAH, zatürre ve akciğer hastalıklarının değerlendirilmesini içerir.",
+      "longDescription": [
+        "Etik Hastanesi Göğüs Hastalıkları Bölümü, akciğer ve solunum sistemiyle ilgili hastalıkların tanı ve tedavisi üzerine uzmanlaşmış bir ana bilim dalıdır. Astım, alerjik hastalıklar, bronşit, kronik obstrüktif akciğer hastalığı, zatürre, tüberküloz, akciğer embolisi, kronik öksürük, akciğer kanseri gibi çeşitli rahatsızlıklarla ilgilenir.",
+        "Bölümümüzde görev yapan uzman hekimler, multidisipliner bir yaklaşım benimseyerek hastalıkların tanı ve tedavisini gerçekleştirirler. Bu süreçte gerekli olan ileri radyolojik görüntüleme tetkikleri, laboratuvar testleri, solunum fonksiyon laboratuvarında yapılan vital kapasite testi, difüzyon testi gibi çeşitli teknikler kullanılır.",
+        "Göğüs hastalıkları bölümü hekimleri, sadece hastalıkların tanı ve tedavisinde değil, aynı zamanda sigara bağımlılığı, sigaraya bağlı hastalıklar ve sigara bırakma yöntemleri konusunda da hastalarına yardımcı olurlar.",
+        "Etik Hastanesi Göğüs Hastalıkları Bölümü uzmanları, akciğer hastalıklarına ait tanı, tedavi ve takibini yapmak üzere uzun bir eğitim sürecinden geçerler. Bu süreç, 6 yıllık tıp fakültesi eğitiminin ardından 4 yıl süren göğüs hastalıkları bölümü için uzmanlık eğitimini içerir.",
+        "Hastalarımızın sağlığı ve konforu her zaman önceliğimizdir. Etik Hastanesi Göğüs Hastalıkları Bölümü olarak, hastalarımıza en iyi tedaviyi sunmak ve onların sağlıklı bir yaşam sürmelerine katkıda bulunmak için çaba gösteriyoruz. Her hasta için kişiselleştirilmiş bir tedavi yaklaşımı benimseyerek, hastalarımızın sağlık sorunlarını en etkili şekilde çözmeyi hedefliyoruz."
+      ]
+    },
+    "ortopediVeTravmatoloji": {
+      "title": "Ortopedi ve Travmatoloji",
+      "description": "Ortopedi ve Travmatoloji bölümü; kemik, eklem, kas, bağ ve tendon hastalıklarının tanı ve tedavisi ile ilgilenir.",
+      "longDescription": [
+        "Ortopedi ve Travmatoloji bölümü; kemikler, eklemler, kaslar, bağlar ve tendonlar gibi hareket sistemini oluşturan yapıların hastalıklarının tanı ve tedavisi ile ilgilenir. Kırıklar, çıkıklar, spor yaralanmaları, eklem kireçlenmeleri, menisküs ve bağ yaralanmaları gibi birçok ortopedik problem bu bölüm kapsamında değerlendirilir. Etik Hastanesi Ortopedi ve Travmatoloji birimi, modern tanı yöntemleri ve güncel tedavi yaklaşımları ile hastalarına kapsamlı sağlık hizmeti sunar. Uzman doktor kadromuz, hastaların yaşam kalitesini artırmayı hedefleyen kişiye özel tedavi planları oluşturarak hareket kabiliyetinin yeniden kazanılmasına yardımcı olur."
+      ]
+    },
+    "kadinHastaliklariDogum": {
+      "title": "Kadın Hastalıkları ve Doğum",
+      "description": "Kadın hastalıkları ve doğum; kadın üreme sistemi ile ilgili hastalıkların tanı ve tedavisini kapsar. Gebelik takibi, doğum süreçleri ve jinekolojik hastalıkların değerlendirilmesini içerir.",
+      "longDescription": [
+        "Etik Hastanesi Kadın Hastalıkları ve Doğum Bölümü, kadın sağlığıyla ilgili kapsamlı hizmetler sunan, modern tıbbın tüm imkanlarından faydalanan bir birimdir. Kadın Hastalıkları ve Doğum uzmanlık alanı, \"Jinekoloji ve Obstetrik\" branşını kapsar ve kadın üreme organlarıyla ilgili hastalıkların teşhis ve tedavisini, aynı zamanda gebelik takibi ve doğum işlemlerini içerir.",
+        "Jinekoloji kısmı, rahim, rahim ağzı, vajina, vulva, tüpler gibi kadın üreme organlarına ait hastalıkların teşhis ve tedavisini gerçekleştirirken; Obstetrik kısmı, gebelik takibi ve gebelikle ilgili sorunların çözümüne odaklanır. Ayrıca, kadın kısırlığı probleminin teşhisi, rahim filmi çekimi, yumurta takibi, aşılama ve tüp bebek yöntemleri gibi üreme sağlığıyla ilgili tedaviler de bu bölümün uzmanlık alanına girer.",
+        "Kadın Hastalıkları ve Doğum bölümü, pediatrik - ergen jinekolojisi, jinekolojik kanserler, ürojinekoloji, üreme sağlığı, yüksek riskli gebeliklerin takibi, cinsel fonksiyon bozuklukları, menopoz, jinekolojik operasyonlar gibi pek çok alanda hizmet verir. Uzman kadromuz, her hastanın ihtiyaçlarına özel olarak kişiselleştirilmiş bir tedavi planı oluşturarak, hastalarımıza en etkili ve güvenilir sağlık hizmetini sunmayı amaçlar.",
+        "Etik Hastanesi Kadın Hastalıkları ve Doğum Bölümü olarak, kadınların sağlıklı bir yaşam sürmeleri ve doğum süreçlerini güvenle geçirmeleri için en kaliteli hizmeti sunmaktan gurur duyuyoruz. Her aşamada hastalarımızın yanında olup, onların sağlık ve mutluluğunu en üst düzeyde tutmak için çalışıyoruz."
+      ]
+    },
+    "kardiyoloji": {
+      "title": "Kardiyoloji",
+      "description": "Kardiyoloji; kalp ve damar sistemi ile ilgili hastalıkların tanı, tedavi ve takibini kapsayan bir uzmanlık dalıdır. Kalp ritim bozuklukları ve damar hastalıklarının değerlendirilmesini içerir.",
+      "longDescription": [
+        "Etik Hastanesi Kardiyoloji Bölümü, kalp sağlığına odaklanmış, hayati öneme sahip bir birimdir. Kalp, vücudun en önemli organlarından biridir ve sürekli olarak kanı dolaştırarak oksijen ve besin maddelerini vücut dokularına taşır. Kalbin doğru şekilde çalışması, genel sağlık ve yaşam kalitesi için hayati önem taşır.",
+        "Kardiyoloji, tıp alanındaki kilit bilim dallarından biridir ve kalp ile dolaşım sistemiyle ilgilenir. Kardiyologlar, kalp hastalıklarının tanı ve tedavisi konusunda uzmanlaşmış hekimlerdir. Etik Hastanesi Kardiyoloji Bölümü, kalp hastalıklarının teşhisi, tedavisi ve takibi konularında geniş bir hizmet yelpazesi sunmaktadır.",
+        "Kardiyoloji bölümümüzde, kalp sağlığıyla ilgili çeşitli rahatsızlıkların teşhisi için modern teşhis yöntemleri kullanılmaktadır. Ekokardiyografi, stres testleri, elektrokardiyografi (EKG), kalp ritim monitörizasyonu gibi ileri teknolojiye dayalı tanı araçlarıyla hastaların kalp sağlığı detaylı bir şekilde değerlendirilir.",
+        "Etik Hastanesi Kardiyoloji Bölümü, kalp rahatsızlıklarının teşhis ve tedavisinde uzmanlaşmış bir ekibe sahiptir. Kalp krizi, kalp ritim bozuklukları, kalp yetmezliği, damar tıkanıklığı gibi çeşitli kalp hastalıklarının tedavisi konusunda deneyimli hekimlerimiz, hastalarımıza en etkili ve güvenilir tedavi seçeneklerini sunmaktadır.",
+        "Hastalarımızın sağlığı ve iyiliği her zaman önceliğimizdir. Etik Hastanesi Kardiyoloji Bölümü olarak, kalp sağlığını korumak ve kalp hastalıklarını etkili bir şekilde tedavi etmek için en ileri teknolojiye ve en nitelikli uzmanlara sahip olduğumuzdan emin olabilirsiniz. Her hasta için kişiselleştirilmiş bir tedavi yaklaşımıyla, kalp sağlığınızı güvende tutmak için buradayız."
+      ]
+    },
+    "noroloji": {
+      "title": "Nöroloji",
+      "description": "Nöroloji; beyin, omurilik ve sinir sistemi hastalıklarının tanı ve tedavisi ile ilgilenen bir tıp dalıdır. İnme, epilepsi, Parkinson ve benzeri nörolojik hastalıkların değerlendirilmesini içerir.",
+      "longDescription": [
+        "Etik Hastanesi Nöroloji Bölümü, sinir sistemi fizyolojisi ve hastalıklarıyla ilgilenen bir tıbbi birimdir. Sinir sistemi, beyin, spinal kord (omurilik) ve periferik sinir sisteminden oluşur. Bu üç bölgede gelişen ve cerrahi müdahale gerektirmeyen hastalıkların tanı ve tedavisi Nöroloji Bölümü tarafından gerçekleştirilir.",
+        "Nöroloji, erişkin ve çocuk nörolojisi olarak iki ana branşa ayrılır. Her iki branşta da uzmanlaşmış hekimlerimiz, hastalarımıza kapsamlı ve kişiselleştirilmiş tedavi sağlamak için çalışmaktadır. Nöroloji bölümümüzde, poliklinik ve yatarak tedavi hizmetlerinin yanı sıra yoğun bakım gerektiren hastalıkların takibinde de yoğun bakım hizmeti sunulmaktadır.",
+        "Hastalarımızın sağlığına odaklanarak, nörolojik rahatsızlıkların teşhis ve tedavisinde en son teknolojik imkanları kullanmaktayız. Uzman kadromuz, deneyimli ve alanlarında uzmanlaşmış hekimlerden oluşmaktadır ve hastalarımıza etkili ve güvenilir tedavi seçenekleri sunmaktadır.",
+        "Etik Hastanesi Nöroloji Bölümü olarak, hastalarımızın sağlığını korumak ve yaşam kalitelerini artırmak için en iyi hizmeti sunmaya kararlıyız. Her hasta için özel olarak tasarlanmış tedavi planlarıyla, nörolojik sağlık sorunlarıyla mücadele etmekteyiz. Hastalarımızın güvenliği ve iyiliği her zaman önceliğimizdir."
+      ]
+    },
+    "uroloji": {
+      "title": "Üroloji",
+      "description": "Üroloji; idrar yolları ve erkek üreme sistemi hastalıklarının tanı ve tedavisi ile ilgilenir. Böbrek, mesane, prostat ve idrar yolu hastalıklarının değerlendirilmesini kapsar.",
+      "longDescription": [
+        "Etik Hastanesi, idrar yolları ve üriner sistemle ilgilenen üroloji alanında uzmanlaşmış doktorlara sahip bir tıbbi merkezdir. Ürologlar, kadınlarda, erkeklerde ve çocuklarda görülen ürolojik sorunların teşhis, tedavi ve takibinde uzmanlaşmıştır.",
+        "Üroloji, idrar yolu enfeksiyonları, böbrek taşları, idrar kaçırma, prostat sorunları, üreme organlarının sağlığı gibi çeşitli konularla ilgilenir. Etik Hastanesi Üroloji Bölümü, hastaların bu tür rahatsızlıklarını en etkili ve güvenilir şekilde yönetmek için modern tıbbi teknoloji ve uzmanlıkla donatılmıştır.",
+        "Ürolojik sorunlar genellikle cinsiyet veya yaş farkı gözetmeksizin herkesi etkileyebilir. Etik Hastanesi, her hasta için özel bir tedavi yaklaşımı benimseyerek, hastaların sağlığına en uygun ve kişiselleştirilmiş bakımı sunmayı amaçlar.",
+        "Uzman ürologlarımız, hastaların sağlık sorunlarını anlamak ve en uygun tedavi seçeneklerini sunmak için geniş bir tecrübeye ve uzmanlığa sahiptir. Hastalarımızın sağlığına odaklanarak, ürolojik sorunların etkili bir şekilde yönetilmesine ve hastalarımızın yaşam kalitesinin artırılmasına yardımcı olmak için çaba gösteriyoruz. Etik Hastanesi olarak, ürolojik sağlık sorunlarıyla mücadele etmek için hastalarımıza profesyonel ve güvenilir bir ortam sağlamaktan gurur duyuyoruz."
+      ]
+    },
+    "dahiliye": {
+      "title": "Dahiliye",
+      "description": "Dahiliye; yetişkinlerde görülen iç hastalıkların tanı, tedavi ve takibini kapsayan temel bir tıp dalıdır. İç organ sistemlerinin değerlendirilmesi ve genel sağlık yönetimini içerir.",
+      "longDescription": [
+        "Hastalıkların erken teşhis ve tedavi yöntemlerinin gelişmesi, tıbbın önemli bir ilerleme kaydetmesine sebep olmuştur. Yeni teknolojilerin kullanımı sayesinde birçok hastalık ilerlemeden önce tespit edilebilir hale gelmiştir. Laboratuvar tetkikleri, ileri görüntüleme teknikleri ve diğer modern teknolojiler, hastalıkların teşhisini ve tedavisini kolaylaştırmaktadır.",
+        "İç hastalıkları bölümü, bu teknolojilerin kullanıldığı ve hastalıkların teşhis ve tedavisinde önemli bir rol üstlenen birimlerden biridir. Etik Hastanesi olarak, iç hastalıkları bölümümüz, detaylı araştırmalar ve modern tıbbın sunduğu imkanlarla hastalıkların erken evrede teşhis edilmesini sağlamaktadır. Bu sayede hastaların tedavi süreci daha etkili ve başarılı bir şekilde yürütülmektedir.",
+        "İç hastalıkları bölümü, 15 yaş üzeri hastalarda iç organlara ait çeşitli rahatsızlıkların teşhis ve tedavisini üstlenmektedir. Ayrıca, hastaların sağlıklarını korumak ve olası rahatsızlıklardan korunmaları için bilgilendirme yapmaktadır. Hipertansiyon, solunum yolu hastalıkları, şeker hastalığı, tiroid problemleri, böbrek ve bağırsak hastalıkları gibi geniş bir yelpazede hizmet vermektedir.",
+        "Etik Hastanesi iç hastalıkları bölümü, hastaların sağlık sorunlarına karşı duyarlı bir şekilde yaklaşarak, doğru teşhis ve etkili tedavi planlarıyla hastaların sağlıklı bir yaşam sürmelerine yardımcı olmaktadır. Hastaların ihtiyaçlarına özel olarak tasarlanmış tedavi yöntemleri ile her zaman yanlarında olduğumuzu belirtmek isteriz. Sağlıklı bir gelecek için Etik Hastanesi iç hastalıkları bölümü her zaman hizmetinizdedir."
+      ]
+    },
+ "deriZuhreviHastaliklar": {
+  "title": "Deri ve Zührevi Hastalıklar",
+  "description": "Dermatoloji; cilt, saç, tırnak ve mukozaları etkileyen hastalıkların tanı ve tedavisi ile ilgilenir. Ayrıca cinsel yolla bulaşan hastalıkların değerlendirilmesini de kapsar.",
+  "longDescription": [
+    "Deri ve Zührevi Hastalıkları (Dermatoloji), cilt, saç, tırnak, mukozalar ve cinsel yolla bulaşan hastalıkların tanı ve tedavisi ile ilgilenen önemli bir tıp dalıdır. Dermatoloji uzmanları, geniş bir yelpazedeki deri problemleriyle ilgilenir ve hastaların sağlıklı bir cilt yapısına sahip olmalarını sağlamak için çaba gösterirler.",
+    "Etik Hastanesi Dermatoloji Bölümü olarak, cilt sağlığınızı korumak ve deri ile ilgili her türlü sorunu çözmek için buradayız. Dermatoloji uzmanlarımız, modern teşhis ve tedavi yöntemlerini kullanarak hastaların sağlıklı bir cilde sahip olmalarını desteklemektedirler.",
+    "Dermatoloji uzmanları, hastalıkların teşhisi için cilt muayenesi, mikroskopik inceleme, biyopsi ve laboratuvar testleri gibi çeşitli yöntemleri kullanırlar. Cilt sorunlarına yönelik tedavi planları genellikle ilaçlar, topikal kremler, lazer terapileri veya cerrahi müdahaleler gibi yöntemleri içerebilir.",
+    "Cilt sağlığı ve görünümü, genel sağlık ve yaşam kalitesi üzerinde önemli bir etkiye sahiptir. Etik Hastanesi Dermatoloji Bölümü olarak, her hasta için kişiselleştirilmiş tedavi yaklaşımlarıyla en iyi sonuçları elde etmek için çaba gösteriyoruz. Sağlıklı bir cilt ve yaşam için Etik Hastanesi Dermatoloji Bölümü olarak size hizmet etmekten mutluluk duyuyoruz."
+  ]
+},
+"kulakBurunBogaz": {
+  "title": "Kulak Burun Boğaz",
+  "description": "Kulak burun boğaz hastalıkları; kulak, burun ve boğaz ile ilgili sağlık sorunlarının tanı ve tedavisini kapsar. İşitme kaybı, sinüzit ve boğaz hastalıklarının değerlendirilmesini içerir.",
+  "longDescription": [
+    "Etik Hastanesi Kulak Burun Boğaz (KBB) Hastalıkları Bölümü, alanında deneyimli uzman hekimler tarafından yönetilmekte olup, son teknolojiye sahip cihazlarla donatılmıştır. Burada her türlü KBB hastalığının teşhis ve tedavisi başarıyla gerçekleştirilmektedir. Hastanemizdeki ileri teknolojik donanım sayesinde, kulak, burun ve boğaz bölgesindeki ameliyatlar endoskopik, mikroskopik veya açık cerrahi yöntemlerle en güncel tekniklerle gerçekleştirilmektedir.",
+    "Her yaş grubundan hastanın tanı ve tedavi süreçleri, gerektiğinde diğer uzmanlık dallarındaki deneyimli hekimlerle işbirliği içinde yürütülmektedir. Bu multidisipliner yaklaşım, hastalarımıza en kapsamlı ve etkili tedavi planlarını sunma imkanı sağlar.",
+    "Etik Hastanesi KBB Bölümü, kulak, burun ve boğazla ilgili geniş bir yelpazedeki hastalıkların tanı ve tedavisinde uzmanlaşmıştır. Kulak enfeksiyonları, işitme kaybı, burun tıkanıklığı, sinüzit, boğaz ağrısı, ses kısıklığı gibi yaygın rahatsızlıkların yanı sıra daha kompleks durumlar da titizlikle ele alınmaktadır.",
+    "Hastalarımızın sağlığı ve refahı her zaman önceliğimizdir. Etik Hastanesi KBB Bölümü olarak, uzman ekibimiz ve son teknoloji ekipmanlarımızla hastalarımıza en iyi tedaviyi sunmaktan gurur duyuyoruz. Her hasta için özel olarak kişiselleştirilmiş bir tedavi planı oluşturarak, onların sağlıklı bir yaşam sürmelerine yardımcı olmak için çaba gösteriyoruz."
+  ]
+},
+
+  "cocukSagligiHastaliklari": {
+    "title": "Çocuk Sağlığı ve Hastalıkları",
+    "description": "Çocuk sağlığı ve hastalıkları; bebeklikten ergenliğe kadar çocukların sağlık takibi ve hastalıklarının tanı ve tedavisini kapsayan bir uzmanlık alanıdır.",
+    "longDescription": [
+      "Etik Hastanesi Çocuk Sağlığı ve Hastalıkları Bölümü, bebeklikten ergenliğe kadar olan dönemdeki çocukların sağlık sorunlarının önlenmesi, tanı ve tedavisi üzerine uzmanlaşmış bir ana bilim dalıdır. Enfeksiyon hastalıkları, alerjik reaksiyonlar, büyüme ve gelişme sorunları, beslenme bozuklukları ve aşı takibi gibi çeşitli sağlık konularını kapsar.",
+      "Bu bölümde görev yapan uzman pediyatristler, çocukların fiziksel ve psikolojik gelişimlerini destekleyici, koruyucu sağlık hizmetleri sunar. Multidisipliner bir yaklaşımla, gelişimsel değerlendirme, düzenli sağlık kontrolleri ve aşı programları gibi önleyici hizmetler sağlanır.",
+      "Pediyatri bölümü, çocukların sağlıklı büyüme ve gelişmelerini desteklemek amacıyla beslenme danışmanlığı, ergen sağlığı, davranışsal sorunlar ve eğitim zorlukları gibi alanlarda da yardımcı olur. Çocukların ve ailelerinin ihtiyaçları doğrultusunda kişiselleştirilmiş tedavi planları geliştirilir.",
+      "Etik Hastanesi Çocuk Sağlığı ve Hastalıkları Bölümü uzmanları, çocukluk çağı hastalıklarının yanı sıra sağlıklı büyüme ve gelişme süreçlerini desteklemek için kapsamlı bir eğitimden geçerler. Tıp fakültesi eğitiminin ardından pediyatri alanında uzmanlık eğitimi alırlar.",
+      "Bölüm olarak, çocukların sağlıklı ve mutlu bireyler olarak büyümelerini sağlamak için çaba sarf ediyoruz. Çocuklarımızın her biri özeldir ve onlara en iyi sağlık hizmetini sunmak, onların ve ailelerinin yaşam kalitesini artırmak temel önceliğimizdir. Her çocuğun gelişimine ve sağlığına katkıda bulunarak, sağlıklı bir toplumun temellerini atmaya devam ediyoruz."
+    ]
+  },
+
+  "agizDisSagligi": {
+    "title": "Ağız ve Diş Sağlığı",
+    "description": "Ağız ve diş sağlığı; diş, diş eti ve ağız yapısını etkileyen hastalıkların tanı ve tedavisini kapsar. Sağlıklı bir ağız yapısının korunması ve estetik gülüşün desteklenmesini amaçlar.",
+    "longDescription": [
+      "Ağız ve diş sağlığı, genel sağlığımızın önemli bir parçasıdır ve ihmal edilmemesi gereken bir konudur. Etik Hastanesi olarak, ağız ve diş sağlığınızı korumak ve tedavi etmek için en iyisini sunmak amacıyla çaba gösteriyoruz.",
+      "Ağız ve diş hastalıkları, sadece ağız içinde değil, genel sağlık üzerinde de ciddi etkilere sahip olabilir. Örneğin, diş çürükleri ve diş eti hastalıkları gibi durumlar, ağız içi enfeksiyonlara yol açabilir ve bu enfeksiyonlar yayılarak vücut genelinde sağlık sorunlarına neden olabilir. Ayrıca, kötü ağız hijyeni, kalp hastalıkları, diyabet ve solunum yolu enfeksiyonları gibi ciddi sağlık sorunlarının riskini artırabilir.",
+      "Etik Hastanesi Ağız ve Diş Sağlığı Bölümleri, uzman diş hekimleri ve deneyimli personeli ile her türlü ağız ve diş sorununu modern teknoloji ve hasta odaklı bir yaklaşımla tedavi etmektedir. Rutin diş temizliği ve kontrollerden, diş beyazlatma ve estetik uygulamalara kadar geniş bir hizmet yelpazesi sunmaktayız.",
+      "Hastalarımızın sağlığı ve memnuniyeti bizim için ön plandadır. Bu nedenle, her hasta için kişiye özel tedavi planları oluşturarak, en etkili ve güvenilir tedavi yöntemlerini sunmaya özen gösteriyoruz. Ağız ve diş sağlığınızı korumak ve sağlıklı bir gülümsemeyle yaşamınızı sürdürmenize yardımcı olmak için Etik Hastanesi olarak buradayız. Size en iyi hizmeti sunabilmek için sabırsızlıkla bekliyoruz."
+    ]
+  },
+
+  "radyoloji": {
+    "title": "Radyoloji",
+    "description": "Radyoloji; hastalıkların teşhis edilmesinde kullanılan görüntüleme yöntemlerini kapsayan bir tıp dalıdır. X-ray, ultrason, MR ve bilgisayarlı tomografi gibi teknolojilerle tanı sürecini destekler.",
+    "longDescription": [
+      "Etik Hastanesi Radyoloji Bölümleri, hastalıkların teşhisinde kritik bir rol oynayan ve vücudun iç yapısını görüntülemek için kullanılan teknolojik yöntemlerin uzmanlık alanıdır. Radyolojik tetkikler, hastalıkların doğru teşhis edilmesi ve etkili bir tedavi sürecinin yürütülmesinde hayati öneme sahiptir. Gelişen teknolojiyle birlikte, farklı görüntüleme teknikleri kullanılarak vücut sistemleri detaylı bir şekilde incelenebilmekte ve bu da hastalıklarla mücadelede başarılı sonuçların elde edilmesine olanak tanımaktadır.",
+      "Etik Hastanesi Radyoloji Bölümleri, dünya standartlarında hizmet sunmak üzere ileri teknoloji ürünü cihazlar ve deneyimli uzman kadrosuyla donatılmıştır. Tamamen dijital teknolojiye dayalı sistemlerle elde edilen görüntüler, dijital ortamda arşivlenerek kolayca erişilebilir hale getirilmektedir. Bölümlerimizde düşük doz ve yüksek çekim kalitesine sahip cihazlar kullanılarak en hassas görüntüler elde edilmekte ve hastaların konforu ön planda tutulmaktadır.",
+      "Ayrıca, çocuk dostu doz uygulamalarıyla bebek ve çocuk hastaların görüntüleme tetkikleri güvenle yapılmaktadır. Hastalarımızın sağlığı ve konforu için sürekli olarak teknolojik ve prosedürel gelişmeleri takip ediyor ve en güncel yöntemleri kullanarak kaliteli hizmet sunmaya odaklanıyoruz. Etik Hastanesi olarak, hastalarımızın ihtiyaçlarına ve sağlık gereksinimlerine en iyi şekilde cevap vermek için çalışmaktan gurur duyuyoruz."
+    ]
+  },
+
+  "lazerEpilasyon": {
+    "title": "Lazer Epilasyon",
+    "description": "Lazer epilasyon, istenmeyen tüylerden kurtulmak için uygulanan ve bunun için lazer kullanılan tıbbi bir işlemdir. Kadın ve erkekler tarafından tercih edilen lazer epilasyonda kıldaki pigment tarafından emilen bir ışık yayılarak ısıya dönüşür.",
+    "longDescription": [
+      "Etik Hastanesi, istenmeyen tüylerden kurtulmak için kadınlar ve erkekler tarafından tercih edilen lazer epilasyon gibi modern tıbbi işlemleri sunan bir sağlık kuruluşudur. Lazer epilasyon, istenmeyen tüylerin kalıcı olarak azaltılması veya yok edilmesi amacıyla kullanılan etkili bir yöntemdir.",
+      "Lazer epilasyon işlemi, kıldaki pigment tarafından emilen bir ışığın cilde uygulanmasıyla gerçekleşir. Bu ışık, kıl köklerine nüfuz ederek ısıya dönüşür ve kıl üreten köklere zarar verir. Böylece, gelecekteki saç büyümesi engellenir ve istenmeyen tüylerin azalması sağlanır.",
+      "Etik Hastanesi'nde lazer epilasyon işlemi, kişinin cilt tipi, renk, kıl yapısı ve kalınlığı gibi faktörlere uygun olarak özelleştirilir. Ayrıca, kişinin hormonal durumu da dikkate alınarak tedavi planı oluşturulur. Bu sayede, her hasta için en etkili ve güvenli sonuçlar elde edilir.",
+      "Hastalar, Etik Hastanesi'nde uzmanlaşmış ekipler tarafından yapılan lazer epilasyon işlemleri ile istenmeyen tüylerden kalıcı olarak kurtulmanın keyfini yaşarlar. Modern tıbbın ve teknolojinin en son yeniliklerini kullanarak, hastalarımıza en iyi hizmeti sunmayı hedefliyoruz."
+    ]
+  },
+
+  "psikiyatri": {
+    "title": "Psikiyatri",
+    "description": "Psikiyatri; depresyon, anksiyete ve benzeri zihinsel sağlık sorunlarının tanı ve tedavisi ile ilgilenir. Bireylerin ruhsal sağlığını korumayı ve yaşam kalitesini artırmayı amaçlar.",
+    "longDescription": [
+      "Etik Hastanesi Psikiyatri Bölümü, bireylerin ruh sağlığı ve psikolojik rahatsızlıklarının tanı, tedavi ve yönetimi üzerine uzmanlaşmış bir ana bilim dalıdır. Depresyon, anksiyete bozuklukları, bipolar bozukluk, şizofreni, obsesif-kompulsif bozukluk, panik atak ve diğer ruhsal durumlarla ilgilenir.",
+      "Bölümdeki uzman psikiyatristler, bireysel terapi, grup terapisi, ilaç tedavisi ve gerektiğinde ileri psikolojik testler gibi çeşitli tedavi yöntemleriyle hastalarına destek olur. Multidisipliner bir yaklaşımı benimseyerek, hastaların psikolojik, sosyal ve biyolojik yönlerini kapsayan bir tedavi planı geliştirilir.",
+      "Psikiyatri bölümü aynı zamanda stres yönetimi, yaşam becerilerinin geliştirilmesi, ilişki sorunları ve kişisel gelişim konularında danışmanlık hizmetleri sunar. Hastaların ruh sağlığını korumak ve yaşam kalitelerini artırmak bölümün temel amacıdır.",
+      "Etik Hastanesi Psikiyatri Bölümü uzmanları, psikiyatrik hastalıkların tanı ve tedavisi konusunda geniş bir eğitim ve deneyime sahiptir. Bu, tıp fakültesi eğitiminin ardından psikiyatri uzmanlık eğitimi almayı içerir.",
+      "Her hastanın benzersiz olduğu bilinciyle, kişiselleştirilmiş tedavi planları oluşturulur, bu sayede hastaların kendilerini daha iyi hissetmeleri ve sosyal yaşamlarına devam edebilmeleri sağlanır.",
+      "Etik Hastanesi Psikiyatri Bölümü olarak, bireylerin ruh sağlığını iyileştirmek ve daha mutlu, daha sağlıklı bir toplum oluşturmak için çalışıyoruz. Her bir hastamıza saygı, anlayış ve destek sunarak, onların iyileşme süreçlerinde yanlarında olmayı hedefliyoruz."
+    ]
+   }
+  }
+ }
+}

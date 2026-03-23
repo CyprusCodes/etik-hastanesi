@@ -1,0 +1,15 @@
+{
+  "call": "Call",
+  "bookAppointment": "Book Appointment",
+  "toggleMenu": "Toggle menu",
+  "emergencyHelp": "Emergency",
+  "switchLanguage": "Türkçe",
+  "nav": {
+    "home": "Home",
+    "about": "About Us",
+    "services": "Medical Units",
+    "doctors": "Our Doctors",
+    "blog": "Blog",
+    "contact": "Contact"
+  }
+}

@@ -1,179 +1,180 @@
 import { Layout } from "@/components/layout/Layout"
 import { Helmet } from "react-helmet-async"
+import { useTranslation } from "react-i18next"
 
 export default function ServiceAgreement() {
+  const { t } = useTranslation(["hospital"])
+
   return (
     <>
-  <Helmet>
-    <title>Hizmet Sözleşmesi | Etik Hastanesi</title>
-    <meta
-      name="description"
-      content="Etik Hastanesi hizmet sözleşmesi ve genel hizmet şartlarını inceleyin."
-    />
-  </Helmet>
-    <Layout>
-      <section className="bg-gradient-to-r from-primary to-accent py-14 lg:py-16 text-white">
-        <div className="container-narrow text-center">
-          <h1 className="heading-2 text-white">Hizmet Sözleşmesi</h1>
-          <p className="mt-3 text-white/90 text-sm">
-            Etik Hastanesi Kıbrıs hizmet şartları ve genel sözleşme hükümleri
-          </p>
-        </div>
-      </section>
+      <Helmet>
+        <title>{t("hospital:serviceAgreementPage.seo.title")}</title>
+        <meta
+          name="description"
+          content={t("hospital:serviceAgreementPage.seo.description")}
+        />
+      </Helmet>
 
-      <section className="section-padding bg-secondary">
-        <div className="container-narrow">
-          <div className="bg-white rounded-3xl border border-border shadow-sm overflow-hidden">
-            <div className="px-6 md:px-10 py-8 border-b border-border bg-primary/5">
-              <h2 className="text-2xl font-bold text-foreground">
-                ETİK HASTANESİ KIBRIS HİZMET SÖZLEŞMESİ
-              </h2>
-            </div>
+      <Layout>
+        <section className="bg-gradient-to-r from-primary to-accent py-14 text-white lg:py-16">
+          <div className="container-narrow text-center">
+            <h1 className="heading-2 text-white">
+              {t("hospital:serviceAgreementPage.hero.title")}
+            </h1>
+            <p className="mt-3 text-sm text-white/90">
+              {t("hospital:serviceAgreementPage.hero.description")}
+            </p>
+          </div>
+        </section>
 
-            <div className="px-6 md:px-10 py-8 space-y-8 text-muted-foreground leading-8">
-              <p>
-                Bu Hizmet Sözleşmesi ("Sözleşme"), taraflar arasında
-                [Sözleşmenin Başlangıç Tarihi] tarihinde yapılmıştır ve
-                aşağıdaki gibi tanımlanmıştır.
-              </p>
+        <section className="section-padding bg-secondary">
+          <div className="container-narrow">
+            <div className="overflow-hidden rounded-3xl border border-border bg-white shadow-sm">
+              <div className="border-b border-border bg-primary/5 px-6 py-8 md:px-10">
+                <h2 className="text-2xl font-bold text-foreground">
+                  {t("hospital:serviceAgreementPage.content.title")}
+                </h2>
+              </div>
 
-              <div>
-                <h3 className="text-xl font-semibold text-foreground mb-4">
-                  1. Taraflar
-                </h3>
-                <div className="space-y-4">
-                  <div className="rounded-2xl border border-border bg-secondary/40 p-5">
-                    <p className="font-medium text-foreground mb-2">
-                      A. Hizmet Sağlayıcı ("Hastane")
-                    </p>
-                    <p>Etik Hastanesi Kıbrıs</p>
-                    <p>Adres: [Hastanenin Tam Adresi]</p>
-                  </div>
+              <div className="space-y-8 px-6 py-8 leading-8 text-muted-foreground md:px-10">
+                <p>{t("hospital:serviceAgreementPage.content.intro")}</p>
 
-                  <div className="rounded-2xl border border-border bg-secondary/40 p-5">
-                    <p className="font-medium text-foreground mb-2">
-                      B. Hasta ("Hasta")
-                    </p>
-                    <p>[Hasta'nın Tam Adı]</p>
-                    <p>Adres: [Hasta'nın Tam Adresi]</p>
+                <div>
+                  <h3 className="mb-4 text-xl font-semibold text-foreground">
+                    {t("hospital:serviceAgreementPage.sections.parties.title")}
+                  </h3>
+
+                  <div className="space-y-4">
+                    <div className="rounded-2xl border border-border bg-secondary/40 p-5">
+                      <p className="mb-2 font-medium text-foreground">
+                        {t("hospital:serviceAgreementPage.sections.parties.provider.title")}
+                      </p>
+                      <p>
+                        {t("hospital:serviceAgreementPage.sections.parties.provider.name")}
+                      </p>
+                      <p>
+                        {t("hospital:serviceAgreementPage.sections.parties.provider.address")}
+                      </p>
+                    </div>
+
+                    <div className="rounded-2xl border border-border bg-secondary/40 p-5">
+                      <p className="mb-2 font-medium text-foreground">
+                        {t("hospital:serviceAgreementPage.sections.parties.patient.title")}
+                      </p>
+                      <p>
+                        {t("hospital:serviceAgreementPage.sections.parties.patient.name")}
+                      </p>
+                      <p>
+                        {t("hospital:serviceAgreementPage.sections.parties.patient.address")}
+                      </p>
+                    </div>
                   </div>
                 </div>
-              </div>
 
-              <div>
-                <h3 className="text-xl font-semibold text-foreground mb-3">
-                  2. Hizmetler
-                </h3>
-                <p>
-                  Hastane, Hasta'ya sağlık hizmetleri sunmayı kabul eder. Bu
-                  hizmetler, ancak bunlarla sınırlı olmamak üzere, muayene,
-                  teşhis, tedavi ve diğer sağlık hizmetlerini içerebilir.
-                </p>
-              </div>
+                <div>
+                  <h3 className="mb-3 text-xl font-semibold text-foreground">
+                    {t("hospital:serviceAgreementPage.sections.services.title")}
+                  </h3>
+                  <p>
+                    {t("hospital:serviceAgreementPage.sections.services.description")}
+                  </p>
+                </div>
 
-              <div>
-                <h3 className="text-xl font-semibold text-foreground mb-3">
-                  3. Hizmetin Şartları
-                </h3>
-                <p>
-                  Hastane, tıbbi etik ve standartlara uygun olarak en yüksek
-                  kalitede hizmet sağlamayı taahhüt eder. Hasta, Hastane
-                  tarafından önerilen tıbbi prosedürlere ve tedavilere
-                  uyacağını kabul eder.
-                </p>
-              </div>
+                <div>
+                  <h3 className="mb-3 text-xl font-semibold text-foreground">
+                    {t("hospital:serviceAgreementPage.sections.terms.title")}
+                  </h3>
+                  <p>
+                    {t("hospital:serviceAgreementPage.sections.terms.description")}
+                  </p>
+                </div>
 
-              <div>
-                <h3 className="text-xl font-semibold text-foreground mb-3">
-                  4. Ücretlendirme ve Ödeme
-                </h3>
-                <p>
-                  Hizmetlerin ücretlendirilmesi, Hastane'nin geçerli fiyat
-                  listesine ve Hasta'nın alacağı spesifik hizmetlere göre
-                  belirlenecektir. Hasta, hizmetler için Hastane tarafından
-                  belirlenen ücretleri ödemeyi kabul eder.
-                </p>
-              </div>
+                <div>
+                  <h3 className="mb-3 text-xl font-semibold text-foreground">
+                    {t("hospital:serviceAgreementPage.sections.payment.title")}
+                  </h3>
+                  <p>
+                    {t("hospital:serviceAgreementPage.sections.payment.description")}
+                  </p>
+                </div>
 
-              <div>
-                <h3 className="text-xl font-semibold text-foreground mb-3">
-                  5. Gizlilik
-                </h3>
-                <p>
-                  Hastane, Hasta'nın kişisel ve tıbbi bilgilerini gizli tutma
-                  konusunda yasalara uygun hareket edecek ve bu bilgileri
-                  yalnızca yasal olarak gerektiğinde ve Hasta'nın izniyle
-                  paylaşacaktır.
-                </p>
-              </div>
+                <div>
+                  <h3 className="mb-3 text-xl font-semibold text-foreground">
+                    {t("hospital:serviceAgreementPage.sections.confidentiality.title")}
+                  </h3>
+                  <p>
+                    {t("hospital:serviceAgreementPage.sections.confidentiality.description")}
+                  </p>
+                </div>
 
-              <div>
-                <h3 className="text-xl font-semibold text-foreground mb-3">
-                  6. Sorumluluk
-                </h3>
-                <p>
-                  Hastane, hizmetlerini sunarken gereken özeni gösterecektir.
-                  Ancak, Hastane, tedavinin sonuçlarına dair herhangi bir
-                  garanti vermez.
-                </p>
-              </div>
+                <div>
+                  <h3 className="mb-3 text-xl font-semibold text-foreground">
+                    {t("hospital:serviceAgreementPage.sections.liability.title")}
+                  </h3>
+                  <p>
+                    {t("hospital:serviceAgreementPage.sections.liability.description")}
+                  </p>
+                </div>
 
-              <div>
-                <h3 className="text-xl font-semibold text-foreground mb-3">
-                  7. Anlaşmazlıkların Çözümü
-                </h3>
-                <p>
-                  Taraflar arasındaki herhangi bir anlaşmazlık, öncelikle iyi
-                  niyetle çözülmeye çalışılacak; aksi takdirde, [Yargı Bölgesi]
-                  yasalarına göre çözülecektir.
-                </p>
-              </div>
+                <div>
+                  <h3 className="mb-3 text-xl font-semibold text-foreground">
+                    {t("hospital:serviceAgreementPage.sections.disputes.title")}
+                  </h3>
+                  <p>
+                    {t("hospital:serviceAgreementPage.sections.disputes.description")}
+                  </p>
+                </div>
 
-              <div>
-                <h3 className="text-xl font-semibold text-foreground mb-3">
-                  8. Sözleşmenin Süresi ve Feshi
-                </h3>
-                <p>
-                  Bu Sözleşme, herhangi bir taraf tarafından yazılı olarak
-                  feshedilene kadar geçerlidir.
-                </p>
-              </div>
+                <div>
+                  <h3 className="mb-3 text-xl font-semibold text-foreground">
+                    {t("hospital:serviceAgreementPage.sections.duration.title")}
+                  </h3>
+                  <p>
+                    {t("hospital:serviceAgreementPage.sections.duration.description")}
+                  </p>
+                </div>
 
-              <div>
-                <h3 className="text-xl font-semibold text-foreground mb-3">
-                  9. Diğer Şartlar
-                </h3>
-                <p>
-                  Bu Sözleşme, taraflar arasındaki tam anlaşmayı oluşturur ve
-                  herhangi bir önceki anlaşmayı iptal eder.
-                </p>
-              </div>
+                <div>
+                  <h3 className="mb-3 text-xl font-semibold text-foreground">
+                    {t("hospital:serviceAgreementPage.sections.otherTerms.title")}
+                  </h3>
+                  <p>
+                    {t("hospital:serviceAgreementPage.sections.otherTerms.description")}
+                  </p>
+                </div>
 
-              <div className="pt-4 border-t border-border">
-                <h3 className="text-xl font-semibold text-foreground mb-4">
-                  İmzalar
-                </h3>
-                <div className="grid md:grid-cols-2 gap-6">
-                  <div className="rounded-2xl border border-border p-5">
-                    <p className="font-medium text-foreground">
-                      Hastane Yetkilisi
-                    </p>
-                    <p className="mt-6">___________________</p>
-                    <p className="mt-2">Tarih: ___________</p>
-                  </div>
+                <div className="border-t border-border pt-4">
+                  <h3 className="mb-4 text-xl font-semibold text-foreground">
+                    {t("hospital:serviceAgreementPage.signatures.title")}
+                  </h3>
 
-                  <div className="rounded-2xl border border-border p-5">
-                    <p className="font-medium text-foreground">Hasta</p>
-                    <p className="mt-6">___________________</p>
-                    <p className="mt-2">Tarih: ___________</p>
+                  <div className="grid gap-6 md:grid-cols-2">
+                    <div className="rounded-2xl border border-border p-5">
+                      <p className="font-medium text-foreground">
+                        {t("hospital:serviceAgreementPage.signatures.hospital")}
+                      </p>
+                      <p className="mt-6">___________________</p>
+                      <p className="mt-2">
+                        {t("hospital:serviceAgreementPage.signatures.date")}
+                      </p>
+                    </div>
+
+                    <div className="rounded-2xl border border-border p-5">
+                      <p className="font-medium text-foreground">
+                        {t("hospital:serviceAgreementPage.signatures.patient")}
+                      </p>
+                      <p className="mt-6">___________________</p>
+                      <p className="mt-2">
+                        {t("hospital:serviceAgreementPage.signatures.date")}
+                      </p>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </div>
-      </section>
-    </Layout>
+        </section>
+      </Layout>
     </>
   )
 }

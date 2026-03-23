@@ -1,62 +1,68 @@
 import { Link } from "react-router-dom"
 import { ArrowRight } from "lucide-react"
+import { useTranslation } from "react-i18next"
 import { Button } from "@/components/ui/button"
 import { blogPreview } from "../../data/blog"
 
 export function BlogSection() {
+  const { t } = useTranslation(["hospital"])
+
   return (
     <section className="section-padding bg-white">
       <div className="container-narrow">
-        <div className="flex flex-col lg:flex-row lg:items-end lg:justify-between gap-6 mb-12">
+        <div className="mb-12 flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
           <div className="max-w-2xl">
-            <span className="text-primary font-semibold text-sm uppercase tracking-wider">
-              Blog
+            <span className="text-primary text-sm font-semibold uppercase tracking-wider">
+              {t("hospital:blogSection.badge")}
             </span>
-            <h2 className="heading-2 mt-3 mb-4">Sağlık Yazıları</h2>
+
+            <h2 className="heading-2 mt-3 mb-4">
+              {t("hospital:blogSection.title")}
+            </h2>
+
             <p className="body-large">
-              Sağlığınızla ilgili güncel bilgiler, farkındalık içerikleri ve
-              faydalı öneriler için blog yazılarımıza göz atabilirsiniz.
+              {t("hospital:blogSection.description")}
             </p>
           </div>
 
           <Button size="lg" variant="outline" asChild>
             <Link to="/blog">
-              Tüm Yazılar
-              <ArrowRight className="h-5 w-5 ml-2" />
+              {t("hospital:blogSection.cta")}
+              <ArrowRight className="ml-2 h-5 w-5" />
             </Link>
           </Button>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
           {blogPreview.map((post) => (
             <Link
               key={post.id}
               to={`/blog/${post.slug}`}
-              className="group h-full bg-white border border-border rounded-2xl overflow-hidden shadow-sm hover:shadow-md transition-shadow flex flex-col"
+              className="group flex h-full flex-col overflow-hidden rounded-2xl border border-border bg-white shadow-sm transition-shadow hover:shadow-md"
             >
               <div className="h-52 bg-secondary">
                 {post.image ? (
                   <img
-                    src={post.image}
-                    alt={post.title}
+                    src={t(post.image)}
+                    alt={t(post.titleKey)}
                     className="h-full w-full object-cover"
                     loading="lazy"
                   />
                 ) : null}
               </div>
 
-              <div className="p-5 flex flex-col flex-1">
-                <h3 className="font-semibold text-lg text-foreground group-hover:text-primary transition-colors min-h-[60px]">
-                  {post.title}
+              <div className="flex flex-1 flex-col p-5">
+                <h3 className="min-h-[60px] text-lg font-semibold text-foreground transition-colors group-hover:text-primary">
+                  {t(post.titleKey)}
                 </h3>
 
-                <p className="text-sm text-muted-foreground mt-3 leading-7 line-clamp-4 flex-1">
-                  {post.excerpt}
+                <p className="mt-3 line-clamp-4 flex-1 text-sm leading-7 text-muted-foreground">
+                  {t(post.excerptKey)}
                 </p>
 
-                <div className="mt-6 inline-flex items-center text-primary text-sm font-medium">
-                  <span>Devamını Oku</span>
-                  <ArrowRight className="h-4 w-4 ml-1 group-hover:translate-x-1 transition-transform" />
+                <div className="mt-6 inline-flex items-center text-sm font-medium text-primary">
+                  <span>{t("hospital:blogSection.readMore")}</span>
+                  <ArrowRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </div>
               </div>
             </Link>

@@ -2,32 +2,38 @@ import { Layout } from "@/components/layout/Layout"
 import { Link, useParams } from "react-router-dom"
 import { Helmet } from "react-helmet-async"
 import { ArrowLeft } from "lucide-react"
+import { useTranslation } from "react-i18next"
 import { blogPosts } from "../data/blog"
 
 export default function BlogPost() {
   const { slug } = useParams()
+  const { t } = useTranslation(["hospital"])
   const post = blogPosts.find((item) => item.slug === slug)
 
   if (!post) {
     return (
       <>
-    <Helmet>
-      <title>Yazı Bulunamadı | Etik Hastanesi Blog</title>
-      <meta
-        name="description"
-        content="Aradığınız blog yazısı bulunamadı. Etik Hastanesi blog sayfasına geri dönebilirsiniz."
-      />
-    </Helmet>
-      <Layout>
-        <section className="section-padding bg-white">
-          <div className="container-narrow">
-            <h1 className="heading-2 mb-4">Yazı bulunamadı</h1>
-            <Link to="/blog" className="text-primary font-medium underline">
-              Blog sayfasına dön
-            </Link>
-          </div>
-        </section>
-      </Layout>
+        <Helmet>
+          <title>{t("hospital:blogPostPage.notFound.seo.title")}</title>
+          <meta
+            name="description"
+            content={t("hospital:blogPostPage.notFound.seo.description")}
+          />
+        </Helmet>
+
+        <Layout>
+          <section className="section-padding bg-white">
+            <div className="container-narrow">
+              <h1 className="heading-2 mb-4">
+                {t("hospital:blogPostPage.notFound.title")}
+              </h1>
+
+              <Link to="/blog" className="font-medium text-primary underline">
+                {t("hospital:blogPostPage.notFound.backToBlog")}
+              </Link>
+            </div>
+          </section>
+        </Layout>
       </>
     )
   }
@@ -36,93 +42,100 @@ export default function BlogPost() {
 
   return (
     <>
-  <Helmet>
-    <title>{post.title} | Etik Hastanesi Blog</title>
-    <meta name="description" content={post.excerpt} />
-  </Helmet>
-    <Layout>
-      <section className="section-padding bg-white">
-        <div className="container-narrow">
-          <div className="mb-8">
-            <Link
-              to="/blog"
-              className="inline-flex items-center text-primary font-medium hover:opacity-80"
-            >
-              <ArrowLeft className="h-4 w-4 mr-2" />
-              Bloga geri dön
-            </Link>
-          </div>
+      <Helmet>
+        <title>
+          {t("hospital:blogPostPage.seo.title", { title: t(post.titleKey) })}
+        </title>
+        <meta name="description" content={t(post.excerptKey)} />
+      </Helmet>
 
-          <div className="grid lg:grid-cols-[1.8fr_0.8fr] gap-10">
-            <article>
-              {post.image ? (
-                <div className="rounded-3xl overflow-hidden border border-border mb-8">
-                  <img
-                    src={post.image}
-                    alt={post.title}
-                    className="w-full h-auto object-cover"
-                    loading="lazy"
-                  />
-                </div>
-              ) : null}
+      <Layout>
+        <section className="section-padding bg-white">
+          <div className="container-narrow">
+            <div className="mb-8">
+              <Link
+                to="/blog"
+                className="inline-flex items-center font-medium text-primary hover:opacity-80"
+              >
+                <ArrowLeft className="mr-2 h-4 w-4" />
+                {t("hospital:blogPostPage.backToBlog")}
+              </Link>
+            </div>
 
-              <div className="mb-6">
-                <div className="text-sm text-primary font-medium mb-3">
-                  {post.category}
-                </div>
-
-                <h1 className="heading-2 mb-3">{post.title}</h1>
-
-                {post.date ? (
-                  <div className="text-sm text-muted-foreground">{post.date}</div>
+            <div className="grid gap-10 lg:grid-cols-[1.8fr_0.8fr]">
+              <article>
+                {post.image ? (
+                  <div className="mb-8 overflow-hidden rounded-3xl border border-border">
+                    <img
+                      src={t(post.image)}
+                      alt={t(post.titleKey)}
+                      className="h-auto w-full object-cover"
+                      loading="lazy"
+                    />
+                  </div>
                 ) : null}
-              </div>
 
-              <div className="space-y-6">
-                {post.content?.map((paragraph, index) => (
-                  <p
-                    key={index}
-                    className="text-base text-muted-foreground leading-8 text-justify"
-                  >
-                    {paragraph}
-                  </p>
-                ))}
-              </div>
-            </article>
+                <div className="mb-6">
+                  <div className="mb-3 text-sm font-medium text-primary">
+                    {t(post.categoryKey)}
+                  </div>
 
-            <aside>
-  <div className="rounded-3xl border border-border bg-card p-6 sticky top-24">
-    <div className="text-sm text-muted-foreground mb-4">Diğer Yazılar</div>
+                  <h1 className="heading-2 mb-3">{t(post.titleKey)}</h1>
 
-    <div className="space-y-3">
-      {otherPosts.slice(0, 5).map((item) => (
-        <Link
-          key={item.id}
-          to={`/blog/${item.slug}`}
-          className="block rounded-2xl border border-border bg-white p-4 hover:border-primary hover:shadow-sm transition-all"
-        >
-          <div className="font-medium text-foreground leading-6 hover:text-primary transition-colors">
-            {item.title}
+                  {post.date ? (
+                    <div className="text-sm text-muted-foreground">
+                      {t(post.date)}
+                    </div>
+                  ) : null}
+                </div>
+
+                <div className="space-y-6">
+                  {post.contentKeys?.map((paragraphKey, index) => (
+                    <p
+                      key={index}
+                      className="text-base leading-8 text-muted-foreground text-justify"
+                    >
+                      {t(paragraphKey)}
+                    </p>
+                  ))}
+                </div>
+              </article>
+
+              <aside>
+                <div className="sticky top-24 rounded-3xl border border-border bg-card p-6">
+                  <div className="mb-4 text-sm text-muted-foreground">
+                    {t("hospital:blogPostPage.otherPosts")}
+                  </div>
+
+                  <div className="space-y-3">
+                    {otherPosts.slice(0, 5).map((item) => (
+                      <Link
+                        key={item.id}
+                        to={`/blog/${item.slug}`}
+                        className="block rounded-2xl border border-border bg-white p-4 transition-all hover:border-primary hover:shadow-sm"
+                      >
+                        <div className="leading-6 font-medium text-foreground transition-colors hover:text-primary">
+                          {t(item.titleKey)}
+                        </div>
+                      </Link>
+                    ))}
+                  </div>
+
+                  <div className="mt-6 border-t border-border pt-6">
+                    <Link
+                      to="/blog"
+                      className="inline-flex items-center font-medium text-primary hover:opacity-80"
+                    >
+                      <ArrowLeft className="mr-2 h-4 w-4" />
+                      {t("hospital:blogPostPage.backToAllPosts")}
+                    </Link>
+                  </div>
+                </div>
+              </aside>
+            </div>
           </div>
-        </Link>
-      ))}
-    </div>
-
-    <div className="mt-6 pt-6 border-t border-border">
-      <Link
-        to="/blog"
-        className="inline-flex items-center text-primary font-medium hover:opacity-80"
-      >
-        <ArrowLeft className="h-4 w-4 mr-2" />
-        Tüm yazılara dön
-      </Link>
-    </div>
-  </div>
-</aside>
-          </div>
-        </div>
-      </section>
-    </Layout>
+        </section>
+      </Layout>
     </>
   )
 }

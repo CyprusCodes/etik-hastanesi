@@ -1,0 +1,15 @@
+{
+  "call": "Ara",
+  "bookAppointment": "Randevu Al",
+  "toggleMenu": "Menüyü aç/kapat",
+  "emergencyHelp": "Acil Yardım",
+  "switchLanguage": "English",
+  "nav": {
+    "home": "Anasayfa",
+    "about": "Hakkımızda",
+    "services": "Tıbbi Birimler",
+    "doctors": "Doktorlarımız",
+    "blog": "Blog",
+    "contact": "İletişim"
+  }
+}

@@ -1,8 +1,10 @@
 import { useState } from "react"
+import { useTranslation } from "react-i18next"
 import { testimonials } from "@/data/hospital"
 import { ChevronLeft, ChevronRight } from "lucide-react"
 
 export function TestimonialsSection() {
+  const { t } = useTranslation(["hospital"])
   const [index, setIndex] = useState(0)
 
   const next = () => {
@@ -19,57 +21,56 @@ export function TestimonialsSection() {
     <section className="section-padding bg-secondary">
       <div className="container-narrow">
 
-        <div className="flex items-center justify-between mb-10">
+        <div className="mb-10 flex items-center justify-between">
           <div>
-            <span className="text-primary font-semibold text-sm uppercase tracking-wider">
-              Hasta Yorumları
+            <span className="text-primary text-sm font-semibold uppercase tracking-wider">
+              {t("hospital:testimonialsSection.badge")}
             </span>
 
             <h2 className="heading-2 mt-2">
-             Biz Mutluyuz
+              {t("hospital:testimonialsSection.title")}
             </h2>
           </div>
 
           <div className="flex gap-3">
             <button
               onClick={prev}
-              className="w-10 h-10 rounded-full border border-border bg-white flex items-center justify-center hover:bg-primary hover:text-white transition"
+              className="flex h-10 w-10 items-center justify-center rounded-full border border-border bg-white transition hover:bg-primary hover:text-white"
             >
               <ChevronLeft size={20} />
             </button>
 
             <button
               onClick={next}
-              className="w-10 h-10 rounded-full border border-border bg-white flex items-center justify-center hover:bg-primary hover:text-white transition"
+              className="flex h-10 w-10 items-center justify-center rounded-full border border-border bg-white transition hover:bg-primary hover:text-white"
             >
               <ChevronRight size={20} />
             </button>
           </div>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-6">
+        <div className="grid gap-6 md:grid-cols-2">
           {visible.map((item) => (
             <div
               key={item.id}
-              className="bg-white border border-border rounded-xl p-6 shadow-sm hover:shadow-md transition"
+              className="rounded-xl border border-border bg-white p-6 shadow-sm transition hover:shadow-md"
             >
-              <div className="flex items-center gap-4 mb-4">
-
+              <div className="mb-4 flex items-center gap-4">
                 {item.image ? (
                   <img
                     src={item.image}
                     alt={item.name}
-                    className="w-12 h-12 rounded-full object-cover"
+                    className="h-12 w-12 rounded-full object-cover"
                   />
                 ) : (
-                  <div className="w-12 h-12 rounded-full bg-primary/10 flex items-center justify-center text-primary font-bold">
+                  <div className="flex h-12 w-12 items-center justify-center rounded-full bg-primary/10 font-bold text-primary">
                     {item.name.charAt(0)}
                   </div>
                 )}
 
                 <div>
                   <div className="text-xs text-muted-foreground">
-                    {item.role}
+                    {t(item.roleKey)}
                   </div>
 
                   <div className="font-semibold text-foreground">
@@ -78,8 +79,8 @@ export function TestimonialsSection() {
                 </div>
               </div>
 
-              <p className="text-sm text-muted-foreground leading-7">
-                {item.text}
+              <p className="text-sm leading-7 text-muted-foreground">
+                {t(item.textKey)}
               </p>
             </div>
           ))}

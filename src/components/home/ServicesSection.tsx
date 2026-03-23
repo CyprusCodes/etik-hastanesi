@@ -1,96 +1,96 @@
 import { Link } from "react-router-dom"
-import { ArrowRight } from "lucide-react"
+import { ArrowRight, Stethoscope, HeartPulse, Layers, HandHeart } from "lucide-react"
+import { useTranslation } from "react-i18next"
 import { Button } from "@/components/ui/button"
-import { Stethoscope, HeartPulse, Layers, HandHeart } from "lucide-react";
 
 const categories = [
   {
     id: "cerrahi",
-    title: "Cerrahi Birimler",
-    description: "Cerrahi müdahale ve ameliyat gerektiren branşlarımız.",
+    titleKey: "hospital:servicesSection.categories.surgical.title",
+    descriptionKey: "hospital:servicesSection.categories.surgical.description",
     href: "/tibbi-birimler/cerrahi",
     icon: Stethoscope,
   },
   {
     id: "dahili",
-    title: "Dahili Birimler",
-    description: "Tanı, takip ve tedavi odaklı dahili branşlarımız.",
+    titleKey: "hospital:servicesSection.categories.internal.title",
+    descriptionKey: "hospital:servicesSection.categories.internal.description",
     href: "/tibbi-birimler/dahili",
     icon: HeartPulse,
   },
   {
     id: "diger",
-    title: "Diğer Birimler",
-    description: "Farklı uzmanlık alanlarında destek birimlerimiz.",
+    titleKey: "hospital:servicesSection.categories.other.title",
+    descriptionKey: "hospital:servicesSection.categories.other.description",
     href: "/tibbi-birimler/diger",
     icon: Layers,
   },
   {
     id: "paramedikal",
-    title: "Paramedikal",
-    description: "Tanı ve tedavi süreçlerini destekleyen sağlık hizmetleri.",
+    titleKey: "hospital:servicesSection.categories.paramedical.title",
+    descriptionKey: "hospital:servicesSection.categories.paramedical.description",
     href: "/tibbi-birimler/paramedikal",
     icon: HandHeart,
   },
 ]
 
 export function ServicesSection() {
+  const { t } = useTranslation(["hospital"])
+
   return (
     <section className="section-padding bg-white">
       <div className="container-narrow">
-        {/* Header */}
-        <div className="text-center max-w-2xl mx-auto mb-12">
-          <span className="text-primary font-semibold text-sm uppercase tracking-wider">
-            Hizmetlerimiz
+        <div className="mx-auto mb-12 max-w-2xl text-center">
+          <span className="text-primary text-sm font-semibold uppercase tracking-wider">
+            {t("hospital:servicesSection.badge")}
           </span>
-          <h2 className="heading-2 mt-2 mb-4">Tıbbi Birimler</h2>
+
+          <h2 className="heading-2 mt-2 mb-4">
+            {t("hospital:servicesSection.title")}
+          </h2>
+
           <p className="body-large">
-            Tıbbi birimlerimiz kategoriler halinde listelenmiştir. Size uygun bölümü seçerek detaylara ulaşabilirsiniz.
+            {t("hospital:servicesSection.description")}
           </p>
         </div>
 
-        {/* Grid (4 yan yana) */}
-
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           {categories.map((cat, index) => {
             const Icon = cat.icon
+
             return (
               <Link
                 key={cat.id}
                 to={cat.href}
-                className="group relative bg-card rounded-2xl border border-border p-6 card-hover"
+                className="group relative rounded-2xl border border-border bg-card p-6 card-hover"
                 style={{ animationDelay: `${index * 100}ms` }}
               >
-                {/* Icon (soldaki gibi) */}
-                <div className="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center mb-4 group-hover:bg-primary transition-colors">
-                  <Icon className="h-7 w-7 text-primary group-hover:text-white transition-colors" />
+                <div className="mb-4 flex h-14 w-14 items-center justify-center rounded-xl bg-primary/10 transition-colors group-hover:bg-primary">
+                  <Icon className="h-7 w-7 text-primary transition-colors group-hover:text-white" />
                 </div>
 
-                {/* Content */}
-                <h3 className="heading-3 text-lg mb-2 group-hover:text-primary transition-colors">
-                  {cat.title}
+                <h3 className="heading-3 mb-2 text-lg transition-colors group-hover:text-primary">
+                  {t(cat.titleKey)}
                 </h3>
-                <p className="text-muted-foreground text-sm line-clamp-3">
-                  {cat.description}
+
+                <p className="line-clamp-3 text-sm text-muted-foreground">
+                  {t(cat.descriptionKey)}
                 </p>
 
-                {/* Arrow */}
-                <div className="mt-4 flex items-center text-primary text-sm font-medium">
-                  <span>Detaylar</span>
-                  <ArrowRight className="h-4 w-4 ml-1 group-hover:translate-x-1 transition-transform" />
+                <div className="mt-4 flex items-center text-sm font-medium text-primary">
+                  <span>{t("hospital:servicesSection.details")}</span>
+                  <ArrowRight className="ml-1 h-4 w-4 transition-transform group-hover:translate-x-1" />
                 </div>
               </Link>
             )
           })}
-
         </div>
 
-        {/* CTA */}
-        <div className="text-center mt-10">
+        <div className="mt-10 text-center">
           <Button size="lg" variant="outline" asChild>
             <Link to="/tibbi-birimler">
-              Tüm Tıbbi Birimler
-              <ArrowRight className="h-5 w-5 ml-2" />
+              {t("hospital:servicesSection.allUnits")}
+              <ArrowRight className="ml-2 h-5 w-5" />
             </Link>
           </Button>
         </div>
