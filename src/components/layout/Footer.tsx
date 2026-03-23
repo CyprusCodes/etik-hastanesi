@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom"
 import { Phone, Mail, MapPin, Clock, Facebook, Instagram } from "lucide-react"
 import { useTranslation } from "react-i18next"
-import { hospitalInfo, contactInfo, navLinks } from "@/data/hospital"
+import {contactInfo, navLinks } from "@/data/hospital"
 
 export function Footer() {
   const { t } = useTranslation(["common", "hospital"])

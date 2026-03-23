@@ -1,6 +1,6 @@
 import { Layout } from "@/components/layout/Layout"
 import { Award, Users, Heart, Target, Eye } from "lucide-react"
-import { hospitalInfo, stats } from "@/data/hospital"
+import {stats } from "@/data/hospital"
 import { Helmet } from "react-helmet-async"
 import { useTranslation } from "react-i18next"
 

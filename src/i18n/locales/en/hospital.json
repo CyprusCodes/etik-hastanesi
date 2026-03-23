@@ -5,6 +5,7 @@
   "workingHours": {
     "emergency": "24/7 Emergency Service"
   },
+
   "hero": {
     "badge": "Trusted Healthcare Service",
     "titleStart": "Reliable",
@@ -14,17 +15,20 @@
     "expertTeam": "Expert Medical Team",
     "urgentShort": "Urgent"
   },
+
   "stats": {
   "experience": "Years of Experience",
   "happyPatients": "Happy Patients",
   "specialistDoctors": "Specialist Doctors",
   "emergencyService": "Emergency Service"
 },
+
 "featuresSection": {
   "badge": "Why Us?",
   "title": "Why Choose Etik Hospital",
   "description": "We make a difference with over 26 years of experience and a patient-focused approach."
 },
+
 "features": {
   "emergency": {
     "title": "24/7 Emergency Service",
@@ -43,10 +47,11 @@
     "description": "Conveniently located in central Nicosia."
   }
 },
+
 "aboutSection": {
   "badge": "About Us",
   "title": "The Right Address for Reliable Healthcare",
-  "description": "Founded in {{foundedYear}} as the first private hospital in Nicosia, {{hospitalName}} is now among the leading healthcare institutions in Northern Cyprus with its modern medical technology and expert staff.",
+  "description": "Founded in 1999 as the first private hospital in Nicosia, {{hospitalName}} is now among the leading healthcare institutions in Northern Cyprus with its modern medical technology and expert staff.",
   "experienceLabel": "Years of Experience",
   "cta": "Learn More",
   "highlights": [
@@ -58,6 +63,7 @@
     "A patient-focused approach"
   ]
 },
+
 "servicesSection": {
   "badge": "Our Services",
   "title": "Medical Units",
@@ -83,12 +89,14 @@
     }
   }
 },
+
 "doctorsSection": {
   "badge": "Our Doctors",
   "title": "Our Expert Medical Team",
   "description": "We provide reliable and high-quality healthcare services with our experienced specialist doctors.",
-  "cta": "All Our Doctors"
+  "cta": "Meet Our Doctors"
 },
+
 "blogSection": {
   "badge": "Blog",
   "title": "Health Articles",
@@ -96,10 +104,12 @@
   "cta": "All Articles",
   "readMore": "Read More"
 },
+
 "testimonialsSection": {
   "badge": "Patient Reviews",
   "title": "We Are Happy"
 },
+
 "contactSection": {
   "badge": "Contact",
   "title": "Contact Us for Your Health",
@@ -112,6 +122,7 @@
   "onlineAppointment": "Online Appointment",
   "emergencyLabel": "In Emergencies"
 },
+
 "footer": {
   "quickLinks": "Quick Links",
   "medicalUnits": "Our Medical Units",
@@ -133,6 +144,7 @@
     "privacyPolicy": "Privacy Policy"
   }
 },
+
 "aboutPage": {
   "seo": {
     "title": "About Us | Etik Hospital",
@@ -200,6 +212,7 @@
     }
   ]
 },
+
 "medicalUnitsPage": {
   "seo": {
     "title": "Medical Units | Etik Hospital",
@@ -274,6 +287,7 @@
     "backToBranches": "Back to branches"
   }
 },
+
 "doctorsPage": {
   "seo": {
     "title": "Our Doctors | Etik Hospital",
@@ -291,6 +305,7 @@
     "page": "{{department}} page {{page}}"
   }
 },
+
 "blogPage": {
   "seo": {
     "title": "Health Articles | Etik Hospital Blog",
@@ -303,6 +318,7 @@
   },
   "readMore": "Read More"
 },
+
 "blogPostPage": {
   "seo": {
     "title": "{{title}} | Etik Hospital Blog"
@@ -319,6 +335,7 @@
     "backToBlog": "Return to the blog page"
   }
 },
+
 "contactPage": {
   "seo": {
     "title": "Contact | Etik Hospital",
@@ -388,6 +405,7 @@
   },
   "mapTitle": "Etik Hospital Location"
 },
+
 "cookiePolicyPage": {
   "seo": {
     "title": "Cookie Policy | Etik Hospital",
@@ -437,6 +455,7 @@
     }
   }
 },
+
 "privacyPolicyPage": {
   "seo": {
     "title": "Privacy Policy | Etik Hospital",
@@ -478,6 +497,7 @@
     }
   }
 },
+
 "serviceAgreementPage": {
   "seo": {
     "title": "Service Agreement | Etik Hospital",
@@ -545,6 +565,7 @@
     "date": "Date: ___________"
   }
 },
+
 "blogData": {
   "preview": {
     "1": {
@@ -620,12 +641,14 @@
     }
   }
 },
+
 "doctorDepartments": {
   "surgical": "Surgical Units",
   "internal": "Internal Medicine Units",
   "other": "Other Units",
   "paramedical": "Paramedical"
 },
+
 "doctorTitles": {
   "orthopedics": "Orthopedics",
   "cardiovascularSurgery": "Cardiovascular Surgery",
@@ -644,6 +667,7 @@
   "plasticReconstructiveSurgery": "Aesthetic Plastic and Reconstructive Surgery",
   "biochemist": "Biochemist"
 },
+
 "testimonialsData": {
   "roles": {
     "patient": "Patient"
@@ -663,6 +687,7 @@
     }
   }
 },
+
 "medicalUnitsData": {
   "categories": {
     "cerrahi": {

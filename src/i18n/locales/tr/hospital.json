@@ -5,6 +5,7 @@
   "workingHours": {
     "emergency": "7/24 Acil Servis"
   },
+
   "hero": {
     "badge": "Güvenilir Sağlık Hizmeti",
     "titleStart": "Sağlığınız İçin",
@@ -14,17 +15,20 @@
     "expertTeam": "Uzman Hekim Kadrosu",
     "urgentShort": "Acil"
   },
+
   "stats": {
   "experience": "Yıllık Deneyim",
   "happyPatients": "Mutlu Hasta",
   "specialistDoctors": "Uzman Doktor",
   "emergencyService": "Acil Servis"
 },
+
 "featuresSection": {
   "badge": "Neden Biz?",
   "title": "Etik Hastanesi'ni Tercih Etmeniz İçin Nedenler",
   "description": "26 yılı aşkın deneyimimiz ve hasta odaklı yaklaşımımızla fark yaratıyoruz."
 },
+
 "features": {
   "emergency": {
     "title": "7/24 Acil Servis",
@@ -43,10 +47,11 @@
     "description": "Lefkoşa merkezinde, kolay ulaşılabilir konumda."
   }
 },
+
 "aboutSection": {
   "badge": "Hakkımızda",
   "title": "Güvenilir Sağlık Hizmeti İçin Doğru Adres",
-  "description": "{{foundedYear}} yılında Lefkoşa'nın ilk özel hastanesi olarak kurulan {{hospitalName}}, bugün modern tıbbi teknolojisi ve uzman kadrosuyla Kuzey Kıbrıs'ın önde gelen sağlık kuruluşları arasında yer almaktadır.",
+  "description": "1999 yılında Lefkoşa'nın ilk özel hastanesi olarak kurulan {{hospitalName}}, bugün modern tıbbi teknolojisi ve uzman kadrosuyla Kuzey Kıbrıs'ın önde gelen sağlık kuruluşları arasında yer almaktadır.",
   "experienceLabel": "Yıllık Deneyim",
   "cta": "Daha Fazla Bilgi",
   "highlights": [
@@ -58,6 +63,7 @@
     "Hasta memnuniyeti odaklı yaklaşım"
   ]
 },
+
 "servicesSection": {
   "badge": "Hizmetlerimiz",
   "title": "Tıbbi Birimler",
@@ -83,12 +89,14 @@
     }
   }
 },
+
 "doctorsSection": {
   "badge": "Doktorlarımız",
   "title": "Uzman Hekim Kadromuz",
   "description": "Alanında deneyimli uzman doktorlarımız ile hastalarımıza güvenilir ve kaliteli sağlık hizmeti sunuyoruz.",
   "cta": "Tüm Doktorlarımız"
 },
+
 "blogSection": {
   "badge": "Blog",
   "title": "Sağlık Yazıları",
@@ -96,10 +104,12 @@
   "cta": "Tüm Yazılar",
   "readMore": "Devamını Oku"
 },
+
 "testimonialsSection": {
   "badge": "Hasta Yorumları",
   "title": "Biz Mutluyuz"
 },
+
 "contactSection": {
   "badge": "İletişim",
   "title": "Sağlığınız İçin Bize Ulaşın",
@@ -112,6 +122,7 @@
   "onlineAppointment": "Online Randevu",
   "emergencyLabel": "Acil Durumlarda"
 },
+
 "footer": {
   "quickLinks": "Hızlı Bağlantılar",
   "medicalUnits": "Tıbbi Birimlerimiz",
@@ -133,6 +144,7 @@
     "privacyPolicy": "Gizlilik Politikası"
   }
 },
+
 "aboutPage": {
   "seo": {
     "title": "Hakkımızda | Etik Hastanesi",
@@ -200,6 +212,7 @@
     }
   ]
 },
+
 "medicalUnitsPage": {
   "seo": {
     "title": "Tıbbi Birimler | Etik Hastanesi",
@@ -212,6 +225,7 @@
   },
    "details": "Detaylar"
 },
+
 "medicalUnitCategories": {
   "surgical": {
     "title": "Cerrahi Birimler",
@@ -230,6 +244,7 @@
     "description": "Tanı ve tedavi süreçlerini destekleyen sağlık hizmetleri."
   }
 },
+
 "medicalUnitCategoryPage": {
   "seo": {
     "title": "{{category}} | Tıbbi Birimler | Etik Hastanesi",
@@ -246,6 +261,7 @@
     "backLink": "Tıbbi Birimler sayfasına dön"
   }
 },
+
 "medicalUnitBranchPage": {
   "seo": {
     "title": "{{branch}} | Tıbbi Branş Detayı | Etik Hastanesi",
@@ -271,6 +287,7 @@
     "backToBranches": "Branşlara geri dön"
   }
 },
+
 "doctorsPage": {
   "seo": {
     "title": "Doktorlarımız | Etik Hastanesi",
@@ -288,6 +305,7 @@
     "page": "{{department}} sayfa {{page}}"
   }
 },
+
 "blogPage": {
   "seo": {
     "title": "Sağlık Yazıları | Etik Hastanesi Blog",
@@ -300,6 +318,7 @@
   },
   "readMore": "Devamını Oku"
 },
+
 "blogPostPage": {
   "seo": {
     "title": "{{title}} | Etik Hastanesi Blog"
@@ -316,6 +335,7 @@
     "backToBlog": "Blog sayfasına dön"
   }
 },
+
 "contactPage": {
   "seo": {
     "title": "İletişim | Etik Hastanesi",
@@ -385,6 +405,7 @@
   },
   "mapTitle": "Etik Hastanesi Konum"
 },
+
 "cookiePolicyPage": {
   "seo": {
     "title": "Çerez Politikası | Etik Hastanesi",
@@ -434,6 +455,7 @@
     }
   }
 },
+
 "privacyPolicyPage": {
   "seo": {
     "title": "Gizlilik Politikası | Etik Hastanesi",
@@ -475,6 +497,7 @@
     }
   }
 },
+
 "serviceAgreementPage": {
   "seo": {
     "title": "Hizmet Sözleşmesi | Etik Hastanesi",
@@ -542,6 +565,7 @@
     "date": "Tarih: ___________"
   }
 },
+
 "blogData": {
   "preview": {
     "1": {
@@ -617,12 +641,14 @@
     }
   }
 },
+
 "doctorDepartments": {
   "surgical": "Cerrahi Birimler",
   "internal": "Dahili Birimler",
   "other": "Diğer Birimler",
   "paramedical": "Paramedikal"
 },
+
 "doctorTitles": {
   "orthopedics": "Ortopedi",
   "cardiovascularSurgery": "Kalp ve Damar Cerrahisi",
@@ -641,6 +667,7 @@
   "plasticReconstructiveSurgery": "Estetik Plastik ve Rekonstrüktif Cerrahi",
   "biochemist": "Biyokimyager"
 },
+
 "testimonialsData": {
   "roles": {
     "patient": "Hasta"
