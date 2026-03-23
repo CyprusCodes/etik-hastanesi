@@ -30,21 +30,21 @@ export default function Contact() {
 
   type MedicalUnitOption = {
     id: string
-    title: string
+    label: string
   }
 
-  const allMedicalUnits = useMemo<MedicalUnitOption[]>(() => {
-    return medicalUnitCategories
-      .flatMap((category) =>
-        category.items.map((item) => ({
-          id: String(item.id),
-          title: String(item.titleKey),
-        }))
-      )
-      .sort((a, b) =>
-        a.title.localeCompare(b.title, i18n.language.startsWith("en") ? "en" : "tr")
-      )
-  }, [i18n.language])
+const allMedicalUnits = useMemo<MedicalUnitOption[]>(() => {
+  return medicalUnitCategories
+    .flatMap((category) =>
+      category.items.map((item) => ({
+        id: String(item.id),
+        label: t(String(item.titleKey)),
+      }))
+    )
+    .sort((a, b) =>
+      a.label.localeCompare(b.label, i18n.language.startsWith("en") ? "en" : "tr")
+    )
+}, [t, i18n.language])
 
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault()
@@ -321,6 +321,7 @@ export default function Contact() {
                           {t("hospital:contactPage.form.fields.department.label")}
                         </label>
                         <select
+                          key= {i18n.language}
                           id="department"
                           name="department"
                           value={formData.department}
@@ -332,7 +333,7 @@ export default function Contact() {
                           </option>
                           {allMedicalUnits.map((unit) => (
                             <option key={unit.id} value={unit.id}>
-                              {unit.title}
+                              {unit.label}
                             </option>
                           ))}
                         </select>
@@ -432,4 +433,5 @@ function ContactCard({ icon: Icon, title, content, href }: ContactCardProps) {
       </div>
     </Wrapper>
   )
+
 }
