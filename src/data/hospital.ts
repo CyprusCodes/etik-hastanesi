@@ -15,6 +15,7 @@ import {
   type LucideIcon,
 } from "lucide-react"
 
+const base = import.meta.env.BASE_URL
 export interface Department {
   id: string
   title: string
@@ -167,7 +168,7 @@ export const medicalUnitCategories: MedicalUnitCategory[] = [
       "hospital:medicalUnitsData.categories.cerrahi.bullets.1",
       "hospital:medicalUnitsData.categories.cerrahi.bullets.2",
     ],
-    image: "/images/branches/genel-cerrahi.jpg",
+    image: `${base}/images/branches/genel-cerrahi.jpg`,
     icon: Stethoscope,
     items: [
       {
@@ -181,7 +182,7 @@ export const medicalUnitCategories: MedicalUnitCategory[] = [
           "hospital:medicalUnitsData.branches.estetikPlastikRekonstruktifCerrahi.longDescription.1",
           "hospital:medicalUnitsData.branches.estetikPlastikRekonstruktifCerrahi.longDescription.2",
         ],
-        image: "/images/services/estetik.jpg",
+        image: `${base}/images/services/estetik.jpg`,
       },
       {
         id: "genel-cerrahi",
@@ -194,7 +195,7 @@ export const medicalUnitCategories: MedicalUnitCategory[] = [
           "hospital:medicalUnitsData.branches.genelCerrahi.longDescription.2",
           "hospital:medicalUnitsData.branches.genelCerrahi.longDescription.3",
         ],
-        image: "/images/services/genel.png",
+        image: `${base}/images/services/genel.png`,
       },
       {
         id: "goz-hastaliklari",
@@ -207,7 +208,7 @@ export const medicalUnitCategories: MedicalUnitCategory[] = [
           "hospital:medicalUnitsData.branches.gozHastaliklari.longDescription.2",
           "hospital:medicalUnitsData.branches.gozHastaliklari.longDescription.3",
         ],
-        image: "/images/services/goz-hastaliklari.jpg",
+        image: `${base}/images/services/goz-hastaliklari.jpg`,
       },
       {
         id: "gogus-hastaliklari",
@@ -221,7 +222,7 @@ export const medicalUnitCategories: MedicalUnitCategory[] = [
           "hospital:medicalUnitsData.branches.gogusHastaliklari.longDescription.3",
           "hospital:medicalUnitsData.branches.gogusHastaliklari.longDescription.4",
         ],
-        image: "/images/services/gogus-hastaliklari.jpg",
+        image: `${base}/images/services/gogus-hastaliklari.jpg`,
       },
       {
         id: "ortopedi-ve-travmatoloji",
@@ -246,7 +247,7 @@ export const medicalUnitCategories: MedicalUnitCategory[] = [
           "hospital:medicalUnitsData.branches.kadinHastaliklariDogum.longDescription.2",
           "hospital:medicalUnitsData.branches.kadinHastaliklariDogum.longDescription.3",
         ],
-        image: "/images/services/kadin.jpg",
+        image: `${base}/images/services/kadin.jpg`,
       },
       {
         id: "kardiyoloji",
@@ -260,7 +261,7 @@ export const medicalUnitCategories: MedicalUnitCategory[] = [
           "hospital:medicalUnitsData.branches.kardiyoloji.longDescription.3",
           "hospital:medicalUnitsData.branches.kardiyoloji.longDescription.4",
         ],
-        image: "/images/services/kardiyoloji.jpg",
+        image: `${base}/images/services/kardiyoloji.jpg`,
       },
       {
         id: "noroloji",
@@ -273,7 +274,7 @@ export const medicalUnitCategories: MedicalUnitCategory[] = [
           "hospital:medicalUnitsData.branches.noroloji.longDescription.2",
           "hospital:medicalUnitsData.branches.noroloji.longDescription.3",
         ],
-        image: "/images/services/noroloji.jpg",
+        image: `${base}/images/services/noroloji.jpg`,
       },
       {
         id: "uroloji",
@@ -286,7 +287,7 @@ export const medicalUnitCategories: MedicalUnitCategory[] = [
           "hospital:medicalUnitsData.branches.uroloji.longDescription.2",
           "hospital:medicalUnitsData.branches.uroloji.longDescription.3",
         ],
-        image: "/images/services/urology.jpg",
+        image: `${base}/images/services/urology.jpg`,
       },
     ],
   },
@@ -303,7 +304,7 @@ export const medicalUnitCategories: MedicalUnitCategory[] = [
       "hospital:medicalUnitsData.categories.dahili.bullets.1",
       "hospital:medicalUnitsData.categories.dahili.bullets.2",
     ],
-    image: "/images/branches/genel-cerrahi.jpg",
+    image: `${base}/images/branches/genel-cerrahi.jpg`,
     icon: HeartPulse,
     items: [
       {
@@ -317,7 +318,7 @@ export const medicalUnitCategories: MedicalUnitCategory[] = [
           "hospital:medicalUnitsData.branches.dahiliye.longDescription.2",
           "hospital:medicalUnitsData.branches.dahiliye.longDescription.3",
         ],
-        image: "/images/services/dahiliye.webp",
+        image: `${base}/images/services/dahiliye.webp`,
       },
       {
         id: "deri-zuhrevi-hastaliklar",
@@ -331,7 +332,7 @@ export const medicalUnitCategories: MedicalUnitCategory[] = [
           "hospital:medicalUnitsData.branches.deriZuhreviHastaliklar.longDescription.2",
           "hospital:medicalUnitsData.branches.deriZuhreviHastaliklar.longDescription.3",
         ],
-        image: "/images/services/deri.jpg",
+        image: `${base}/images/services/deri.jpg`,
       },
       {
         id: "kulak-burun-bogaz",
@@ -344,7 +345,7 @@ export const medicalUnitCategories: MedicalUnitCategory[] = [
           "hospital:medicalUnitsData.branches.kulakBurunBogaz.longDescription.2",
           "hospital:medicalUnitsData.branches.kulakBurunBogaz.longDescription.3",
         ],
-        image: "/images/services/kulak-burun-bogaz.jpg",
+        image: `${base}/images/services/kulak-burun-bogaz.jpg`,
       },
       {
         id: "cocuk-sagligi-hastaliklari",
@@ -359,7 +360,7 @@ export const medicalUnitCategories: MedicalUnitCategory[] = [
           "hospital:medicalUnitsData.branches.cocukSagligiHastaliklari.longDescription.3",
           "hospital:medicalUnitsData.branches.cocukSagligiHastaliklari.longDescription.4",
         ],
-        image: "/images/services/cocuk-sagligi.jpg",
+        image: `${base}/images/services/cocuk-sagligi.jpg`,
       },
     ],
   },
@@ -376,7 +377,7 @@ export const medicalUnitCategories: MedicalUnitCategory[] = [
       "hospital:medicalUnitsData.categories.diger.bullets.1",
       "hospital:medicalUnitsData.categories.diger.bullets.2",
     ],
-    image: "/images/branches/genel-cerrahi.jpg",
+    image: `${base}/images/branches/genel-cerrahi.jpg`,
     icon: Layers,
     items: [
       {
@@ -390,7 +391,7 @@ export const medicalUnitCategories: MedicalUnitCategory[] = [
           "hospital:medicalUnitsData.branches.agizDisSagligi.longDescription.2",
           "hospital:medicalUnitsData.branches.agizDisSagligi.longDescription.3",
         ],
-        image: "/images/services/dental.jpg",
+        image: `${base}/images/services/dental.jpg`,
       },
       {
         id: "radyoloji",
@@ -402,7 +403,7 @@ export const medicalUnitCategories: MedicalUnitCategory[] = [
           "hospital:medicalUnitsData.branches.radyoloji.longDescription.1",
           "hospital:medicalUnitsData.branches.radyoloji.longDescription.2",
         ],
-        image: "/images/services/radyoloji.jpg",
+        image: `${base}/images/services/radyoloji.jpg`,
       },
       {
         id: "lazer-epilasyon",
@@ -415,7 +416,7 @@ export const medicalUnitCategories: MedicalUnitCategory[] = [
           "hospital:medicalUnitsData.branches.lazerEpilasyon.longDescription.2",
           "hospital:medicalUnitsData.branches.lazerEpilasyon.longDescription.3",
         ],
-        image: "/images/services/laser.jpg",
+        image: `${base}/images/services/laser.jpg`,
       },
     ],
   },
@@ -433,7 +434,7 @@ export const medicalUnitCategories: MedicalUnitCategory[] = [
       "hospital:medicalUnitsData.categories.paramedikal.bullets.1",
       "hospital:medicalUnitsData.categories.paramedikal.bullets.2",
     ],
-    image: "/images/branches/genel-cerrahi.jpg",
+    image: `${base}/images/branches/genel-cerrahi.jpg`,
     icon: HandHeart,
     items: [
       {
@@ -448,7 +449,7 @@ export const medicalUnitCategories: MedicalUnitCategory[] = [
           "hospital:medicalUnitsData.branches.psikiyatri.longDescription.3",
           "hospital:medicalUnitsData.branches.psikiyatri.longDescription.4",
         ],
-        image: "/images/services/p.jpg",
+        image: `${base}/images/services/p.jpg`,
       },
     ],
   },
@@ -635,28 +636,28 @@ export const testimonials: Testimonial[] = [
     name: "Bahar Demir",
     roleKey: "hospital:testimonialsData.roles.patient",
     textKey: "hospital:testimonialsData.items.1.text",
-    image: "/images/testimonials/bahar-demir.png",
+    image: `${base}/images/testimonials/bahar-demir.png`,
   },
   {
     id: "2",
     name: "Mustafa Ok",
     roleKey: "hospital:testimonialsData.roles.patient",
     textKey: "hospital:testimonialsData.items.2.text",
-    image: "/images/testimonials/mustafa-ok.png",
+    image: `${base}/images/testimonials/mustafa-ok.png`,
   },
   {
     id: "3",
     name: "Neslihan Sert",
     roleKey: "hospital:testimonialsData.roles.patient",
     textKey: "hospital:testimonialsData.items.3.text",
-    image: "/images/testimonials/neslihan-sert.png",
+    image: `${base}/images/testimonials/neslihan-sert.png`,
   },
   {
     id: "4",
     name: "Ömer Küçük",
     roleKey: "hospital:testimonialsData.roles.patient",
     textKey: "hospital:testimonialsData.items.4.text",
-    image: "/images/testimonials/omer-kucuk.png",
+    image: `${base}/images/testimonials/omer-kucuk.png`,
   },
 ]
 export interface Doctor {
