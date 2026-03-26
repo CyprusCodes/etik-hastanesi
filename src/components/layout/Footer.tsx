@@ -13,11 +13,11 @@ export function Footer() {
         <div className="grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-5 lg:gap-12">
           <div className="lg:col-span-1">
             <Link to="/" className="mb-5 inline-flex flex-col items-start">
-              <div className="rounded-xl bg-white px-4 py-3 shadow-sm">
+              <div className="rounded-xl bg-white px-2 py-1 shadow-md">
                 <img
-                  src="/images/logo.jpg"
+                  src="/images/logo2.png"
                   alt={t("hospital:name")}
-                  className="h-14 w-auto object-contain lg:h-16"
+                  className="h-20 w-auto object-contain lg:h-24"
                 />
               </div>
             </Link>

@@ -46,12 +46,34 @@ const allMedicalUnits = useMemo<MedicalUnitOption[]>(() => {
     )
 }, [t, i18n.language])
 
-  const handleSubmit = async (e: FormEvent) => {
-    e.preventDefault()
-    setFormStatus("submitting")
+const handleSubmit = async (e: FormEvent) => {
+  e.preventDefault()
+  setFormStatus("submitting")
 
-    try {
-      await new Promise((resolve) => setTimeout(resolve, 1500))
+  try {
+    const scriptUrl = "https://script.google.com/macros/s/AKfycbzCjZrktV1tXlqfwufjV_OijPhq16aGE0jXgf_iBKyQtFxL9fH545vN26JSwOB-4Gmu/exec"
+
+    if (!scriptUrl) {
+      throw new Error("Apps Script URL is missing.")
+    }
+
+    const formPayload = new FormData()
+    formPayload.append("sheet", "appointments")
+    formPayload.append("name", formData.name)
+    formPayload.append("phone", formData.phone)
+    formPayload.append("email", formData.email)
+    formPayload.append("appointmentType", formData.appointmentType)
+    formPayload.append("department", formData.department)
+    formPayload.append("message", formData.message)
+
+    const response = await fetch(scriptUrl, {
+      method: "POST",
+      body: formPayload,
+    })
+
+    const data = await response.json()
+
+    if (data?.result === "success") {
       setFormStatus("success")
       setFormData({
         name: "",
@@ -61,10 +83,14 @@ const allMedicalUnits = useMemo<MedicalUnitOption[]>(() => {
         department: "",
         message: "",
       })
-    } catch {
-      setFormStatus("error")
+    } else {
+      throw new Error(data?.error || "Unknown error")
     }
+  } catch (error) {
+    console.error("Appointment form error:", error)
+    setFormStatus("error")
   }
+}
 
   const handleChange = (
     e: React.ChangeEvent<
@@ -332,7 +358,7 @@ const allMedicalUnits = useMemo<MedicalUnitOption[]>(() => {
                             {t("hospital:contactPage.form.fields.department.placeholder")}
                           </option>
                           {allMedicalUnits.map((unit) => (
-                            <option key={unit.id} value={unit.id}>
+                            <option key={unit.id} value={unit.label}>
                               {unit.label}
                             </option>
                           ))}

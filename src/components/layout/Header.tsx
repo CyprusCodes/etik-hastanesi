@@ -67,9 +67,9 @@ export function Header() {
           <div className="flex items-center justify-between h-16 lg:h-20">
             <Link to="/" className="flex items-center gap-3 shrink-0">
               <img
-                src="/images/logo.jpg"
+                src="/images/logo2.png"
                 alt={t("hospital:name")}
-                className="h-14 w-auto lg:h-16 object-contain"
+                className="h-18 w-auto lg:h-20 object-contain"
               />
             </Link>
 
