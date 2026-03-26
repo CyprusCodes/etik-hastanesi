@@ -15,7 +15,7 @@ export function Footer() {
             <Link to="/" className="mb-5 inline-flex flex-col items-start">
               <div className="rounded-xl bg-white px-2 py-1 shadow-md">
                 <img
-                  src="/images/logo2.png"
+                  src={`${import.meta.env.BASE_URL}images/logo2.png`}
                   alt={t("hospital:name")}
                   className="h-20 w-auto object-contain lg:h-24"
                 />

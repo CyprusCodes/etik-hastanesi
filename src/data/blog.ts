@@ -1,3 +1,4 @@
+const base = import.meta.env.BASE_URL
 export const blogPosts = [
   {
     id: "1",
@@ -13,7 +14,7 @@ export const blogPosts = [
       "hospital:blogData.posts.1.content.4",
     ],
     date: "06.03.2024",
-    image: "/images/blog/memekanseri.webp",
+    image: `${base}/images/blog/memekanseri.webp`,
   },
   {
     id: "2",
@@ -29,7 +30,7 @@ export const blogPosts = [
       "hospital:blogData.posts.2.content.4",
     ],
     date: "08.03.2024",
-    image: "/images/blog/dis-agrisi.jpg",
+    image: `${base}/images/blog/dis-agrisi.jpg`,
   },
   {
     id: "3",
@@ -45,7 +46,7 @@ export const blogPosts = [
       "hospital:blogData.posts.3.content.4",
     ],
     date: "10.03.2024",
-    image: "/images/blog/hiv-aids.jpg",
+    image: `${base}/images/blog/hiv-aids.jpg`,
   },
   {
     id: "4",
@@ -61,7 +62,7 @@ export const blogPosts = [
       "hospital:blogData.posts.4.content.4",
     ],
     date: "12.03.2024",
-    image: "/images/blog/gogus-sagligi.jpg",
+    image: `${base}/images/blog/gogus-sagligi.jpg`,
   },
   {
     id: "5",
@@ -77,7 +78,7 @@ export const blogPosts = [
       "hospital:blogData.posts.5.content.4",
     ],
     date: "14.03.2024",
-    image: "/images/blog/zihinsel-saglik.jpg",
+    image: `${base}/images/blog/zihinsel-saglik.jpg`,
   },
 ] as const
 
@@ -87,20 +88,20 @@ export const blogPreview = [
     slug: "meme-kanseri-ve-tedavi-secenekleri",
     titleKey: "hospital:blogData.posts.1.title",
     excerptKey: "hospital:blogData.preview.1.excerpt",
-    image: "/images/blog/memekanseri.webp",
+    image: `${base}/images/blog/memekanseri.webp`,
   },
   {
     id: "2",
     slug: "dis-agrisinin-nedenleri-ve-tedavi-secenekleri",
     titleKey: "hospital:blogData.posts.2.title",
     excerptKey: "hospital:blogData.preview.2.excerpt",
-    image: "/images/blog/dis-agrisi.jpg",
+    image: `${base}/images/blog/dis-agrisi.jpg`,
   },
   {
     id: "3",
     slug: "hiv-ve-aids-nedir-farklari-nelerdir",
     titleKey: "hospital:blogData.posts.3.title",
     excerptKey: "hospital:blogData.preview.3.excerpt",
-    image: "/images/blog/hiv-aids.jpg",
+    image: `${base}/images/blog/hiv-aids.jpg`,
   },
 ] as const

@@ -233,7 +233,7 @@ export const medicalUnitCategories: MedicalUnitCategory[] = [
         longDescriptionKeys: [
           "hospital:medicalUnitsData.branches.ortopediVeTravmatoloji.longDescription.0",
         ],
-        image: "/images/services/ortopedi.jpg",
+        image: `${base}/images/services/ortopedi.jpg`,
       },
       {
         id: "kadin-hastaliklari-dogum",
