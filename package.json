@@ -1,5 +1,4 @@
 {
-  "homepage": "https://cypruscodes.github.io/etik-hastanesi",
   "name": "etik-hastanesi",
   "private": true,
   "version": "0.0.0",
@@ -8,8 +7,7 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview",
-    "deploy" : "gh-pages -d dist "
+    "preview": "vite preview"
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.15",
