@@ -95,7 +95,7 @@ export function Header() {
                 variant="outline"
                 size="sm"
                 asChild
-                className="rounded-xl border-primary/30 hover:border-primary hover:bg-primary/5"
+                className="rounded-xl border-primary/30 hover:border-primary hover:bg-primary/5 hover:text-foreground"
               >
                 <a href={`tel:${contactInfo.phone.replace(/\s/g, "")}`}>
                   <Phone className="h-4 w-4 mr-2" />

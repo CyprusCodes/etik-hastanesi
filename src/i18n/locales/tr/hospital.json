@@ -3,7 +3,7 @@
   "tagline": "Lefkoşa'nın İlk Özel Hastanesi",
   "description": "1999 yılından bu yana Lefkoşa'da sağlık hizmeti veren Etik Hastanesi, modern tıbbi teknoloji ve uzman kadrosuyla 7/24 yanınızda.",
   "workingHours": {
-    "emergency": "7/24 Acil Servis"
+    "emergency": "7/24"
   },
 
   "hero": {
@@ -120,7 +120,8 @@
   "cardTitle": "Randevu Alın",
   "cardDescription": "Online randevu formunu doldurarak veya telefon ile bize ulaşarak hızlıca randevu alabilirsiniz.",
   "onlineAppointment": "Online Randevu",
-  "emergencyLabel": "Acil Durumlarda"
+  "emergencyLabel": "Acil Durumlarda",
+  "laboratoryLabel": "Laboratuvar"
 },
 
 "footer": {

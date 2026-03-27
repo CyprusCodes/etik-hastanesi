@@ -65,6 +65,16 @@ export function Footer() {
                   </Link>
                 </li>
               ))}
+              <li>
+    <a
+      href="https://etiklab.net"
+      target="_blank"
+      rel="noopener noreferrer"
+      className="text-sm text-gray-400 transition-colors hover:text-white"
+    >
+      Etik Lab
+    </a>
+  </li>
             </ul>
           </div>
 
@@ -178,12 +188,6 @@ export function Footer() {
               <li className="flex items-start gap-3 text-sm text-gray-400">
                 <Clock className="mt-0.5 h-4 w-4 shrink-0" />
                 <div>
-                  <p>
-                    {t("hospital:footer.weekdays")}: {contactInfo.workingHours.weekdays}
-                  </p>
-                  <p>
-                    {t("hospital:footer.weekend")}: {contactInfo.workingHours.weekend}
-                  </p>
                   <p className="font-medium text-primary">
                     {t("hospital:workingHours.emergency")}
                   </p>

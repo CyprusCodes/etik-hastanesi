@@ -192,12 +192,6 @@ const handleSubmit = async (e: FormEvent) => {
                     title={t("hospital:contactPage.cards.workingHours")}
                     content={
                       <>
-                        <span className="block">
-                          {t("hospital:footer.weekdays")}: {contactInfo.workingHours.weekdays}
-                        </span>
-                        <span className="block">
-                          {t("hospital:footer.weekend")}: {contactInfo.workingHours.weekend}
-                        </span>
                         <span className="block font-semibold text-primary">
                           {t("hospital:workingHours.emergency")}
                         </span>

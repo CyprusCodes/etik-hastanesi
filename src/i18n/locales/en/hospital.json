@@ -3,7 +3,7 @@
   "tagline": "The First Private Hospital in Nicosia",
   "description": "Serving healthcare in Nicosia since 1999, Etik Hospital is by your side 24/7 with modern medical technology and an expert team.",
   "workingHours": {
-    "emergency": "24/7 Emergency Service"
+    "emergency": "24/7"
   },
 
   "hero": {
@@ -120,7 +120,8 @@
   "cardTitle": "Book an Appointment",
   "cardDescription": "You can quickly book an appointment by filling out the online appointment form or contacting us by phone.",
   "onlineAppointment": "Online Appointment",
-  "emergencyLabel": "In Emergencies"
+  "emergencyLabel": "In Emergencies",
+  "laboratoryLabel": "Laboratory"
 },
 
 "footer": {
