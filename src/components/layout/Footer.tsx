@@ -38,7 +38,7 @@ export function Footer() {
               </a>
 
               <a
-                href="https://www.facebook.com/etikhastanesi"
+                href="https://www.facebook.com/profile.php?id=61579558464655"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex h-10 w-10 items-center justify-center rounded-lg bg-white/10 transition-colors hover:bg-primary"
