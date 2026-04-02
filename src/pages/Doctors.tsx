@@ -2,7 +2,7 @@ import { useState } from "react"
 import { Layout } from "@/components/layout/Layout"
 import { Link } from "react-router-dom"
 import { ChevronLeft, ChevronRight } from "lucide-react"
-import { doctors, medicalUnitCategories } from "@/data/hospital"
+import { doctors, leadership,  medicalUnitCategories } from "@/data/hospital"
 import { Helmet } from "react-helmet-async"
 import { useTranslation } from "react-i18next"
 
@@ -101,6 +101,59 @@ export default function Doctors() {
 
         <section className="section-padding bg-white">
           <div className="container-narrow space-y-16">
+            <div>
+  <div className="mb-8">
+    <h2 className="heading-2">
+      {t("hospital:leadershipSection.title")}
+    </h2>
+    <p className="mt-3 max-w-2xl text-muted-foreground">
+      {t("hospital:leadershipSection.description")}
+    </p>
+    <div className="mt-3 h-1 w-16 rounded-full bg-primary" />
+  </div>
+
+  <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+    {leadership.map((member) => (
+      <div
+        key={member.id}
+        className="overflow-hidden rounded-2xl border border-border bg-card shadow-sm"
+      >
+        <div className="w-full aspect-[10/11] overflow-hidden bg-secondary">
+          <img
+            src={member.image}
+            alt={member.name}
+            className="h-full w-full object-cover"
+            style={{ objectPosition: "center top" }}
+            loading="lazy"
+          />
+        </div>
+
+        <div className="p-6">
+
+
+          <h3 className="text-lg font-semibold text-foreground">
+            {member.name}
+          </h3>
+
+          <p className="mt-2 text-sm text-primary">
+            {t(member.titleKey)}
+          </p>
+
+
+
+          <div className="mt-4">
+            <Link
+              to="/iletisim"
+              className="inline-flex items-center justify-center rounded-lg border border-primary px-4 py-2 text-sm font-medium text-primary transition-colors hover:bg-primary hover:text-white"
+            >
+              {t("hospital:doctorsPage.contactButton")}
+            </Link>
+          </div>
+        </div>
+      </div>
+    ))}
+  </div>
+</div>
             {departmentOrder.map((departmentItem) => {
               const departmentDoctors = groupedDoctors[departmentGroupMap[departmentItem.id]]
               if (!departmentDoctors?.length) return null
@@ -160,12 +213,12 @@ export default function Doctors() {
                         key={doctor.id}
                         className="overflow-hidden rounded-2xl border border-border bg-card shadow-sm"
                       >
-                        <div className="flex h-64 items-center justify-center bg-secondary">
+                        <div className="w-full aspect-[10/11] overflow-hidden bg-secondary">
                           {doctor.image ? (
                             <img
                               src={doctor.image}
                               alt={doctor.name}
-                              className="h-full w-full object-cover"
+                              className="h-full w-full object-cover object-[center_top]"
                               loading="lazy"
                             />
                           ) : (

@@ -649,7 +649,18 @@
   "other": "Diğer Birimler",
   "paramedical": "Paramedikal"
 },
-
+"leadershipSection": {
+  "title": "Yönetim Kadrosu",
+  "description": "Etik Hastanesi’nin yönetim ve tıbbi liderlik kadrosu."
+},
+"leadershipTitles": {
+  "chiefPhysician": "Başhekim",
+  "hospitalDirector": "Hastane Direktörü",
+  "hospitalManager": "Hastane Müdürü"
+},
+"leadershipBadges": {
+  "chiefPhysician": "Başhekim"
+},
 "doctorTitles": {
   "orthopedics": "Ortopedi",
   "cardiovascularSurgery": "Kalp ve Damar Cerrahisi",
@@ -657,7 +668,7 @@
   "internalMedicine": "Dahiliye",
   "generalSurgery": "Genel Cerrahi",
   "microbiologyInfectiousDiseases": "Mikrobiyoloji ve Enfeksiyon Hastalıkları",
-  "radiology": "Radyoloji",
+  "radiology": "Radyoloji & Girişimsel Radyoloji",
   "obstetricsGynecology": "Kadın Hastalıkları ve Doğum",
   "neurology": "Nöroloji",
   "ent": "Kulak Burun Boğaz",
@@ -666,7 +677,11 @@
   "ophthalmology": "Göz Hastalıkları",
   "urology": "Üroloji",
   "plasticReconstructiveSurgery": "Estetik Plastik ve Rekonstrüktif Cerrahi",
-  "biochemist": "Biyokimyager"
+  "biochemist": "Biyokimyager",
+  "chestDiseases": "Göğüs Hastalıkları",
+  "psychiatry": "Psikiyatri",
+  "dentistry": "Ağız ve Diş Sağlığı"
+
 },
 
 "testimonialsData": {

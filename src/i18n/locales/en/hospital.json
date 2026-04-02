@@ -649,7 +649,18 @@
   "other": "Other Units",
   "paramedical": "Paramedical"
 },
-
+  "leadershipSection": {
+  "title": "Leadership Team",
+  "description": "Etik Hospital’s executive and medical leadership team."
+},
+"leadershipTitles": {
+  "chiefPhysician": "Chief Physician",
+  "hospitalDirector": "Hospital Director",
+  "hospitalManager": "Hospital Manager"
+},
+"leadershipBadges": {
+  "chiefPhysician": "Chief Physician"
+},
 "doctorTitles": {
   "orthopedics": "Orthopedics",
   "cardiovascularSurgery": "Cardiovascular Surgery",
@@ -657,7 +668,7 @@
   "internalMedicine": "Internal Medicine",
   "generalSurgery": "General Surgery",
   "microbiologyInfectiousDiseases": "Microbiology and Infectious Diseases",
-  "radiology": "Radiology",
+  "radiology": "Radiology & Interventional Radiology",
   "obstetricsGynecology": "Obstetrics and Gynecology",
   "neurology": "Neurology",
   "ent": "Ear, Nose and Throat",
@@ -666,7 +677,10 @@
   "ophthalmology": "Ophthalmology",
   "urology": "Urology",
   "plasticReconstructiveSurgery": "Aesthetic Plastic and Reconstructive Surgery",
-  "biochemist": "Biochemist"
+  "biochemist": "Biochemist",
+  "chestDiseases": "Chest Diseases",
+  "psychiatry": "Psychiatry",
+  "dentistry": "Dentistry"
 },
 
 "testimonialsData": {

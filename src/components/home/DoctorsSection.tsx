@@ -39,7 +39,7 @@ export function DoctorsSection() {
               key={doctor.id}
               className="overflow-hidden rounded-2xl border border-border bg-card shadow-sm"
             >
-              <div className="flex h-48 items-center justify-center bg-secondary">
+              <div className="w-full aspect-[10/11] overflow-hidden bg-secondary">
                 {doctor.image ? (
                   <img
                     src={doctor.image}
