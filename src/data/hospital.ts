@@ -502,6 +502,25 @@ export const leadership = [
     titleKey: "hospital:leadershipTitles.chiefPhysician",
     image: `${base}/images/doctors/x.jpg`,
       },
+      {
+  id: "l4",
+  name: "Dr. Kemal Tavukçu",
+  titleKey: "hospital:doctorTitles.obstetricsGynecology",
+  image: `${base}/images/doctors/kemaltavukcu (1).webp`,
+},
+{
+  id: "l5",
+  name: "Ulus Kasap",
+  titleKey: "hospital:doctorTitles.biochemist",
+  image: `${base}/images/doctors/uluskasap (2).webp`,
+},
+{
+  id: "l6",
+  name: "Dr. Güven Erkal",
+  titleKey: "hospital:doctorTitles.internalMedicine",
+  image: `${base}/images/doctors/guvenerkal (1).webp`,
+},
+
 ]
 export const doctors: Doctor[] = [
   {
@@ -712,7 +731,7 @@ export const doctors: Doctor[] = [
     titleKey: "hospital:doctorTitles.biochemist",
     departmentKey: "hospital:doctorDepartments.other",
     order: 2,
-    image: `${base}/images/doctors/x.jpg`,
+    image: `${base}/images/doctors/uluskasap (2).webp`,
   },
   {
   id: "27",
