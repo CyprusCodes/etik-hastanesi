@@ -799,3 +799,43 @@ export interface Testimonial {
   textKey: string
   image?: string
 }
+
+export type ContractedOrganizationGroup = {
+  id: string
+  titleKey: string
+  descriptionKey: string
+  items: string[]
+}
+
+export const contractedOrganizations: ContractedOrganizationGroup[] = [
+  {
+    id: "unions",
+    titleKey: "hospital:contractedOrganizations.groups.unions.title",
+    descriptionKey: "hospital:contractedOrganizations.groups.unions.description",
+    items: [
+      "KTAMS",
+      "KAMU-SEN",
+      "MEMUR-SEN",
+      "Kamu İş Sendikası",
+      "DAÜ-PER-SEN Sendikası",
+      "Bass Sendikası",
+      "Bay Sen Sendikası",
+      "KT Hemşireler ve Ebeler Sendikası",
+      "Büro İş Sendikası",
+      "Din Gör Sen Sendikası",
+      "Liman Sen Sendikası",
+    ],
+  },
+  {
+    id: "hotels",
+    titleKey: "hospital:contractedOrganizations.groups.hotels.title",
+    descriptionKey: "hospital:contractedOrganizations.groups.hotels.description",
+    items: [
+      "Royal Palace Hotel",
+      "Elexus Hotel Resort Spa Casino",
+      "Merit International Hotels Casinos",
+      "Alya Rooms",
+      "City Royal Hotel"
+    ],
+  },
+]

@@ -49,6 +49,12 @@
 },
 
 "aboutSection": {
+  "contractedOrganizations": {
+  "badge": "Kurumsal İş Birlikleri",
+  "title": "Anlaşmalı Kurumlarımızı İnceleyin",
+  "description": "Etik Hastanesi’nin anlaşmalı olduğu sendikalar ve oteller hakkında detaylı bilgiye buradan ulaşabilirsiniz.",
+  "button": "Anlaşmalı Kurumlar"
+},
   "badge": "Hakkımızda",
   "title": "Güvenilir Sağlık Hizmeti İçin Doğru Adres",
   "description": "1999 yılında Lefkoşa'nın ilk özel hastanesi olarak kurulan {{hospitalName}}, bugün modern tıbbi teknolojisi ve uzman kadrosuyla Kuzey Kıbrıs'ın önde gelen sağlık kuruluşları arasında yer almaktadır.",
@@ -932,5 +938,39 @@
     ]
    }
   }
- }
+ },
+ "contractedOrganizations": {
+  "seo": {
+    "title": "Anlaşmalı Kurumlar | Etik Hastanesi",
+    "description": "Etik Hastanesi’nin anlaşmalı olduğu sendikalar ve kurumlar hakkında bilgi alın."
+  },
+  "hero": {
+    "badge": "Kurumsal İş Birlikleri",
+    "title": "Anlaşmalı Kurumlar",
+    "description": "Etik Hastanesi, çeşitli sendikalar ve kurumsal yapılarla anlaşmalı olarak sağlık hizmeti sunmaktadır."
+  },
+  "intro": {
+    "title": "Kurumsal Anlaşmalarımız",
+    "description": "Aşağıda hastanemiz ile anlaşmalı kurum ve organizasyonlara ait güncel listeyi inceleyebilirsiniz."
+  },
+  "groups": {
+    "unions": {
+      "title": "Sendikalar",
+      "description": "Etik Hastanesi, aşağıdaki sendika ve bağlı yapılarla anlaşmalı olarak hizmet sunmaktadır."
+    },
+    "hotels": {
+      "title": "Oteller",
+      "description": "Etik Hastanesi’nin anlaşmalı olduğu oteller aşağıda yer almaktadır."
+    }
+  },
+  "notes": {
+    "title": "Bilgilendirme",
+    "description": "Anlaşmalı kurum listesi ihtiyaçlar doğrultusunda güncellenebilir. En güncel bilgi için bizimle iletişime geçebilirsiniz."
+  },
+  "emptyState": {
+    "title": "Liste güncelleniyor",
+    "description": "Bu kategoriye ait kurum bilgileri kısa süre içinde eklenecektir."
+  },
+  "contactButton": "İletişime Geç"
+}
 }

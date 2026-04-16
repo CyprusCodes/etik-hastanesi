@@ -65,6 +65,15 @@ export function Footer() {
                   </Link>
                 </li>
               ))}
+
+              <li>
+  <Link
+    to="/anlasmali-kurumlar"
+    className="text-sm text-gray-400 transition-colors hover:text-white"
+  >
+    {t("hospital:contractedOrganizations.hero.title")}
+  </Link>
+</li>
               <li>
     <a
       href="https://etiklab.net"

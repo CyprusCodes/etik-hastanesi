@@ -15,6 +15,7 @@ const BlogPost = lazy(() => import("@/pages/BlogPost"))
 const ServiceAgreement = lazy(() => import("@/pages/ServiceAgreement"))
 const CookiePolicy = lazy(() => import("@/pages/CookiePolicy"))
 const PrivacyPolicy = lazy(() => import("@/pages/PrivacyPolicy"))
+const ContractedOrganizations = lazy(() => import("@/pages/ContractedOrganizations"))
 
 function ScrollToTop() {
   const { pathname } = useLocation()
@@ -46,6 +47,7 @@ function App() {
           <Route path="/hizmet-sozlesmesi" element={<ServiceAgreement />} />
           <Route path="/cerez-politikasi" element={<CookiePolicy />} />
           <Route path="/gizlilik-politikasi" element={<PrivacyPolicy />} />
+          <Route path="/anlasmali-kurumlar" element={<ContractedOrganizations />} />
         </Routes>
       </Suspense>
     </Router>

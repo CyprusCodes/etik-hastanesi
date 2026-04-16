@@ -3,6 +3,8 @@ import { Award, Users, Heart, Target, Eye } from "lucide-react"
 import {stats } from "@/data/hospital"
 import { Helmet } from "react-helmet-async"
 import { useTranslation } from "react-i18next"
+import { Link } from "react-router-dom"
+import { Building2, ArrowRight } from "lucide-react"
 
 const timeline = [
   {
@@ -228,6 +230,43 @@ export default function About() {
             </div>
           </div>
         </section>
+
+       <section className="bg-white pb-12">
+  <div className="container-narrow">
+    <div className="rounded-2xl border border-border bg-secondary/20 px-6 py-6 shadow-sm lg:px-8 lg:py-7">
+      <div className="flex flex-col gap-5 lg:flex-row lg:items-center lg:justify-between">
+        <div className="max-w-2xl">
+          <div className="mb-3 flex h-11 w-11 items-center justify-center rounded-xl bg-primary/10">
+            <Building2 className="h-5 w-5 text-primary" />
+          </div>
+
+          <span className="text-primary text-xs font-semibold uppercase tracking-wider">
+            {t("hospital:aboutSection.contractedOrganizations.badge")}
+          </span>
+
+          <h2 className="mt-2 text-2xl font-semibold text-foreground">
+            {t("hospital:aboutSection.contractedOrganizations.title")}
+          </h2>
+
+          <p className="mt-2 max-w-xl text-sm text-muted-foreground">
+            {t("hospital:aboutSection.contractedOrganizations.description")}
+          </p>
+        </div>
+
+        <div className="shrink-0">
+          <Link
+            to="/anlasmali-kurumlar"
+            className="inline-flex items-center justify-center rounded-xl bg-primary px-4 py-2.5 text-sm font-semibold text-white transition-colors hover:bg-primary/90"
+          >
+            {t("hospital:aboutSection.contractedOrganizations.button")}
+            <ArrowRight className="ml-2 h-4 w-4" />
+          </Link>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
       </Layout>
     </>
   )

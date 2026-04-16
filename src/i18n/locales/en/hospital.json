@@ -49,6 +49,12 @@
 },
 
 "aboutSection": {
+   "contractedOrganizations": {
+  "badge": "Corporate Partnerships",
+  "title": "Explore Our Contracted Organizations",
+  "description": "You can view detailed information about the unions and hotels contracted with Etik Hospital here.",
+  "button": "Contracted Organizations"
+},
   "badge": "About Us",
   "title": "The Right Address for Reliable Healthcare",
   "description": "Founded in 1999 as the first private hospital in Nicosia, {{hospitalName}} is now among the leading healthcare institutions in Northern Cyprus with its modern medical technology and expert staff.",
@@ -930,5 +936,39 @@
   ]
    }
   }
- }
+ },
+ "contractedOrganizations": {
+  "seo": {
+    "title": "Contracted Organizations | Etik Hospital",
+    "description": "Learn more about Etik Hospital’s contracted unions and institutional partners."
+  },
+  "hero": {
+    "badge": "Corporate Partnerships",
+    "title": "Contracted Organizations",
+    "description": "Etik Hospital provides healthcare services through agreements with various unions and institutional partners."
+  },
+  "intro": {
+    "title": "Our Corporate Agreements",
+    "description": "You can review the current list of organizations and institutions contracted with our hospital below."
+  },
+  "groups": {
+    "unions": {
+      "title": "Trade Unions",
+      "description": "Etik Hospital provides services through agreements with the following unions and affiliated organizations."
+    },
+    "hotels": {
+      "title": "Hotels",
+      "description": "The hotels contracted with Etik Hospital are listed below."
+    }
+  },
+  "notes": {
+    "title": "Information",
+    "description": "The list of contracted organizations may be updated over time. Please contact us for the most up-to-date information."
+  },
+  "emptyState": {
+    "title": "List is being updated",
+    "description": "Organizations in this category will be added shortly."
+  },
+  "contactButton": "Contact Us"
+}
 }
