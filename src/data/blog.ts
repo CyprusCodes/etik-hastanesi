@@ -1,4 +1,5 @@
-const base = import.meta.env.BASE_URL
+const withBase = (path: string) =>
+  `${import.meta.env.BASE_URL}${path.replace(/^\/+/, "")}`
 export const blogPosts = [
   {
     id: "1",
@@ -14,7 +15,7 @@ export const blogPosts = [
       "hospital:blogData.posts.1.content.4",
     ],
     date: "06.03.2024",
-    image: `${base}/images/blog/memekanseri.webp`,
+    image: withBase("/images/blog/memekanseri.webp"),
   },
   {
     id: "2",
@@ -30,7 +31,7 @@ export const blogPosts = [
       "hospital:blogData.posts.2.content.4",
     ],
     date: "08.03.2024",
-    image: `${base}/images/blog/dis-agrisi.jpg`,
+    image: withBase("/images/blog/dis-agrisi.jpg"),
   },
   {
     id: "3",
@@ -46,7 +47,7 @@ export const blogPosts = [
       "hospital:blogData.posts.3.content.4",
     ],
     date: "10.03.2024",
-    image: `${base}/images/blog/hiv-aids.jpg`,
+    image: withBase("/images/blog/hiv-aids.jpg"),
   },
   {
     id: "4",
@@ -62,7 +63,7 @@ export const blogPosts = [
       "hospital:blogData.posts.4.content.4",
     ],
     date: "12.03.2024",
-    image: `${base}/images/blog/gogus-sagligi.jpg`,
+    image: withBase("/images/blog/gogus-sagligi.jpg"),
   },
   {
     id: "5",
@@ -78,7 +79,7 @@ export const blogPosts = [
       "hospital:blogData.posts.5.content.4",
     ],
     date: "14.03.2024",
-    image: `${base}/images/blog/zihinsel-saglik.jpg`,
+    image: withBase("/images/blog/zihinsel-saglik.jpg"),
   },
 ] as const
 
@@ -88,20 +89,20 @@ export const blogPreview = [
     slug: "meme-kanseri-ve-tedavi-secenekleri",
     titleKey: "hospital:blogData.posts.1.title",
     excerptKey: "hospital:blogData.preview.1.excerpt",
-    image: `${base}/images/blog/memekanseri.webp`,
+    image: withBase("/images/blog/memekanseri.webp"),
   },
   {
     id: "2",
     slug: "dis-agrisinin-nedenleri-ve-tedavi-secenekleri",
     titleKey: "hospital:blogData.posts.2.title",
     excerptKey: "hospital:blogData.preview.2.excerpt",
-    image: `${base}/images/blog/dis-agrisi.jpg`,
+    image: withBase("/images/blog/dis-agrisi.jpg"),
   },
   {
     id: "3",
     slug: "hiv-ve-aids-nedir-farklari-nelerdir",
     titleKey: "hospital:blogData.posts.3.title",
     excerptKey: "hospital:blogData.preview.3.excerpt",
-    image: `${base}/images/blog/hiv-aids.jpg`,
+    image: withBase("/images/blog/hiv-aids.jpg"),
   },
 ] as const

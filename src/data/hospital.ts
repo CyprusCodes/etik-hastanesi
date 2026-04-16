@@ -15,7 +15,8 @@ import {
   type LucideIcon,
 } from "lucide-react"
 
-const base = import.meta.env.BASE_URL
+const withBase = (path: string) =>
+  `${import.meta.env.BASE_URL}${path.replace(/^\/+/, "")}`
 export interface Department {
   id: string
   title: string
@@ -168,7 +169,7 @@ export const medicalUnitCategories: MedicalUnitCategory[] = [
       "hospital:medicalUnitsData.categories.cerrahi.bullets.1",
       "hospital:medicalUnitsData.categories.cerrahi.bullets.2",
     ],
-    image: `${base}/images/branches/genel-cerrahi.jpg`,
+    image: withBase("/images/branches/genel-cerrahi.jpg"),
     icon: Stethoscope,
     items: [
       {
@@ -182,7 +183,7 @@ export const medicalUnitCategories: MedicalUnitCategory[] = [
           "hospital:medicalUnitsData.branches.estetikPlastikRekonstruktifCerrahi.longDescription.1",
           "hospital:medicalUnitsData.branches.estetikPlastikRekonstruktifCerrahi.longDescription.2",
         ],
-        image: `${base}/images/services/estetik.jpg`,
+        image: withBase("/images/services/estetik.jpg"),
       },
       {
         id: "genel-cerrahi",
@@ -195,7 +196,7 @@ export const medicalUnitCategories: MedicalUnitCategory[] = [
           "hospital:medicalUnitsData.branches.genelCerrahi.longDescription.2",
           "hospital:medicalUnitsData.branches.genelCerrahi.longDescription.3",
         ],
-        image: `${base}/images/services/genel.png`,
+        image: withBase("/images/services/genel.png"),
       },
       {
         id: "goz-hastaliklari",
@@ -208,7 +209,7 @@ export const medicalUnitCategories: MedicalUnitCategory[] = [
           "hospital:medicalUnitsData.branches.gozHastaliklari.longDescription.2",
           "hospital:medicalUnitsData.branches.gozHastaliklari.longDescription.3",
         ],
-        image: `${base}/images/services/goz-hastaliklari.jpg`,
+        image: withBase("/images/services/goz-hastaliklari.jpg"),
       },
       {
         id: "gogus-hastaliklari",
@@ -222,7 +223,7 @@ export const medicalUnitCategories: MedicalUnitCategory[] = [
           "hospital:medicalUnitsData.branches.gogusHastaliklari.longDescription.3",
           "hospital:medicalUnitsData.branches.gogusHastaliklari.longDescription.4",
         ],
-        image: `${base}/images/services/gogus-hastaliklari.jpg`,
+        image: withBase("/images/services/gogus-hastaliklari.jpg"),
       },
       {
         id: "ortopedi-ve-travmatoloji",
@@ -233,7 +234,7 @@ export const medicalUnitCategories: MedicalUnitCategory[] = [
         longDescriptionKeys: [
           "hospital:medicalUnitsData.branches.ortopediVeTravmatoloji.longDescription.0",
         ],
-        image: `${base}/images/services/ortopedi.jpg`,
+        image: withBase("/images/services/ortopedi.jpg"),
       },
       {
         id: "kadin-hastaliklari-dogum",
@@ -247,7 +248,7 @@ export const medicalUnitCategories: MedicalUnitCategory[] = [
           "hospital:medicalUnitsData.branches.kadinHastaliklariDogum.longDescription.2",
           "hospital:medicalUnitsData.branches.kadinHastaliklariDogum.longDescription.3",
         ],
-        image: `${base}/images/services/kadin.jpg`,
+        image: withBase("/images/services/kadin.jpg"),
       },
       {
         id: "kardiyoloji",
@@ -261,7 +262,7 @@ export const medicalUnitCategories: MedicalUnitCategory[] = [
           "hospital:medicalUnitsData.branches.kardiyoloji.longDescription.3",
           "hospital:medicalUnitsData.branches.kardiyoloji.longDescription.4",
         ],
-        image: `${base}/images/services/kardiyoloji.jpg`,
+        image: withBase("/images/services/kardiyoloji.jpg"),
       },
       {
         id: "noroloji",
@@ -274,7 +275,7 @@ export const medicalUnitCategories: MedicalUnitCategory[] = [
           "hospital:medicalUnitsData.branches.noroloji.longDescription.2",
           "hospital:medicalUnitsData.branches.noroloji.longDescription.3",
         ],
-        image: `${base}/images/services/noroloji.jpg`,
+        image: withBase("/images/services/noroloji.jpg"),
       },
       {
         id: "uroloji",
@@ -287,7 +288,7 @@ export const medicalUnitCategories: MedicalUnitCategory[] = [
           "hospital:medicalUnitsData.branches.uroloji.longDescription.2",
           "hospital:medicalUnitsData.branches.uroloji.longDescription.3",
         ],
-        image: `${base}/images/services/urology.jpg`,
+        image: withBase("/images/services/urology.jpg"),
       },
     ],
   },
@@ -304,7 +305,7 @@ export const medicalUnitCategories: MedicalUnitCategory[] = [
       "hospital:medicalUnitsData.categories.dahili.bullets.1",
       "hospital:medicalUnitsData.categories.dahili.bullets.2",
     ],
-    image: `${base}/images/branches/genel-cerrahi.jpg`,
+    image: withBase("/images/branches/genel-cerrahi.jpg"),
     icon: HeartPulse,
     items: [
       {
@@ -318,7 +319,7 @@ export const medicalUnitCategories: MedicalUnitCategory[] = [
           "hospital:medicalUnitsData.branches.dahiliye.longDescription.2",
           "hospital:medicalUnitsData.branches.dahiliye.longDescription.3",
         ],
-        image: `${base}/images/services/dahiliye.webp`,
+        image: withBase("/images/services/dahiliye.webp"),
       },
       {
         id: "deri-zuhrevi-hastaliklar",
@@ -332,7 +333,7 @@ export const medicalUnitCategories: MedicalUnitCategory[] = [
           "hospital:medicalUnitsData.branches.deriZuhreviHastaliklar.longDescription.2",
           "hospital:medicalUnitsData.branches.deriZuhreviHastaliklar.longDescription.3",
         ],
-        image: `${base}/images/services/deri.jpg`,
+        image: withBase("/images/services/deri.jpg"),
       },
       {
         id: "kulak-burun-bogaz",
@@ -345,7 +346,7 @@ export const medicalUnitCategories: MedicalUnitCategory[] = [
           "hospital:medicalUnitsData.branches.kulakBurunBogaz.longDescription.2",
           "hospital:medicalUnitsData.branches.kulakBurunBogaz.longDescription.3",
         ],
-        image: `${base}/images/services/kulak-burun-bogaz.jpg`,
+        image: withBase("/images/services/kulak-burun-bogaz.jpg"),
       },
       {
         id: "cocuk-sagligi-hastaliklari",
@@ -360,7 +361,7 @@ export const medicalUnitCategories: MedicalUnitCategory[] = [
           "hospital:medicalUnitsData.branches.cocukSagligiHastaliklari.longDescription.3",
           "hospital:medicalUnitsData.branches.cocukSagligiHastaliklari.longDescription.4",
         ],
-        image: `${base}/images/services/cocuk-sagligi.jpg`,
+        image: withBase("/images/services/cocuk-sagligi.jpg"),
       },
     ],
   },
@@ -377,7 +378,7 @@ export const medicalUnitCategories: MedicalUnitCategory[] = [
       "hospital:medicalUnitsData.categories.diger.bullets.1",
       "hospital:medicalUnitsData.categories.diger.bullets.2",
     ],
-    image: `${base}/images/branches/genel-cerrahi.jpg`,
+    image: withBase("/images/branches/genel-cerrahi.jpg"),
     icon: Layers,
     items: [
       {
@@ -391,7 +392,7 @@ export const medicalUnitCategories: MedicalUnitCategory[] = [
           "hospital:medicalUnitsData.branches.agizDisSagligi.longDescription.2",
           "hospital:medicalUnitsData.branches.agizDisSagligi.longDescription.3",
         ],
-        image: `${base}/images/services/dental.jpg`,
+        image: withBase("/images/services/dental.jpg"),
       },
       {
         id: "radyoloji",
@@ -403,7 +404,7 @@ export const medicalUnitCategories: MedicalUnitCategory[] = [
           "hospital:medicalUnitsData.branches.radyoloji.longDescription.1",
           "hospital:medicalUnitsData.branches.radyoloji.longDescription.2",
         ],
-        image: `${base}/images/services/radyoloji.jpg`,
+        image: withBase("/images/services/radyoloji.jpg"),
       },
       {
         id: "lazer-epilasyon",
@@ -416,7 +417,7 @@ export const medicalUnitCategories: MedicalUnitCategory[] = [
           "hospital:medicalUnitsData.branches.lazerEpilasyon.longDescription.2",
           "hospital:medicalUnitsData.branches.lazerEpilasyon.longDescription.3",
         ],
-        image: `${base}/images/services/laser.jpg`,
+        image: withBase("/images/services/laser.jpg"),
       },
     ],
   },
@@ -434,7 +435,7 @@ export const medicalUnitCategories: MedicalUnitCategory[] = [
       "hospital:medicalUnitsData.categories.paramedikal.bullets.1",
       "hospital:medicalUnitsData.categories.paramedikal.bullets.2",
     ],
-    image: `${base}/images/branches/genel-cerrahi.jpg`,
+    image: withBase("/images/branches/genel-cerrahi.jpg"),
     icon: HandHeart,
     items: [
       {
@@ -449,7 +450,7 @@ export const medicalUnitCategories: MedicalUnitCategory[] = [
           "hospital:medicalUnitsData.branches.psikiyatri.longDescription.3",
           "hospital:medicalUnitsData.branches.psikiyatri.longDescription.4",
         ],
-        image: `${base}/images/services/p.jpg`,
+        image: withBase("/images/services/p.jpg"),
       },
     ],
   },
@@ -488,37 +489,37 @@ export const leadership = [
     id: "l1",
     name: "Sevilnaz Okman",
     titleKey: "hospital:leadershipTitles.hospitalManager",
-    image: `${base}/images/doctors/sevilnazokman (1).webp`,
+    image: withBase("/images/doctors/sevilnazokman.webp"),
   },
   {
     id: "l2",
      name: "Selma İzbul",
     titleKey: "hospital:leadershipTitles.hospitalDirector",
-    image: `${base}/images/doctors/y.jpg`,
+    image: withBase("/images/doctors/y.jpg"),
   },
   {
     id: "l3",
   name: "Dr. Tarık İzbul",
     titleKey: "hospital:leadershipTitles.chiefPhysician",
-    image: `${base}/images/doctors/x.jpg`,
+    image: withBase("/images/doctors/x.jpg"),
       },
       {
   id: "l4",
   name: "Dr. Kemal Tavukçu",
   titleKey: "hospital:doctorTitles.obstetricsGynecology",
-  image: `${base}/images/doctors/kemaltavukcu (1).webp`,
+  image: withBase("/images/doctors/kemaltavukcu.webp"),
 },
 {
   id: "l5",
   name: "Ulus Kasap",
   titleKey: "hospital:doctorTitles.biochemist",
-  image: `${base}/images/doctors/uluskasap (2).webp`,
+  image: withBase("/images/doctors/uluskasap.webp"),
 },
 {
   id: "l6",
   name: "Dr. Güven Erkal",
   titleKey: "hospital:doctorTitles.internalMedicine",
-  image: `${base}/images/doctors/guvenerkal (1).webp`,
+  image: withBase("/images/doctors/guvenerkal.webp"),
 },
 
 ]
@@ -529,7 +530,7 @@ export const doctors: Doctor[] = [
     titleKey: "hospital:doctorTitles.generalSurgery",
     departmentKey: "hospital:doctorDepartments.surgical",
     order: 1,
-    image: `${base}/images/doctors/x.jpg`,
+    image: withBase("/images/doctors/x.jpg"),
   },
   {
     id: "3",
@@ -537,7 +538,7 @@ export const doctors: Doctor[] = [
     titleKey: "hospital:doctorTitles.orthopedics",
     departmentKey: "hospital:doctorDepartments.surgical",
     order: 3,
-    image: `${base}/images/doctors/huseyinkalgay (1).webp`,
+    image: withBase("/images/doctors/huseyinkalgay.webp"),
   },
   {
     id: "4",
@@ -545,7 +546,7 @@ export const doctors: Doctor[] = [
     titleKey: "hospital:doctorTitles.orthopedics",
     departmentKey: "hospital:doctorDepartments.surgical",
     order: 4,
-    image: `${base}/images/doctors/y.jpg`,
+    image: withBase("/images/doctors/y.jpg"),
   },
   {
     id: "5",
@@ -553,7 +554,7 @@ export const doctors: Doctor[] = [
     titleKey: "hospital:doctorTitles.cardiovascularSurgery",
     departmentKey: "hospital:doctorDepartments.surgical",
     order: 5,
-    image: `${base}/images/doctors/x.jpg`,
+    image: withBase("/images/doctors/x.jpg"),
   },
   {
     id: "2",
@@ -561,7 +562,7 @@ export const doctors: Doctor[] = [
     titleKey: "hospital:doctorTitles.generalSurgery",
     departmentKey: "hospital:doctorDepartments.surgical",
     order: 2,
-    image: `${base}/images/doctors/x.jpg`,
+    image: withBase("/images/doctors/x.jpg"),
   },
   {
     id: "6",
@@ -569,7 +570,7 @@ export const doctors: Doctor[] = [
     titleKey: "hospital:doctorTitles.obstetricsGynecology",
     departmentKey: "hospital:doctorDepartments.surgical",
     order: 6,
-    image: `${base}/images/doctors/y.jpg`,
+    image: withBase("/images/doctors/y.jpg"),
   },
   {
     id: "7",
@@ -577,7 +578,7 @@ export const doctors: Doctor[] = [
     titleKey: "hospital:doctorTitles.obstetricsGynecology",
     departmentKey: "hospital:doctorDepartments.surgical",
     order: 7,
-    image: `${base}/images/doctors/kemaltavukcu (1).webp`,
+    image: withBase("/images/doctors/kemaltavukcu.webp"),
   },
   {
     id: "8",
@@ -585,7 +586,7 @@ export const doctors: Doctor[] = [
     titleKey: "hospital:doctorTitles.cardiology",
     departmentKey: "hospital:doctorDepartments.surgical",
     order: 8,
-    image: `${base}/images/doctors/y.jpg`,
+    image: withBase("/images/doctors/y.jpg"),
   },
   {
     id: "9",
@@ -593,7 +594,7 @@ export const doctors: Doctor[] = [
     titleKey: "hospital:doctorTitles.neurology",
     departmentKey: "hospital:doctorDepartments.surgical",
     order: 9,
-    image: `${base}/images/doctors/y.jpg`,
+    image: withBase("/images/doctors/y.jpg"),
   },
   {
     id: "10",
@@ -601,7 +602,7 @@ export const doctors: Doctor[] = [
     titleKey: "hospital:doctorTitles.neurology",
     departmentKey: "hospital:doctorDepartments.surgical",
     order: 10,
-    image: `${base}/images/doctors/y.jpg`,
+    image: withBase("/images/doctors/y.jpg"),
   },
   {
     id: "11",
@@ -609,7 +610,7 @@ export const doctors: Doctor[] = [
     titleKey: "hospital:doctorTitles.ophthalmology",
     departmentKey: "hospital:doctorDepartments.surgical",
     order: 11,
-    image: `${base}/images/doctors/x.jpg`,
+    image: withBase("/images/doctors/x.jpg"),
   },
   {
     id: "12",
@@ -617,7 +618,7 @@ export const doctors: Doctor[] = [
     titleKey: "hospital:doctorTitles.plasticReconstructiveSurgery",
     departmentKey: "hospital:doctorDepartments.surgical",
     order: 12,
-    image: `${base}/images/doctors/pinarozbilgehan (1).webp`,
+    image: withBase("/images/doctors/pinarozbilgehan.webp"),
   },
   {
     id: "13",
@@ -625,7 +626,7 @@ export const doctors: Doctor[] = [
     titleKey: "hospital:doctorTitles.urology",
     departmentKey: "hospital:doctorDepartments.surgical",
     order: 13,
-    image: `${base}/images/doctors/x.jpg`,
+    image: withBase("/images/doctors/x.jpg"),
   },
 
   {
@@ -634,7 +635,7 @@ export const doctors: Doctor[] = [
     titleKey: "hospital:doctorTitles.internalMedicine",
     departmentKey: "hospital:doctorDepartments.internal",
     order: 1,
-    image: `${base}/images/doctors/huriyealasya (1).webp`,
+    image: withBase("/images/doctors/huriyealasya.webp"),
   },
   {
     id: "15",
@@ -642,7 +643,7 @@ export const doctors: Doctor[] = [
     titleKey: "hospital:doctorTitles.internalMedicine",
     departmentKey: "hospital:doctorDepartments.internal",
     order: 2,
-    image: `${base}/images/doctors/y.jpg`,
+    image: withBase("/images/doctors/y.jpg"),
   },
   {
     id: "16",
@@ -650,7 +651,7 @@ export const doctors: Doctor[] = [
     titleKey: "hospital:doctorTitles.internalMedicine",
     departmentKey: "hospital:doctorDepartments.internal",
     order: 3,
-    image: `${base}/images/doctors/guvenerkal (1).webp`,
+    image: withBase("/images/doctors/guvenerkal.webp"),
   },
   {
     id: "17",
@@ -658,7 +659,7 @@ export const doctors: Doctor[] = [
     titleKey: "hospital:doctorTitles.internalMedicine",
     departmentKey: "hospital:doctorDepartments.internal",
     order: 4,
-    image: `${base}/images/doctors/x.jpg`,
+    image: withBase("/images/doctors/x.jpg"),
   },
   {
     id: "18",
@@ -666,7 +667,7 @@ export const doctors: Doctor[] = [
     titleKey: "hospital:doctorTitles.dermatologyVenereal",
     departmentKey: "hospital:doctorDepartments.internal",
     order: 5,
-    image: `${base}/images/doctors/nurtengozgen (1).webp`,
+    image: withBase("/images/doctors/nurtengozgen.webp"),
   },
   {
     id: "19",
@@ -674,7 +675,7 @@ export const doctors: Doctor[] = [
     titleKey: "hospital:doctorTitles.dermatologyVenereal",
     departmentKey: "hospital:doctorDepartments.internal",
     order: 6,
-    image: `${base}/images/doctors/y.jpg`,
+    image: withBase("/images/doctors/y.jpg"),
   },
   {
     id: "20",
@@ -682,7 +683,7 @@ export const doctors: Doctor[] = [
     titleKey: "hospital:doctorTitles.ent",
     departmentKey: "hospital:doctorDepartments.internal",
     order: 7,
-    image: `${base}/images/doctors/mehmetaliyesilada (1).webp`,
+    image: withBase("/images/doctors/mehmetaliyesilada.webp"),
   },
   {
     id: "21",
@@ -690,7 +691,7 @@ export const doctors: Doctor[] = [
     titleKey: "hospital:doctorTitles.microbiologyInfectiousDiseases",
     departmentKey: "hospital:doctorDepartments.internal",
     order: 8,
-    image: `${base}/images/doctors/x.jpg`,
+    image: withBase("/images/doctors/x.jpg"),
   },
   {
     id: "22",
@@ -698,7 +699,7 @@ export const doctors: Doctor[] = [
     titleKey: "hospital:doctorTitles.psychiatry",
     departmentKey: "hospital:doctorDepartments.internal",
     order: 9,
-    image: `${base}/images/doctors/y.jpg`,
+    image: withBase("/images/doctors/y.jpg"),
   },
   {
     id: "23",
@@ -706,7 +707,7 @@ export const doctors: Doctor[] = [
     titleKey: "hospital:doctorTitles.chestDiseases",
     departmentKey: "hospital:doctorDepartments.internal",
     order: 10,
-    image: `${base}/images/doctors/y.jpg`,
+    image: withBase("/images/doctors/y.jpg"),
   },
   {
     id: "24",
@@ -714,7 +715,7 @@ export const doctors: Doctor[] = [
     titleKey: "hospital:doctorTitles.pediatrics",
     departmentKey: "hospital:doctorDepartments.internal",
     order: 11,
-    image: `${base}/images/doctors/mehmetsalihbagzibagli (1).webp`,
+    image: withBase("/images/doctors/mehmetsalihbagzibagli.webp"),
   },
 
   {
@@ -723,7 +724,7 @@ export const doctors: Doctor[] = [
     titleKey: "hospital:doctorTitles.radiology",
     departmentKey: "hospital:doctorDepartments.other",
     order: 1,
-    image: `${base}/images/doctors/burakbahcivan (1).webp`,
+    image: withBase("/images/doctors/burakbahcivan.webp"),
   },
   {
     id: "26",
@@ -731,7 +732,7 @@ export const doctors: Doctor[] = [
     titleKey: "hospital:doctorTitles.biochemist",
     departmentKey: "hospital:doctorDepartments.other",
     order: 2,
-    image: `${base}/images/doctors/uluskasap (2).webp`,
+    image: withBase("/images/doctors/uluskasap.webp"),
   },
   {
   id: "27",
@@ -739,7 +740,7 @@ export const doctors: Doctor[] = [
   titleKey: "hospital:doctorTitles.dentistry",
   departmentKey: "hospital:doctorDepartments.other",
   order: 3,
-  image: `${base}/images/doctors/tameroncul (1).webp`,
+  image: withBase("/images/doctors/tameroncul.webp"),
 },
 ]
 export const doctorsPreview = doctors
@@ -758,28 +759,28 @@ export const testimonials: Testimonial[] = [
     name: "Bahar Demir",
     roleKey: "hospital:testimonialsData.roles.patient",
     textKey: "hospital:testimonialsData.items.1.text",
-    image: `${base}/images/testimonials/bahar-demir.png`,
+    image: withBase("/images/testimonials/bahar-demir.png"),
   },
   {
     id: "2",
     name: "Mustafa Ok",
     roleKey: "hospital:testimonialsData.roles.patient",
     textKey: "hospital:testimonialsData.items.2.text",
-    image: `${base}/images/testimonials/mustafa-ok.png`,
+    image: withBase("/images/testimonials/mustafa-ok.png"),
   },
   {
     id: "3",
     name: "Neslihan Sert",
     roleKey: "hospital:testimonialsData.roles.patient",
     textKey: "hospital:testimonialsData.items.3.text",
-    image: `${base}/images/testimonials/neslihan-sert.png`,
+    image: withBase("/images/testimonials/neslihan-sert.png"),
   },
   {
     id: "4",
     name: "Ömer Küçük",
     roleKey: "hospital:testimonialsData.roles.patient",
     textKey: "hospital:testimonialsData.items.4.text",
-    image: `${base}/images/testimonials/omer-kucuk.png`,
+    image: withBase("/images/testimonials/omer-kucuk.png"),
   },
 ]
 export interface Doctor {
