@@ -25,7 +25,7 @@ export function AboutSection() {
               <div className="flex aspect-[4/3] items-center justify-center rounded-3xl bg-secondary">
                 <div className="aspect-[4/3] overflow-hidden rounded-3xl bg-secondary">
                   <img
-                    src={`${import.meta.env.BASE_URL}images/about/hospital.jpg`}
+                    src={`${import.meta.env.BASE_URL}images/about/hospital.webp`}
                     alt={t("hospital:name")}
                     className="h-full w-full object-cover"
                   />

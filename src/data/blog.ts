@@ -31,7 +31,7 @@ export const blogPosts = [
       "hospital:blogData.posts.2.content.4",
     ],
     date: "08.03.2024",
-    image: withBase("/images/blog/dis-agrisi.jpg"),
+    image: withBase("/images/blog/dis-agrisi.webp"),
   },
   {
     id: "3",
@@ -47,7 +47,7 @@ export const blogPosts = [
       "hospital:blogData.posts.3.content.4",
     ],
     date: "10.03.2024",
-    image: withBase("/images/blog/hiv-aids.jpg"),
+    image: withBase("/images/blog/hiv-aids.webp"),
   },
   {
     id: "4",
@@ -63,7 +63,7 @@ export const blogPosts = [
       "hospital:blogData.posts.4.content.4",
     ],
     date: "12.03.2024",
-    image: withBase("/images/blog/gogus-sagligi.jpg"),
+    image: withBase("/images/blog/gogus-sagligi.webp"),
   },
   {
     id: "5",
@@ -79,7 +79,7 @@ export const blogPosts = [
       "hospital:blogData.posts.5.content.4",
     ],
     date: "14.03.2024",
-    image: withBase("/images/blog/zihinsel-saglik.jpg"),
+    image: withBase("/images/blog/zihinsel-saglik.webp"),
   },
 ] as const
 
@@ -96,13 +96,13 @@ export const blogPreview = [
     slug: "dis-agrisinin-nedenleri-ve-tedavi-secenekleri",
     titleKey: "hospital:blogData.posts.2.title",
     excerptKey: "hospital:blogData.preview.2.excerpt",
-    image: withBase("/images/blog/dis-agrisi.jpg"),
+    image: withBase("/images/blog/dis-agrisi.webp"),
   },
   {
     id: "3",
     slug: "hiv-ve-aids-nedir-farklari-nelerdir",
     titleKey: "hospital:blogData.posts.3.title",
     excerptKey: "hospital:blogData.preview.3.excerpt",
-    image: withBase("/images/blog/hiv-aids.jpg"),
+    image: withBase("/images/blog/hiv-aids.webp"),
   },
 ] as const
