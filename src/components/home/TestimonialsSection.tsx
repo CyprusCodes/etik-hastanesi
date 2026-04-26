@@ -36,6 +36,7 @@ export function TestimonialsSection() {
             <button
               onClick={prev}
               className="flex h-10 w-10 items-center justify-center rounded-full border border-border bg-white transition hover:bg-primary hover:text-white"
+              aria-label="Previous testimonial"
             >
               <ChevronLeft size={20} />
             </button>
@@ -43,6 +44,7 @@ export function TestimonialsSection() {
             <button
               onClick={next}
               className="flex h-10 w-10 items-center justify-center rounded-full border border-border bg-white transition hover:bg-primary hover:text-white"
+              aria-label="Next testimonial"
             >
               <ChevronRight size={20} />
             </button>
