@@ -9,6 +9,7 @@ import {
   BlogSection,
   TestimonialsSection,
   ContactSection,
+  EtikLabSection,
 } from "@/components/home"
 
 export default function Index() {
@@ -29,6 +30,7 @@ export default function Index() {
       <DoctorsSection />
       <BlogSection />
       <TestimonialsSection />
+      <EtikLabSection />
       <ContactSection />
     </Layout>
     </>

@@ -4,11 +4,11 @@ import {
   MapPin,
   Clock,
   ArrowRight,
-  FlaskConical,
 } from "lucide-react"
 import { useTranslation } from "react-i18next"
 import { Button } from "@/components/ui/button"
 import { contactInfo } from "@/data/hospital"
+const mapsUrl = "https://maps.app.goo.gl/m8ZGpYZLFXpCXNVy8"
 
 export function ContactSection() {
   const { t } = useTranslation(["hospital", "common"])
@@ -55,17 +55,23 @@ export function ContactSection() {
               </a>
 
               {/* Adres */}
-              <div className="flex items-center gap-4 rounded-xl bg-white/10 p-4 backdrop-blur-sm">
-                <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-white/20">
-                  <MapPin className="h-6 w-6" />
-                </div>
-                <div>
-                  <div className="text-sm text-white/70">
-                    {t("hospital:contactSection.addressLabel")}
-                  </div>
-                  <div className="text-sm font-semibold">{contactInfo.address}</div>
-                </div>
-              </div>
+           <a
+  href={mapsUrl}
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="Etik Hastanesi konumunu Google Maps üzerinde aç"
+  className="flex items-center gap-4 rounded-xl bg-white/10 p-4 backdrop-blur-sm transition-colors hover:bg-white/20"
+>
+  <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-white/20">
+    <MapPin className="h-6 w-6" />
+  </div>
+  <div>
+    <div className="text-sm text-white/70">
+      {t("hospital:contactSection.addressLabel")}
+    </div>
+    <div className="text-sm font-semibold">{contactInfo.address}</div>
+  </div>
+</a>
 
               {/* Çalışma Saatleri */}
               <div className="flex items-center gap-4 rounded-xl bg-white/10 p-4 backdrop-blur-sm">
@@ -82,29 +88,7 @@ export function ContactSection() {
                 </div>
               </div>
 
-              {/* 🔥 LABORATUVAR (YENİ) */}
-              <a
-                href="https://etiklab.net"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="group flex items-center gap-4 rounded-xl bg-white/10 p-4 backdrop-blur-sm transition-colors hover:bg-white/20"
-              >
-                <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-white/20">
-                  <FlaskConical className="h-6 w-6" />
-                </div>
 
-                <div className="flex-1">
-                  <div className="text-sm text-white/70">
-  {t("hospital:contactSection.laboratoryLabel")}
-              </div>
-                  <div className="font-semibold">
-                    Etik Lab
-                  </div>
-
-                </div>
-
-                <ArrowRight className="h-5 w-5 text-white/70 transition-transform group-hover:translate-x-1" />
-              </a>
             </div>
           </div>
 

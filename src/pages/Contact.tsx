@@ -13,6 +13,7 @@ import {
   AlertCircle,
 } from "lucide-react"
 import { contactInfo, medicalUnitCategories } from "@/data/hospital"
+const mapsUrl = "https://maps.app.goo.gl/m8ZGpYZLFXpCXNVy8"
 
 type FormStatus = "idle" | "submitting" | "success" | "error"
 
@@ -182,10 +183,12 @@ const handleSubmit = async (e: FormEvent) => {
                   )}
 
                   <ContactCard
-                    icon={MapPin}
-                    title={t("hospital:contactPage.cards.address")}
-                    content={contactInfo.address}
-                  />
+  icon={MapPin}
+  title={t("hospital:contactPage.cards.address")}
+  content={contactInfo.address}
+  href={mapsUrl}
+  external
+/>
 
                   <ContactCard
                     icon={Clock}
@@ -429,13 +432,19 @@ interface ContactCardProps {
   title: string
   content: React.ReactNode
   href?: string
+  external?: boolean
 }
 
-function ContactCard({ icon: Icon, title, content, href }: ContactCardProps) {
+function ContactCard({ icon: Icon, title, content, href, external }: ContactCardProps) {
   const Wrapper = href ? "a" : "div"
   const wrapperProps = href
-    ? { href, className: "block hover:border-primary transition-colors" }
-    : {}
+  ? {
+      href,
+      target: external ? "_blank" : undefined,
+      rel: external ? "noopener noreferrer" : undefined,
+      "aria-label": external ? `${title} konumunu Google Maps üzerinde aç` : undefined,
+    }
+  : {}
 
   return (
     <Wrapper

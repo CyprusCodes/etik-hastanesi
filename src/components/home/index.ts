@@ -6,4 +6,5 @@ export { DoctorsSection}  from "./DoctorsSection"
 export { TestimonialsSection }  from "./TestimonialsSection"
 export {BlogSection }  from "./BlogSection"
 export { ContactSection } from "./ContactSection"
+export * from "./EtikLabSection"
 
