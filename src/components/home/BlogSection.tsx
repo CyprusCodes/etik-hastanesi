@@ -8,7 +8,7 @@ export function BlogSection() {
   const { t } = useTranslation(["hospital"])
 
   return (
-    <section className="section-padding bg-white">
+    <section className="section-padding bg-secondary">
       <div className="container-narrow">
         <div className="mb-12 flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
           <div className="max-w-2xl">

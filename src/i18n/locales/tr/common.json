@@ -11,5 +11,12 @@
     "doctors": "Doktorlarımız",
     "blog": "Blog",
     "contact": "İletişim"
-  }
+  },
+  "socialMediaSection": {
+  "badge": "Sosyal Medya",
+  "title": "Etik Hastanesi’nden Güncel Paylaşımlar",
+  "description": "Duyurularımızı ve güncel paylaşımlarımızı sosyal medya hesaplarımızdan takip edebilirsiniz.",
+  "followButton": "Bizi Takip Edin",
+  "instagramAriaLabel": "Etik Hastanesi Instagram hesabını aç"
+}
 }

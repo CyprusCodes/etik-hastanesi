@@ -18,7 +18,7 @@ export function TestimonialsSection() {
   const visible = testimonials.slice(index, index + 2)
 
   return (
-    <section className="section-padding bg-secondary">
+    <section className="section-padding bg-white">
       <div className="container-narrow">
 
         <div className="mb-10 flex items-center justify-between">

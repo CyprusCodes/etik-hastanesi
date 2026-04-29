@@ -970,5 +970,12 @@
     "description": "Organizations in this category will be added shortly."
   },
   "contactButton": "Contact Us"
+},
+  "socialMediaSection": {
+  "badge": "Social Media",
+  "title": "Latest Updates from Etik Hospital",
+  "description": "Follow our social media accounts for announcements and the latest updates.",
+  "followButton": "Follow Us",
+  "instagramAriaLabel": "Open Etik Hospital Instagram account"
 }
 }

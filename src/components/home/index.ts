@@ -7,4 +7,6 @@ export { TestimonialsSection }  from "./TestimonialsSection"
 export {BlogSection }  from "./BlogSection"
 export { ContactSection } from "./ContactSection"
 export * from "./EtikLabSection"
+export * from "./SocialMediaSection"
+
 

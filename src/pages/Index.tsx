@@ -10,6 +10,7 @@ import {
   TestimonialsSection,
   ContactSection,
   EtikLabSection,
+  SocialMediaSection,
 } from "@/components/home"
 
 export default function Index() {
@@ -28,9 +29,10 @@ export default function Index() {
       <FeaturesSection />
       <ServicesSection />
       <DoctorsSection />
+      <EtikLabSection />
       <BlogSection />
       <TestimonialsSection />
-      <EtikLabSection />
+      <SocialMediaSection />
       <ContactSection />
     </Layout>
     </>

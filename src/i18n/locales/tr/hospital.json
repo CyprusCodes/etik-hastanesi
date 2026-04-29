@@ -972,5 +972,12 @@
     "description": "Bu kategoriye ait kurum bilgileri kısa süre içinde eklenecektir."
   },
   "contactButton": "İletişime Geç"
+},
+"socialMediaSection": {
+  "badge": "Sosyal Medya",
+  "title": "Etik Hastanesi’nden Güncel Paylaşımlar",
+  "description": "Duyurularımızı ve güncel paylaşımlarımızı sosyal medya hesaplarımızdan takip edebilirsiniz.",
+  "followButton": "Bizi Takip Edin",
+  "instagramAriaLabel": "Etik Hastanesi Instagram hesabını aç"
 }
 }
