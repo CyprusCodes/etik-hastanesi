@@ -4,8 +4,9 @@ import { useTranslation } from "react-i18next"
 
 const instagramPosts = [
   "https://www.instagram.com/p/DXTqJAEAEmp/",
+  "https://www.instagram.com/p/DVvF_3oDKAq/",
   "https://www.instagram.com/reel/DWln-O5jM-A/",
-  "https://www.instagram.com/p/DWyPv_VABcH/",
+
 ]
 
 export function SocialMediaSection() {
