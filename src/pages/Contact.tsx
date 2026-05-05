@@ -52,7 +52,7 @@ const handleSubmit = async (e: FormEvent) => {
   setFormStatus("submitting")
 
   try {
-    const scriptUrl = "https://script.google.com/macros/s/AKfycbzCjZrktV1tXlqfwufjV_OijPhq16aGE0jXgf_iBKyQtFxL9fH545vN26JSwOB-4Gmu/exec"
+    const scriptUrl = "https://script.google.com/macros/s/AKfycbxM_Wl6M5-xvAdCq6viXoZD64Gzse8BXTyughg41jnIevo7-saphbvB-u6izyf_ECYO/exec"
 
     if (!scriptUrl) {
       throw new Error("Apps Script URL is missing.")
