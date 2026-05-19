@@ -100,7 +100,7 @@ export default function About() {
                   <div className="mb-1 text-3xl font-bold text-primary lg:text-4xl">
                     {stat.value}
                   </div>
-                  <div className="text-sm text-muted-foreground">
+                  <div className="text-sm text-gray-700">
                     {t(stat.labelKey)}
                   </div>
                 </div>
@@ -121,7 +121,7 @@ export default function About() {
                   {t("hospital:aboutPage.mission.title")}
                 </h2>
 
-                <p className="text-muted-foreground">
+                <p className="text-gray-700">
                   {t("hospital:aboutPage.mission.description")}
                 </p>
               </div>
@@ -135,7 +135,7 @@ export default function About() {
                   {t("hospital:aboutPage.vision.title")}
                 </h2>
 
-                <p className="text-muted-foreground">
+                <p className="text-gray-700">
                   {t("hospital:aboutPage.vision.description")}
                 </p>
               </div>
@@ -171,7 +171,7 @@ export default function About() {
                       {t(value.titleKey)}
                     </h3>
 
-                    <p className="text-muted-foreground">
+                    <p className="text-gray-700">
                       {t(value.descriptionKey)}
                     </p>
                   </div>
@@ -219,7 +219,7 @@ export default function About() {
                           {t(item.titleKey)}
                         </h3>
 
-                        <p className="mt-2 text-sm text-muted-foreground">
+                        <p className="mt-2 text-sm text-gray-700">
                           {t(item.descriptionKey)}
                         </p>
                       </div>
@@ -248,7 +248,7 @@ export default function About() {
             {t("hospital:aboutSection.contractedOrganizations.title")}
           </h2>
 
-          <p className="mt-2 max-w-xl text-sm text-muted-foreground">
+          <p className="mt-2 max-w-xl text-sm text-gray-700">
             {t("hospital:aboutSection.contractedOrganizations.description")}
           </p>
         </div>

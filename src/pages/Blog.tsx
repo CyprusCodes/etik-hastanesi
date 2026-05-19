@@ -66,7 +66,7 @@ export default function Blog() {
                       {t(post.titleKey)}
                     </h2>
 
-                    <p className="mt-3 line-clamp-4 flex-1 text-sm leading-7 text-muted-foreground">
+                    <p className="mt-3 line-clamp-4 flex-1 text-sm leading-7 text-gray-700">
                       {t(post.excerptKey)}
                     </p>
 

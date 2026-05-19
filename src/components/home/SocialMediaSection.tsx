@@ -1,4 +1,4 @@
-import { useEffect } from "react"
+import { useEffect, useRef } from "react"
 import { Instagram, ArrowRight } from "lucide-react"
 import { useTranslation } from "react-i18next"
 
@@ -11,25 +11,56 @@ const instagramPosts = [
 
 export function SocialMediaSection() {
   const { t } = useTranslation(["hospital"])
+  const sectionRef = useRef<HTMLElement | null>(null)
 
   useEffect(() => {
-    const existingScript = document.querySelector(
-      'script[src="https://www.instagram.com/embed.js"]'
-    )
+    const section = sectionRef.current
+    if (!section) return
 
-    if (!existingScript) {
-      const script = document.createElement("script")
-      script.src = "https://www.instagram.com/embed.js"
-      script.async = true
-      document.body.appendChild(script)
-      script.onload = () => window.instgrm?.Embeds?.process()
-    } else {
-      window.instgrm?.Embeds?.process()
+    const addInstagramIframeTitles = () => {
+      document
+        .querySelectorAll<HTMLIFrameElement>("iframe.instagram-media")
+        .forEach((iframe, index) => {
+          iframe.title = `Etik Hastanesi Instagram paylaşımı ${index + 1}`
+        })
     }
+
+    const processEmbeds = () => {
+      window.instgrm?.Embeds?.process()
+      setTimeout(addInstagramIframeTitles, 1000)
+    }
+
+    const loadInstagramEmbeds = () => {
+      const existingScript = document.querySelector<HTMLScriptElement>(
+        'script[src="https://www.instagram.com/embed.js"]'
+      )
+
+      if (!existingScript) {
+        const script = document.createElement("script")
+        script.src = "https://www.instagram.com/embed.js"
+        script.async = true
+        document.body.appendChild(script)
+        script.onload = processEmbeds
+        return
+      }
+
+      processEmbeds()
+    }
+
+    const observer = new IntersectionObserver((entries) => {
+      if (!entries.some((entry) => entry.isIntersecting)) return
+
+      loadInstagramEmbeds()
+      observer.disconnect()
+    })
+
+    observer.observe(section)
+
+    return () => observer.disconnect()
   }, [])
 
   return (
-    <section className="bg-secondary py-10 lg:py-14">
+    <section ref={sectionRef} className="bg-secondary py-10 lg:py-14">
       <div className="container-narrow">
         <div className="mb-7 flex flex-col gap-4 md:flex-row md:items-end md:justify-between">
           <div className="max-w-2xl">
@@ -41,7 +72,7 @@ export function SocialMediaSection() {
               {t("hospital:socialMediaSection.title")}
             </h2>
 
-            <p className="mt-3 text-sm text-muted-foreground md:text-base">
+            <p className="mt-3 text-sm text-gray-700 md:text-base">
               {t("hospital:socialMediaSection.description")}
             </p>
           </div>

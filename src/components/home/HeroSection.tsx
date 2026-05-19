@@ -73,7 +73,7 @@ export function HeroSection() {
   <div
     key={stat.labelKey}
     className={`rounded-2xl p-4 text-center ${
-      index % 2 === 0 ? "bg-primary/5" : "bg-accent/5"
+      index % 2 === 0 ? "bg-primary/10" : "bg-accent/5"
     }`}
   >
     <div className="mb-1 text-3xl font-bold text-foreground lg:text-4xl">
@@ -87,7 +87,7 @@ export function HeroSection() {
                 </div>
 
                 <div className="mt-8 rounded-2xl bg-gradient-to-r from-primary to-accent p-4 text-center text-white">
-                  <h3 className="text-xl font-bold">{t("hospital:name")}</h3>
+                  <h2 className="text-xl font-bold">{t("hospital:name")}</h2>
                   <p className="text-sm opacity-90">{t("hospital:tagline")}</p>
                 </div>
               </div>

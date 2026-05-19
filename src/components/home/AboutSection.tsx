@@ -38,7 +38,7 @@ export function AboutSection() {
                 <div className="text-3xl font-bold text-primary">
                   {new Date().getFullYear() - hospitalInfo.foundedYear}+
                 </div>
-                <div className="text-sm text-muted-foreground">
+                <div className="text-sm text-gray-700">
                   {t("hospital:aboutSection.experienceLabel")}
                 </div>
               </div>

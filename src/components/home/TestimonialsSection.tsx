@@ -71,7 +71,7 @@ export function TestimonialsSection() {
                 )}
 
                 <div>
-                  <div className="text-xs text-muted-foreground">
+                  <div className="text-xs text-gray-700">
                     {t(item.roleKey)}
                   </div>
 
@@ -81,7 +81,7 @@ export function TestimonialsSection() {
                 </div>
               </div>
 
-              <p className="text-sm leading-7 text-muted-foreground">
+              <p className="text-sm leading-7 text-gray-700">
                 {t(item.textKey)}
               </p>
             </div>

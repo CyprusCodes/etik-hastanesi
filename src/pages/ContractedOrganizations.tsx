@@ -48,7 +48,7 @@ export default function ContractedOrganizations() {
               <h2 className="heading-2 mb-4">
                 {t("hospital:contractedOrganizations.intro.title")}
               </h2>
-              <p className="body-large text-muted-foreground">
+              <p className="body-large text-gray-700">
                 {t("hospital:contractedOrganizations.intro.description")}
               </p>
             </div>
@@ -72,7 +72,7 @@ export default function ContractedOrganizations() {
                         <h3 className="text-2xl font-semibold text-foreground">
                           {t(group.titleKey)}
                         </h3>
-                        <p className="mt-2 text-sm text-muted-foreground">
+                        <p className="mt-2 text-sm text-gray-700">
                           {t(group.descriptionKey)}
                         </p>
                       </div>
@@ -98,7 +98,7 @@ export default function ContractedOrganizations() {
                         <p className="text-lg font-semibold text-foreground">
                           {t("hospital:contractedOrganizations.emptyState.title")}
                         </p>
-                        <p className="mt-2 text-sm text-muted-foreground">
+                        <p className="mt-2 text-sm text-gray-700">
                           {t("hospital:contractedOrganizations.emptyState.description")}
                         </p>
                       </div>
@@ -108,7 +108,7 @@ export default function ContractedOrganizations() {
               })}
             </div>
 
-            <div className="rounded-3xl border border-primary/10 bg-primary/5 p-8">
+            <div className="rounded-3xl border border-primary/10 10 p-8">
               <div className="flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
                 <div className="flex items-start gap-4">
                   <div className="flex h-12 w-12 items-center justify-center rounded-2xl bg-primary text-white">
@@ -119,7 +119,7 @@ export default function ContractedOrganizations() {
                     <h3 className="text-xl font-semibold text-foreground">
                       {t("hospital:contractedOrganizations.notes.title")}
                     </h3>
-                    <p className="mt-2 text-muted-foreground">
+                    <p className="mt-2 text-gray-700">
                       {t("hospital:contractedOrganizations.notes.description")}
                     </p>
                   </div>

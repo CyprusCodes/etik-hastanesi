@@ -22,7 +22,7 @@ export function EtikLabSection() {
                 Laboratuvar Hizmetleri ve Test Sonuçları
               </h2>
 
-              <p className="mt-3 max-w-2xl text-sm leading-relaxed text-muted-foreground lg:text-base">
+              <p className="mt-3 max-w-2xl text-sm leading-relaxed text-gray-700 lg:text-base">
                 Etik Lab üzerinden laboratuvar hizmetlerine ulaşabilir, test sonuçları
                 sayfasından sonuçlarınıza kolayca erişebilirsiniz.
               </p>
@@ -33,7 +33,7 @@ export function EtikLabSection() {
                 href={etikLabUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group flex items-center justify-between rounded-2xl border border-border bg-white px-5 py-4 shadow-sm transition-colors hover:border-primary/40 hover:bg-primary/5"
+                className="group flex items-center justify-between rounded-2xl border border-border bg-white px-5 py-4 shadow-sm transition-colors hover:border-primary/40 hover:bg-primary/10"
               >
                 <div className="flex items-center gap-3">
                   <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-primary/10">
@@ -41,7 +41,7 @@ export function EtikLabSection() {
                   </div>
                   <div>
                     <div className="font-semibold text-foreground">Etik Lab</div>
-                    <div className="text-xs text-muted-foreground">
+                    <div className="text-xs text-gray-700">
                       Laboratuvar sayfasına git
                     </div>
                   </div>
@@ -54,7 +54,7 @@ export function EtikLabSection() {
                 href={testResultsUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="group flex items-center justify-between rounded-2xl border border-border bg-white px-5 py-4 shadow-sm transition-colors hover:border-primary/40 hover:bg-primary/5"
+                className="group flex items-center justify-between rounded-2xl border border-border bg-white px-5 py-4 shadow-sm transition-colors hover:border-primary/40 hover:bg-primary/10"
               >
                 <div className="flex items-center gap-3">
                   <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-accent/10">
@@ -62,7 +62,7 @@ export function EtikLabSection() {
                   </div>
                   <div>
                     <div className="font-semibold text-foreground">Test Sonuçları</div>
-                    <div className="text-xs text-muted-foreground">
+                    <div className="text-xs text-gray-700">
                       Sonuç sorgulama sayfasına git
                     </div>
                   </div>

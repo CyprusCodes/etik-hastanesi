@@ -119,7 +119,7 @@ export default function MedicalUnitCategory() {
                 {t("hospital:medicalUnitCategoryPage.branchesTitle")}
               </h2>
 
-              <div className="text-sm text-muted-foreground">
+              <div className="text-sm text-gray-700">
                 {t("hospital:medicalUnitCategoryPage.branchCount", {
                   count: current.items.length,
                 })}
@@ -152,7 +152,7 @@ export default function MedicalUnitCategory() {
                       {t(item.titleKey)}
                     </h3>
 
-                    <p className="mt-2 line-clamp-4 text-sm text-muted-foreground">
+                    <p className="mt-2 line-clamp-4 text-sm text-gray-700">
                       {t(item.descriptionKey)}
                     </p>
 

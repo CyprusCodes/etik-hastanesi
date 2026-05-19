@@ -76,7 +76,7 @@ export default function Services() {
                         <h2 className="heading-2">{dept.title}</h2>
                       </div>
 
-                      <p className="text-muted-foreground text-lg mb-6">
+                      <p className="text-gray-700 text-lg mb-6">
                         {dept.description}
                       </p>
 

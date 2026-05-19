@@ -98,7 +98,7 @@ export function ContactSection() {
               {t("hospital:contactSection.cardTitle")}
             </h3>
 
-            <p className="mb-6 text-muted-foreground">
+            <p className="mb-6 text-gray-700">
               {t("hospital:contactSection.cardDescription")}
             </p>
 
@@ -124,7 +124,7 @@ export function ContactSection() {
                   <Phone className="h-5 w-5 text-white" />
                 </div>
                 <div>
-                  <div className="text-sm text-muted-foreground">
+                  <div className="text-sm text-gray-700">
                     {t("hospital:contactSection.emergencyLabel")}
                   </div>
                   <a

@@ -29,7 +29,7 @@ export default function MedicalUnitBranch() {
               {t("hospital:medicalUnitBranchPage.notFound.title")}
             </h1>
 
-            <p className="mt-2 text-muted-foreground">
+            <p className="mt-2 text-gray-700">
               {t("hospital:medicalUnitBranchPage.notFound.description")}
             </p>
 
@@ -164,7 +164,7 @@ export default function MedicalUnitBranch() {
                   {paragraphs.map((paragraphKey, index) => (
                     <p
                       key={index}
-                      className="text-base leading-8 text-muted-foreground text-justify"
+                      className="text-base leading-8 text-gray-700 text-justify"
                     >
                       {t(paragraphKey)}
                     </p>
@@ -181,7 +181,7 @@ export default function MedicalUnitBranch() {
                       {bulletKeys.map((bulletKey, index) => (
                         <div key={index} className="flex items-start gap-3">
                           <div className="mt-2 h-2.5 w-2.5 rounded-full bg-primary" />
-                          <p className="text-muted-foreground">
+                          <p className="text-gray-700">
                             {t(bulletKey)}
                           </p>
                         </div>
@@ -193,7 +193,7 @@ export default function MedicalUnitBranch() {
 
               <aside className="lg:col-span-1">
                 <div className="rounded-3xl border border-border bg-card p-6 lg:sticky lg:top-28">
-                  <div className="text-sm text-muted-foreground">
+                  <div className="text-sm text-gray-700">
                     {t("hospital:medicalUnitBranchPage.sidebar.categoryLabel")}
                   </div>
                   <div className="text-lg font-semibold">
@@ -201,7 +201,7 @@ export default function MedicalUnitBranch() {
                   </div>
 
                   <div className="mt-6 border-t border-border pt-6">
-                    <div className="mb-3 text-sm text-muted-foreground">
+                    <div className="mb-3 text-sm text-gray-700">
                       {t("hospital:medicalUnitBranchPage.sidebar.quickActions")}
                     </div>
 

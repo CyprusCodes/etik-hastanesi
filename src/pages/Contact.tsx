@@ -142,7 +142,7 @@ const handleSubmit = async (e: FormEvent) => {
                     {t("hospital:contactPage.info.title")}
                   </h2>
 
-                  <p className="text-muted-foreground">
+                  <p className="text-gray-700">
                     {t("hospital:contactPage.info.description")}
                   </p>
                 </div>
@@ -209,7 +209,7 @@ const handleSubmit = async (e: FormEvent) => {
                       <Phone className="h-7 w-7 text-white" />
                     </div>
                     <div>
-                      <div className="text-sm text-muted-foreground">
+                      <div className="text-sm text-gray-700">
                         {t("hospital:contactPage.emergency.label")}
                       </div>
                       <a
@@ -238,7 +238,7 @@ const handleSubmit = async (e: FormEvent) => {
                       {t("hospital:contactPage.form.success.title")}
                     </h3>
 
-                    <p className="mb-6 text-muted-foreground">
+                    <p className="mb-6 text-gray-700">
                       {t("hospital:contactPage.form.success.description")}
                     </p>
 
@@ -457,7 +457,7 @@ function ContactCard({ icon: Icon, title, content, href, external }: ContactCard
         <Icon className="h-6 w-6 text-primary" />
       </div>
       <div>
-        <div className="mb-1 text-sm text-muted-foreground">{title}</div>
+        <div className="mb-1 text-sm text-gray-700">{title}</div>
         <div className="font-medium text-foreground">{content}</div>
       </div>
     </Wrapper>

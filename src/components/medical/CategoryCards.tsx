@@ -52,7 +52,7 @@ export function CategoryCards() {
               {translation ? t(translation.titleKey) : cat.titleKey}
             </h3>
 
-            <p className="line-clamp-3 text-sm text-muted-foreground">
+            <p className="line-clamp-3 text-sm text-gray-700">
               {translation ? t(translation.descriptionKey) : cat.descriptionKey}
             </p>
 

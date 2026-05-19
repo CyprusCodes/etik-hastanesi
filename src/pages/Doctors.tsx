@@ -106,7 +106,7 @@ export default function Doctors() {
     <h2 className="heading-2">
       {t("hospital:leadershipSection.title")}
     </h2>
-    <p className="mt-3 max-w-2xl text-muted-foreground">
+    <p className="mt-3 max-w-2xl text-gray-700">
       {t("hospital:leadershipSection.description")}
     </p>
     <div className="mt-3 h-1 w-16 rounded-full bg-primary" />

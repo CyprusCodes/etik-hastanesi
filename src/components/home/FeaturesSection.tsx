@@ -39,7 +39,7 @@ export function FeaturesSection() {
                   {t(feature.titleKey)}
                 </h3>
 
-                <p className="text-sm text-muted-foreground">
+                <p className="text-sm text-gray-700">
                   {t(feature.descriptionKey)}
                 </p>
               </div>

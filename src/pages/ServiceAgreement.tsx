@@ -30,13 +30,13 @@ export default function ServiceAgreement() {
         <section className="section-padding bg-secondary">
           <div className="container-narrow">
             <div className="overflow-hidden rounded-3xl border border-border bg-white shadow-sm">
-              <div className="border-b border-border bg-primary/5 px-6 py-8 md:px-10">
+              <div className="border-b border-border bg-primary/10 px-6 py-8 md:px-10">
                 <h2 className="text-2xl font-bold text-foreground">
                   {t("hospital:serviceAgreementPage.content.title")}
                 </h2>
               </div>
 
-              <div className="space-y-8 px-6 py-8 leading-8 text-muted-foreground md:px-10">
+              <div className="space-y-8 px-6 py-8 leading-8 text-gray-700 md:px-10">
                 <p>{t("hospital:serviceAgreementPage.content.intro")}</p>
 
                 <div>

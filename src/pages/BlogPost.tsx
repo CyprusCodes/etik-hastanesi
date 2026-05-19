@@ -83,7 +83,7 @@ export default function BlogPost() {
                   <h1 className="heading-2 mb-3">{t(post.titleKey)}</h1>
 
                   {post.date ? (
-                    <div className="text-sm text-muted-foreground">
+                    <div className="text-sm text-gray-700">
                       {t(post.date)}
                     </div>
                   ) : null}
@@ -93,7 +93,7 @@ export default function BlogPost() {
                   {post.contentKeys?.map((paragraphKey, index) => (
                     <p
                       key={index}
-                      className="text-base leading-8 text-muted-foreground text-justify"
+                      className="text-base leading-8 text-gray-700 text-justify"
                     >
                       {t(paragraphKey)}
                     </p>
@@ -103,7 +103,7 @@ export default function BlogPost() {
 
               <aside>
                 <div className="sticky top-24 rounded-3xl border border-border bg-card p-6">
-                  <div className="mb-4 text-sm text-muted-foreground">
+                  <div className="mb-4 text-sm text-gray-700">
                     {t("hospital:blogPostPage.otherPosts")}
                   </div>
 

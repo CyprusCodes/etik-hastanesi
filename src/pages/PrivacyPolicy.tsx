@@ -30,13 +30,13 @@ export default function PrivacyPolicy() {
         <section className="section-padding bg-secondary">
           <div className="container-narrow">
             <div className="overflow-hidden rounded-3xl border border-border bg-white shadow-sm">
-              <div className="border-b border-border bg-primary/5 px-6 py-8 md:px-10">
+              <div className="border-b border-border bg-primary/10 px-6 py-8 md:px-10">
                 <h2 className="text-2xl font-bold text-foreground">
                   {t("hospital:privacyPolicyPage.content.title")}
                 </h2>
               </div>
 
-              <div className="space-y-8 px-6 py-8 leading-8 text-muted-foreground md:px-10">
+              <div className="space-y-8 px-6 py-8 leading-8 text-gray-700 md:px-10">
                 <p>{t("hospital:privacyPolicyPage.content.intro")}</p>
 
                 <div>
@@ -89,7 +89,7 @@ export default function PrivacyPolicy() {
                   </p>
                 </div>
 
-                <div className="rounded-2xl border border-border bg-primary/5 p-5">
+                <div className="rounded-2xl border border-border bg-primary/10 p-5">
                   <h3 className="mb-3 text-xl font-semibold text-foreground">
                     {t("hospital:privacyPolicyPage.sections.updates.title")}
                   </h3>
