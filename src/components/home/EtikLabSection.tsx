@@ -1,7 +1,7 @@
 import { FlaskConical, FileText, ArrowRight } from "lucide-react"
 
 const etikLabUrl = "https://etiklab.net/"
-const testResultsUrl = "http://93.182.78.97:8080/Bireysel.html"
+const testResultsUrl = "http://78.135.60.128:8080/Bireysel.html"
 
 export function EtikLabSection() {
   return (
