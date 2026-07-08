@@ -495,7 +495,7 @@ export const leadership = [
     id: "l2",
      name: "Selma İzbul",
     titleKey: "hospital:leadershipTitles.hospitalDirector",
-    image: withBase("/images/doctors/y.jpg"),
+    image: withBase("/images/doctors/selmaizbul.jpg"),
   },
   {
     id: "l3",
@@ -513,13 +513,13 @@ export const leadership = [
   id: "l5",
   name: "Ulus Kasap",
   titleKey: "hospital:doctorTitles.biochemist",
-  image: withBase("/images/doctors/uluskasap.webp"),
+  image: withBase("/images/doctors/uluskasap1.jpg"),
 },
 {
   id: "l6",
   name: "Dr. Güven Erkal",
   titleKey: "hospital:doctorTitles.internalMedicine",
-  image: withBase("/images/doctors/guvenerkal.webp"),
+  image: withBase("/images/doctors/guvenerkal.jpg"),
 },
 
 ]
